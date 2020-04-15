@@ -1,72 +1,80 @@
 import styled from "styled-components"
-import Img from "gatsby-image"
 import { Link } from "gatsby"
 
 export const PostHeader = styled.header`
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
-  color: black;
 `
 export const PostTag = styled(Link)`
   display: flex;
   align-items: center;
-  color: #757575;
+  color: var(--black);
   font-size: 0.9rem;
   font-weight: 400;
-  opacity: 0.6;
-    
+  opacity: 0.7;
 `
 export const PostTitle = styled.h1`
   padding: 0rem 4rem;
   margin: 2rem 4rem 2rem 0;
   text-align: end;
-  font-family: 'Monteserrat', sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 3rem;
   font-weight: 700;
-`
-export const PostImg = styled(Img)`
-
+  color: var(--black);
+  &::selection {
+    color: var(--black);
+    background: var(--white);
+  }
 `
 export const PostDescription = styled.h2`
   margin-right: 4rem;
   padding: 0rem 4rem;
-  font-family: 'Monteserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 200;
+  letter-spacing: 0rem;
+  font-weight: 100;
+  line-height: 1.5;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1rem;
   font-style: italic;
   text-align: end;
-  color: #757575;
+  color: var(--black);
+  opacity: 0.8;
+  &::selection {
+    color: var(--black);
+    background: var(--white);
+  }
 `
 export const PostDate = styled.p`
-  color: #757575;
+  color: var(--black);
   font-size: 0.9rem;
   font-weight: 100;
-  font-family: 'Monteserrat', sans-serif;
+  font-family: "Merriweather", sans-serif;
   padding: 0rem 4rem;
   margin-right: 4rem;
   text-align: end;
-
+  opacity: 0.7;
+  &::selection {
+    color: var(--black);
+    background: var(--white);
+  }
 `
-export const IconWrapper = styled.div `
+export const IconWrapper = styled.div`
   display: flex;
   padding: 0rem 4rem;
   margin: 2rem 4rem 0 0;
-  
 `
 export const Icon = styled.div`
   margin: 0.5rem;
   width: 20px;
-  height:20px;
-  color: #757575;
-  opacity: 0.6;
+  height: 20px;
+  color: var(--black);
+  opacity: 0.7;
 `
 export const MainContent = styled.article`
   margin-right: 4rem;
   max-width: 70rem;
   padding: 3rem 7rem;
   text-align: justify;
-
   p,
   h1,
   h2,
@@ -77,17 +85,17 @@ export const MainContent = styled.article`
   .tags,
   iframe,
   .button-post {
-    font-family: 'Monteserrat', sans-serif;
-    color:black;
+    font-family: "Montserrat", sans-serif;
+    color: var(--texts);
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.8;
-    letter-spacing: 0.0050rem;
+    letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {
-      color:#f5f5f5;
-      background: #900020;
-}
+      color: var(--black);
+      background: var(--white);
+    }
   }
   p {
     margin: 0 auto 1.6rem;
@@ -201,5 +209,4 @@ export const MainContent = styled.article`
       opacity: 0.8;
     }
   }
-
 `

@@ -2,20 +2,19 @@ import styled from "styled-components"
 
 export const PaginationWrapper = styled.section`
   align-items: center;
-  border-top: 1px solid var(--borders);
-  color: black;
-  margin:0.5rem;
+  color: var(--black);
+  margin: 0.5rem;
   display: flex;
   padding: 1rem 2rem;
-  background-color: #f5f5f5;
+  background-color: var(--background-color);
   justify-content: space-between;
   align-content: flex-end;
-    a{
-        color: black;
-        transition: color 0.5s;
-        
-        &:hover{
-            color: #900020;
-        }
+  a {
+    color: var(--black);
+    transition: color 0.5s;
+
+    &:hover {
+      color: var(--backgroundMenuBar);
     }
+  }
 `

@@ -6,28 +6,26 @@ export const PostItemLink = styled(AniLink)`
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  color: black;
+  color: var(--black);
 `
-export const PostItemWrapper =  styled.div`
+export const PostItemWrapper = styled.div`
   display: flex;
-  padding: 0rem 3rem 1rem;
+  padding: 0rem 3.5rem 1rem;
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--borders);
 `
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   max-width: 40rem;
-  margin-left: 1rem;
-
-  &:hover{
+  margin-left: 2rem;
+  &:hover {
     opacity: 0.8;
-    color: #900020;
+    color: var(--backgroundHoverPostItem);
     transition: opacity 0.6s, transform 0.3s;
-    background: #f5f5f5;
   }
 `
 export const PostItemImg = styled(Img)`
@@ -38,7 +36,7 @@ export const PostItemImg = styled(Img)`
   border-radius: 50%;
   min-height: 7rem;
   min-width: 7rem;
-  &:hover{
+  &:hover {
     min-height: 8rem;
     min-width: 8rem;
   }
@@ -47,7 +45,7 @@ export const PostItemTitle = styled.h1`
   display: flex;
   align-content: center;
   justify-content: center;
-  font-size: 1.rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin: 0.9rem 0rem 0.9rem 0.5rem;
   opacity: 0.9;
@@ -63,5 +61,6 @@ export const PostItemDescription = styled.p`
   margin-left: 0.5rem;
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.2;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.3;
 `

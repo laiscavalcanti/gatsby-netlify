@@ -1,11 +1,10 @@
-
 /*require("dotenv").config()
 const queries = require("./src/utils/algolia_queries.js")*/
 
 module.exports = {
   siteMetadata: {
     title: `Subsidiário`,
-    description: `Sou um homem que graças a Deus não tem ideais, nem quer tê-las, e nem razão em nada tem. (H.S.)`,
+    description: `Sou um homem que graças a Deus não tem ideais, nem quer tê-las, e nem razão em nada tem. (H. Sales)`,
     author: `Cícero Marra`,
   },
   plugins: [
@@ -17,14 +16,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `uploads`,
-        path: `${__dirname}/posts/static/assets/images`,
+        path: `${__dirname}/src/static/assets/img`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/img`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
@@ -39,12 +38,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "uploads",
-            },
-          },
-          {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 960,
@@ -57,7 +50,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-   /* {
+    /* {
       resolve: `gatsby-plugin-algolia-search`,
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
@@ -85,7 +78,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/img/icon_subsidiario.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon_subsidiario.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

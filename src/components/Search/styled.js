@@ -1,6 +1,5 @@
 import styled from "styled-components"
 
-
 export const SearchWrapper = styled.section`
   background: #f5f5f5;
   display: flex;
@@ -16,21 +15,18 @@ export const SearchWrapper = styled.section`
   .ais-SearchBox,
   .ais-Stats {
     padding: 0.5rem 3rem;
-   
   }
   .ais-SearchBox {
     padding-top: 6rem;
-    
-    
   }
   .ais-Stats {
     color: black;
   }
   body#grid & {
     .ais-Hits-list {
-      background-color: orange;
-      border-bottom: 1px solid orange;
-      border-top: 1px solid white;
+      background-color: var(--background-color);
+      border-bottom: 1px solid var(--borders);
+      border-top: 1px solid var(--white);
       display: grid;
       grid-area: card;
       grid-gap: 1px;
@@ -38,20 +34,20 @@ export const SearchWrapper = styled.section`
       margin-top: 2rem;
     }
     .ais-Hits-item {
-      background-color: lightgreen;
+      background-color: var(--background-color);
     }
   }
   .ais-SearchBox-input {
     background: none;
     border: none;
-    border-bottom: 1px solid pink;
-    color: blue;
+    border-bottom: 1px solid var(--borders);
+    color: var(--texts);
     display: flex;
     font-size: 1.6rem;
     padding: 0.5rem;
     width: 100%;
     &::placeholder {
-      color: lightgrey;
+      color: var(--color);
     }
   }
   .ais-SearchBox-submit,
