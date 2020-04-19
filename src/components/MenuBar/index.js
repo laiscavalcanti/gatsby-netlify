@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react"
+import scrollToTop from "../../utils/scrollToToP"
+
 import { Home } from "@styled-icons/typicons/Home"
 import { Lightbulb } from "@styled-icons/fa-regular/Lightbulb"
 import { SearchAlt2 } from "@styled-icons/boxicons-regular/SearchAlt2"
@@ -39,7 +41,7 @@ const MenuBar = () => {
         >
           <Lightbulb />
         </S.MenuBarItem>
-        <S.MenuBarItem title="Ir para o topo">
+        <S.MenuBarItem title="Ir para o topo" onClick={scrollToTop}>
           <UpArrowAlt />
         </S.MenuBarItem>
       </S.MenuBarGroup>

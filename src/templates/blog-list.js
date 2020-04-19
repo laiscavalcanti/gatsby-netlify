@@ -6,7 +6,6 @@ import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 import Pagination from "../components/Pagination"
 
-
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
 
@@ -19,35 +18,35 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Home" />
-        {postList.map(
-          ({
-            node: {
-              frontmatter: {
-                tags,
-                background,
-                date,
-                description,
-                title,
-                image: {
-                  childImageSharp: { fluid },
-                },
+      {postList.map(
+        ({
+          node: {
+            frontmatter: {
+              tags,
+              background,
+              date,
+              description,
+              title,
+              image: {
+                childImageSharp: { fluid },
               },
-              timeToRead,
-              fields: { slug },
             },
-          }) => (           
-            <PostItem
-              slug={slug}
-              background={background}
-              tags={tags}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-              description={description}
-              image={fluid}
-            />
-          )
-        )}
+            timeToRead,
+            fields: { slug },
+          },
+        }) => (
+          <PostItem
+            slug={slug}
+            background={background}
+            tags={tags}
+            date={date}
+            timeToRead={timeToRead}
+            title={title}
+            description={description}
+            image={fluid}
+          />
+        )
+      )}
 
       <Pagination
         isFirst={isFirst}
@@ -62,11 +61,7 @@ const BlogList = props => {
 }
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      sort: { fields: frontmatter___date, order: DESC }
-      limit: $limit
-      skip: $skip
-    ) {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }, limit: $limit, skip: $skip) {
       edges {
         node {
           fields {

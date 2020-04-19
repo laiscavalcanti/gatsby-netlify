@@ -4,7 +4,7 @@ import Img from "gatsby-image"
 
 export const PostItemLink = styled(AniLink)`
   display: flex;
-  flex-direction: column;
+
   text-decoration: none;
   color: var(--black);
 `
@@ -13,7 +13,7 @@ export const PostItemWrapper = styled.div`
   padding: 0rem 3.5rem 1rem;
   width: 100%;
   align-items: center;
-  justify-content: space-around;
+
   border-bottom: 1px solid var(--borders);
 `
 export const PostItemInfo = styled.div`
@@ -37,8 +37,8 @@ export const PostItemImg = styled(Img)`
   min-height: 7rem;
   min-width: 7rem;
   &:hover {
-    min-height: 8rem;
-    min-width: 8rem;
+    min-height: 7.3rem;
+    min-width: 7.3rem;
   }
 `
 export const PostItemTitle = styled.h1`

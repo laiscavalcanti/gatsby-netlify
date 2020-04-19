@@ -3,21 +3,17 @@ import { Link } from "gatsby"
 
 export const RecommendedWrapper = styled.section`
   display: flex;
-  background-color: #f5f5f5;
+  background-color: var(--background-color);
 `
 export const RecommendedLink = styled(Link)`
   align-items: center;
-  background: #f5f5f5;
-  color: var(--color);
+  background: var(--background-color);
+  color: var(--backgroundHoverPostItem);
   display: flex;
   padding: 1rem;
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;
-  &:hover {
-    opacity: 0.6;
-    color: black;
-  }
   &.previous {
     margin-left: 3rem;
   }

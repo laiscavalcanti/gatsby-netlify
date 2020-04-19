@@ -1,14 +1,16 @@
-import React from 'react'
-import { graphql } from 'gatsby'
+import React from "react"
+import { Link, graphql } from "gatsby"
+import { kebabCase } from "lodash"
 
-import Layout from '../components/Layout'
-import SEO from '../components/seo'
-import RecommendedPosts from '../components/RecommendedPosts'
+import Layout from "../components/Layout"
+import SEO from "../components/seo"
+import RecommendedPosts from "../components/RecommendedPosts"
 
-import { Tag } from '@styled-icons/boxicons-regular/Tag'
-import * as S from '../components/Post/styled'
+import { Tag } from "@styled-icons/boxicons-regular/Tag"
+import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
+  const tagName = pageContext
   const post = data.markdownRemark
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
@@ -16,7 +18,6 @@ const BlogPost = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
-
       <S.PostHeader>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
@@ -27,13 +28,12 @@ const BlogPost = ({ data, pageContext }) => {
           <S.Icon>
             <Tag />
           </S.Icon>
-          <S.PostTag>{post.frontmatter.tags}</S.PostTag>
+          <S.PostTag to={`/tags/${tagName}`}>{post.frontmatter.tags}</S.PostTag>
         </S.IconWrapper>
       </S.PostHeader>
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </S.MainContent>
-
       <RecommendedPosts next={next} previous={previous} />
     </Layout>
   )

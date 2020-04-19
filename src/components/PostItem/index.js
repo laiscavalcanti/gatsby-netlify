@@ -1,7 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react"
+import PropTypes from "prop-types"
 
-import * as S from './styled'
+import * as S from "./styled"
 
 const PostItem = ({ slug, description, title, image, date, tags }) => (
   <S.PostItemLink to={slug} cover direction="right" duration={0.3}>
@@ -9,7 +9,7 @@ const PostItem = ({ slug, description, title, image, date, tags }) => (
       <S.PostItemImg fluid={image} />
       <S.PostItemInfo>
         <S.PostItemDate>
-          {date} - {tags}{' '}
+          {date} - {tags}
         </S.PostItemDate>
         <S.PostItemTitle>{title}</S.PostItemTitle>
         <S.PostItemDescription>{description}</S.PostItemDescription>

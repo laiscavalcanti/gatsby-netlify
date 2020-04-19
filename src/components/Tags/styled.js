@@ -1,11 +1,11 @@
-import styled from 'styled-components'
-//import { Tag } from 'styled-icons/boxicons-regular/Tag'
+import styled from "styled-components"
 
 export const Tags = styled.div`
   align-items: center;
   color: green;
   display: flex;
   flex-wrap: wrap;
+  background-color: red;
   &:not(:last-child) {
     margin-bottom: 1rem;
   }
@@ -31,7 +31,7 @@ export const TagHolder = styled.span`
   &:not(:last-child) {
     margin-right: 1rem;
     &:after {
-      content: ', ';
+      content: ", ";
       height: 3rem;
     }
   }
@@ -41,13 +41,12 @@ export const TagItem = styled.span`
   align-items: center;
   display: inline-flex;
   font-size: 1.3rem;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
   text-transform: lowercase;
   vertical-align: top;
 `
-
-/*export const TagIcon = styled.div`
+export const TagIcon = styled.section`
   display: block;
-  margin-right: 1rem;
-  width:20rem;
-`*/
+  margin-right: 10px;
+  width: 20px;
+`

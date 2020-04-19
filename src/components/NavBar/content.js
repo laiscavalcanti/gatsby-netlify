@@ -1,18 +1,15 @@
 const links = [
   {
-    label: 'Cursos',
-    url: '/textos/',
-    icon: '',
+    label: "Cursos",
+    url: "/tags/cursos/",
   },
   {
-    label: 'Subsidiário',
-    url: '/diarios/',
-    icon: '',
+    label: "Subsidiário",
+    url: "/tags/subsidiario/",
   },
   {
-    label: 'Homeschooling',
-    url: '/about/',
-    icon: '',
+    label: "Homeschooling",
+    url: "/tags/homeschooling/",
   },
 ]
 export default links
