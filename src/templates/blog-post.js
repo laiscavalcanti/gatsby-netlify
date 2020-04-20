@@ -1,16 +1,16 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { kebabCase } from "lodash"
 
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
+import PostImage from "../components/PostImage"
 
 import { Tag } from "@styled-icons/boxicons-regular/Tag"
 import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
-  const tagName = pageContext
   const post = data.markdownRemark
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
@@ -19,6 +19,7 @@ const BlogPost = ({ data, pageContext }) => {
     <Layout>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
       <S.PostHeader>
+        <PostImage imagePost={post.frontmatter.imagePost} />
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>
@@ -28,7 +29,13 @@ const BlogPost = ({ data, pageContext }) => {
           <S.Icon>
             <Tag />
           </S.Icon>
-          <S.PostTag to={`/tags/${tagName}`}>{post.frontmatter.tags}</S.PostTag>
+          {post.frontmatter.tags.map(tag => {
+            return (
+              <li key={tag + `tag`}>
+                <S.PostTag to={`/tags/${kebabCase(tag)}/`}>{tag}</S.PostTag>
+              </li>
+            )
+          })}
         </S.IconWrapper>
       </S.PostHeader>
       <S.MainContent>
@@ -38,6 +45,7 @@ const BlogPost = ({ data, pageContext }) => {
     </Layout>
   )
 }
+
 export const query = graphql`
   query Post($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -49,6 +57,15 @@ export const query = graphql`
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         tags
+        imagePost {
+          id
+          publicURL
+          childImageSharp {
+            fluid(maxWidth: 1280, quality: 60) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         image {
           childImageSharp {
             fluid(maxWidth: 300) {

@@ -9,10 +9,19 @@ export const PostHeader = styled.header`
 export const PostTag = styled(Link)`
   display: flex;
   align-items: center;
+  margin-top: 0.2rem;
   color: var(--black);
+  text-decoration: none;
   font-size: 0.9rem;
   font-weight: 400;
-  opacity: 0.7;
+  opacity: 0.8;
+  &:hover {
+    color: var(--backgroundHoverPostItem);
+  }
+  &::selection {
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
+  }
 `
 export const PostTitle = styled.h1`
   padding: 0rem 4rem;
@@ -23,8 +32,8 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   color: var(--black);
   &::selection {
-    color: var(--black);
-    background: var(--white);
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
   }
 `
 export const PostDescription = styled.h2`
@@ -40,8 +49,8 @@ export const PostDescription = styled.h2`
   color: var(--black);
   opacity: 0.8;
   &::selection {
-    color: var(--black);
-    background: var(--white);
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
   }
 `
 export const PostDate = styled.p`
@@ -54,17 +63,18 @@ export const PostDate = styled.p`
   text-align: end;
   opacity: 0.7;
   &::selection {
-    color: var(--black);
-    background: var(--white);
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
   }
 `
 export const IconWrapper = styled.div`
   display: flex;
   padding: 0rem 4rem;
   margin: 2rem 4rem 0 0;
+  color: var(--white);
 `
 export const Icon = styled.div`
-  margin: 0.5rem;
+  margin-right: 0.5rem;
   width: 20px;
   height: 20px;
   color: var(--black);
@@ -93,8 +103,8 @@ export const MainContent = styled.article`
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {
-      color: var(--black);
-      background: var(--white);
+      color: var(--white);
+      background: var(--backgroundHoverPostItem);
     }
   }
   p {

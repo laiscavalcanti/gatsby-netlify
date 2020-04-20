@@ -11,7 +11,7 @@ export const LayoutList = styled.li`
   margin: 0.3rem;
   padding-top: 0rem;
   .active {
-    color: var(--white);
+    color: var(--color);
   }
 `
 export const LayoutLink = styled(Link)`
@@ -23,5 +23,9 @@ export const LayoutLink = styled(Link)`
   &:hover {
     color: var(--colorHoverSideBar);
     transition: opacity 0.3s, transform 0.3s;
+  }
+  &::selection {
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
   }
 `

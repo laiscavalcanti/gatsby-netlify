@@ -11,6 +11,10 @@ export const ProfileAuthor = styled.section`
   font-family: "Montserrat", sans-serif;
   color: var(--colorSideBar);
   letter-spacing: 0.1rem;
+  &::selection {
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
+  }
 `
 export const ProfileDescription = styled.p`
   position: relative;
@@ -23,4 +27,8 @@ export const ProfileDescription = styled.p`
   line-height: 1.6;
   margin-top: 0.6rem;
   color: var(--colorSideBar);
+  &::selection {
+    color: var(--white);
+    background: var(--backgroundHoverPostItem);
+  }
 `

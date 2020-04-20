@@ -27,6 +27,7 @@ PostItem.propTypes = {
   description: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
+  imagePost: PropTypes.object.isRequired,
 }
 
 export default PostItem

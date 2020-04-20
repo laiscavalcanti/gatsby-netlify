@@ -1,45 +1,6 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
-
-const createTagPages = (createPage, posts) => {
-  const singleTagIndexTemplate = path.resolve("src/templates/tags.js")
-  const allTagIndexTemplate = path.resolve("src/templates/all-tags.js")
-
-  const postsByTag = {}
-
-  posts.forEach(({ node }) => {
-    if (node.frontmatter.tags) {
-      node.frontmatter.tags.forEach(tag => {
-        if (!postsByTag[tag]) {
-          postsByTag[tag] = []
-        }
-        postsByTag[tag].push(node)
-      })
-    }
-  })
-  const tags = Object.keys(postsByTag)
-
-  createPage({
-    path: "/tags",
-    component: allTagIndexTemplate,
-    context: {
-      tags: tags.sort(),
-    },
-  })
-
-  tags.forEach(tagName => {
-    const posts = postsByTag[tagName]
-
-    createPage({
-      path: `/tags/${tagName}`,
-      component: singleTagIndexTemplate,
-      context: {
-        posts,
-        tagName,
-      },
-    })
-  })
-}
+const _ = require("lodash")
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -100,19 +61,36 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
-
-    createTagPages(createPage, posts)
+    const templateTags = path.resolve(`src/templates/tags.js`)
 
     posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve(`./src/templates/blog-post.js`),
         context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
           slug: node.fields.slug,
           previousPost: next,
           nextPost: previous,
+        },
+      })
+    })
+
+    let tags = []
+    // Iterate through each post, putting all found tags into `tags`
+    _.each(posts, edge => {
+      if (_.get(edge, "node.frontmatter.tags")) {
+        tags = tags.concat(edge.node.frontmatter.tags)
+      }
+    })
+    // Eliminate duplicate tags
+    tags = _.uniq(tags)
+    // Make tag pages
+    tags.forEach(tag => {
+      createPage({
+        path: `/tags/${_.kebabCase(tag)}/`,
+        component: templateTags,
+        context: {
+          tag,
         },
       })
     })

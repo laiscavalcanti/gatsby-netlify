@@ -1,29 +1,78 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
-
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
 
-const SingleTags = ({ data, pageContext }) => {
-  const { posts, tagName } = pageContext
+const Tags = ({ data }) => {
+  const { edges } = data.allMarkdownRemark
+
   return (
     <Layout>
-      <div>Posts {`${tagName}`}</div>
       <ul>
-        {posts.map((post, index) => {
-          return (
-            <li key={index}>
-              <Link to={post.fields.slug}>
-                <span> {post.frontmatter.title}</span>
-                <span>{post.frontmatter.description}</span>
-                <span>{post.frontmatter.date}</span>
-              </Link>
-            </li>
+        {edges.map(
+          ({
+            node: {
+              frontmatter: {
+                tags,
+                background,
+                date,
+                description,
+                title,
+                image: {
+                  childImageSharp: { fluid },
+                },
+              },
+              timeToRead,
+              fields: { slug },
+            },
+          }) => (
+            <PostItem
+              slug={slug}
+              background={background}
+              tags={tags}
+              date={date}
+              timeToRead={timeToRead}
+              title={title}
+              description={description}
+              image={fluid}
+            />
           )
-        })}
+        )}
       </ul>
     </Layout>
   )
 }
 
-export default SingleTags
+export default Tags
+
+export const pageQuery = graphql`
+  query($tag: String) {
+    allMarkdownRemark(
+      limit: 2000
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
+    ) {
+      totalCount
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            description
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            tags
+          }
+        }
+      }
+    }
+  }
+`
