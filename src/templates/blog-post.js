@@ -18,8 +18,8 @@ const BlogPost = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
+      <PostImage imagePost={post.frontmatter.imagePost} />
       <S.PostHeader>
-        <PostImage imagePost={post.frontmatter.imagePost} />
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>
