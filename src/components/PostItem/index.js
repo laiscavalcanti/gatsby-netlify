@@ -23,11 +23,10 @@ PostItem.propTypes = {
   tags: PropTypes.array,
   background: PropTypes.string,
   date: PropTypes.string.isRequired,
-  timeToRead: PropTypes.number.isRequired,
+  timeToRead: PropTypes.number,
   description: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
-  imagePost: PropTypes.object.isRequired,
 }
 
 export default PostItem

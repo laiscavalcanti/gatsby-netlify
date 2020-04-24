@@ -1,5 +1,5 @@
-/*require("dotenv").config()
-const queries = require("./src/utils/algolia_queries.js")*/
+require("dotenv").config()
+const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
@@ -41,7 +41,7 @@ module.exports = {
             resolve: "gatsby-remark-images",
             options: {
               maxWidth: 960,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
             },
           },
           `gatsby-remark-lazy-load`,
@@ -50,7 +50,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    /* {
+    {
       resolve: `gatsby-plugin-algolia-search`,
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
@@ -58,9 +58,9 @@ module.exports = {
         indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
         queries,
         chunkSize: 10000,
-        enablePartialUpdates: false,
+        enablePartialUpdates: true,
       },
-    },*/
+    },
     {
       resolve: "gatsby-plugin-web-font-loader",
       options: {

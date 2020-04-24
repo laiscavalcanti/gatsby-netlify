@@ -1,16 +1,16 @@
 import React from "react"
+
 import PostItem from "../PostItem"
 
 const Hit = ({ hit }) => (
-
-    <PostItem
+  <PostItem
     slug={hit.fields.slug}
-    background={hit.background}
-    title={hit.title}
     date={hit.date}
+    title={hit.title}
     description={hit.description}
-      tags={hit.tags}
-    />
-  )
+    tags={hit.tags}
+    image={hit.image}
+  />
+)
 
 export default Hit
