@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const PaginationWrapper = styled.section`
   align-items: center;
@@ -6,6 +7,7 @@ export const PaginationWrapper = styled.section`
   margin: 0.5rem;
   display: flex;
   padding: 1rem 2rem;
+  font-size: 1rem;
   background-color: var(--background-color);
   justify-content: space-between;
   align-content: flex-end;
@@ -16,5 +18,9 @@ export const PaginationWrapper = styled.section`
     &:hover {
       color: var(--backgroundMenuBar);
     }
+    ${media.lessThan("large")`
+      padding: 0.5rem 0.5rem;
+      font-size: 0.8rem;
+  `}
   }
 `

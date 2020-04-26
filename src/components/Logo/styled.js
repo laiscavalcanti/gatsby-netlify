@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import Img from "gatsby-image"
+import media from "styled-media-query"
 
-export const LogoWrapper = styled(Img)`
-  margin: auto;
+export const LogoWrapper = styled.div`
+  width: 20rem;
 `

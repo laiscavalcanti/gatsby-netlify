@@ -1,10 +1,16 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 import { Link } from "gatsby"
 
 export const PostHeader = styled.header`
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
+  ${media.lessThan("large")`
+  margin-top: 2rem;
+    padding: 5rem 0 0;
+    max-width: 100%;
+  `}
 `
 export const PostTag = styled(Link)`
   display: flex;
@@ -22,6 +28,10 @@ export const PostTag = styled(Link)`
     color: var(--white);
     background: var(--backgroundHoverPostItem);
   }
+  ${media.lessThan("large")`
+    opacity: 1;
+    font-size: 0.75rem;
+  `}
 `
 export const PostTitle = styled.h1`
   padding: 0rem 4rem;
@@ -35,6 +45,13 @@ export const PostTitle = styled.h1`
     color: var(--white);
     background: var(--backgroundHoverPostItem);
   }
+  ${media.lessThan("large")`
+    text-align: start;
+    font-size: 2.8rem;
+    line-height: 1.1;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  `}
 `
 export const PostDescription = styled.h2`
   margin-right: 4rem;
@@ -52,6 +69,15 @@ export const PostDescription = styled.h2`
     color: var(--white);
     background: var(--backgroundHoverPostItem);
   }
+  ${media.lessThan("large")`
+    font-size: 1.6rem;
+    line-height: 1.3;
+    padding: 0 1rem;
+    margin: 0rem;
+    text-align: start;
+    opacity: 1;
+    font-size: 0.9rem;
+  `}
 `
 export const PostDate = styled.p`
   color: var(--black);
@@ -66,12 +92,23 @@ export const PostDate = styled.p`
     color: var(--white);
     background: var(--backgroundHoverPostItem);
   }
+  ${media.lessThan("large")`
+    opacity: 1;
+    text-align: start;
+    margin: 0;
+    padding: 0 1rem;
+    font-size: 0.7rem;
+  `}
 `
 export const IconWrapper = styled.div`
   display: flex;
   padding: 0rem 4rem;
   margin: 2rem 4rem 0 0;
   color: var(--white);
+  ${media.lessThan("large")`
+   margin: 1rem 1rem 0 0;
+   padding: 1rem 0 0 1rem;
+  `}
 `
 export const Icon = styled.div`
   margin-right: 0.5rem;
@@ -79,12 +116,23 @@ export const Icon = styled.div`
   height: 20px;
   color: var(--black);
   opacity: 0.7;
+  ${media.lessThan("large")`
+    opacity: 1;
+    width: 15px;
+    height: 15px;
+  `}
 `
 export const MainContent = styled.article`
   margin-right: 4rem;
   max-width: 70rem;
   padding: 3rem 7rem;
   text-align: justify;
+  ${media.lessThan("large")`
+    padding: 0;
+    padding: 2rem 0;
+    max-width: 100%;
+    margin: 0 0.5rem 0 0.5rem;
+  `}
   p,
   h1,
   h2,
@@ -106,6 +154,11 @@ export const MainContent = styled.article`
       color: var(--white);
       background: var(--backgroundHoverPostItem);
     }
+
+    ${media.lessThan("large")`
+      padding: 0 1rem;
+      word-break: break-word;
+    `}
   }
   p {
     margin: 0 auto 1.6rem;
@@ -143,6 +196,9 @@ export const MainContent = styled.article`
   iframe {
     padding: 0 1.6rem 1.6rem;
     width: 100%;
+    ${media.lessThan("large")`
+      padding: 0 1rem;
+    `}
   }
   blockquote {
     color: #fff;
@@ -170,12 +226,21 @@ export const MainContent = styled.article`
   }
   h1 {
     font-size: 2.8rem;
+    ${media.lessThan("large")`
+      font-size: 1.875rem;
+    `}
   }
   h2 {
     font-size: 2.1rem;
+    ${media.lessThan("large")`
+      font-size: 1.375rem;
+    `}
   }
   h3 {
     font-size: 1.6rem;
+    ${media.lessThan("large")`
+      font-size: 1.125rem;
+    `}
   }
   h4 {
     font-size: 1.4rem;

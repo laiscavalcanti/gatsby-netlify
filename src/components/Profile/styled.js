@@ -1,11 +1,19 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const ProfileContainer = styled.div`
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+  width: 20rem;
+  ${media.lessThan("large")`
+    display: none;
+  `}
 `
 export const ProfileAuthor = styled.section`
+  display: flex;
+  justify-content: center;
   font-size: 0.9rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;

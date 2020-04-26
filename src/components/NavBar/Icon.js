@@ -1,17 +1,17 @@
 import React from "react"
-import { Search } from "@styled-icons/evil/Search"
+import { SearchAlt2 } from "@styled-icons/boxicons-regular/SearchAlt2"
 import styled from "styled-components"
 
 const Icon = () => (
   <IconSearch>
-    <Search />
+    <SearchAlt2 />
   </IconSearch>
 )
 export const IconSearch = styled.button`
-  display: flex;
-  width: 30px;
-  height: 30px;
+  width: 23px;
+  height: 23px;
   border: none;
   background: none;
+  cursor: pointer;
 `
 export default Icon

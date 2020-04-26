@@ -1,23 +1,23 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 import { Link } from "gatsby"
 
 export const MenuBarWrapper = styled.aside`
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  height: 100vh;
-  width: 3.75rem;
-  position: fixed;
-  right: 0;
-  padding: 0.8rem 0;
-  border-left: 1px solid var(--borders);
+  height: 9rem;
+  width: 100%;
+  padding: 0;
+  border-top: 1px solid var(--borders);
   background-color: var(--colorMenuBar);
 `
-
 export const MenuBarGroup = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  ${media.lessThan("large")`
+    flex-direction: row;
+  `}
 `
 
 export const MenuBarLink = styled(Link)`
@@ -26,11 +26,10 @@ export const MenuBarLink = styled(Link)`
 export const MenuBarItem = styled.span`
   display: block;
   position: relative;
-  width: 3.5rem;
-  height: 3.75rem;
+
   padding: 1.1rem;
   color: var(--backgroundMenuBar);
-  cursor: pointer;
+
   &:hover {
     color: var(--backgroundMenuBar);
     transition: opacity 0.3s, transform 0.3s;
@@ -41,5 +40,21 @@ export const MenuBarItem = styled.span`
     &:hover {
       color: #ffdb58;
     }
+    &.display {
+      ${media.lessThan("large")`
+      display: none;
+    `}
+    }
+    ${media.greaterThan("large")`
+    &:hover {
+      color: var(--highlight);
+    }
+  `}
+    ${media.lessThan("large")`
+    height: 3.2rem;
+    padding: .9rem;
+    position: relative;
+    width: 3.2rem;
+  `}
   }
 `
