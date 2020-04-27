@@ -3,11 +3,6 @@ import Icon from "./Icon"
 
 const links = [
   {
-    label: "",
-    url: "/search/",
-    icon: <Icon />,
-  },
-  {
     label: "Cursos",
     url: "/tags/cursos/",
     icon: "",
@@ -21,6 +16,11 @@ const links = [
     label: "Homeschooling",
     url: "/tags/homeschooling/",
     icon: "",
+  },
+  {
+    label: "",
+    url: "/search/",
+    icon: <Icon />,
   },
 ]
 export default links

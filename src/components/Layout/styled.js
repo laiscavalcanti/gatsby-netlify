@@ -5,13 +5,13 @@ export const LayoutWrapper = styled.section`
   display: flex;
   flex-direction: column;
   ${media.lessThan("large")`
-  flex-direction: column;
+      flex-direction: column;
   `}
 `
 export const LayoutMain = styled.main`
   background-color: var(--background-color);
   min-height: 100vh;
-  padding: 4.5rem 3.75rem 6rem 20rem;
+  padding: 5rem 0 5rem 0;
   transition: background, color 0.5s;
   width: 100%;
   ${media.lessThan("large")`

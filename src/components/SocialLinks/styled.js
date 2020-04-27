@@ -32,7 +32,7 @@ export const SocialLinksLink = styled.a`
 export const IconWrapper = styled.div`
   fill: #bbb;
   width: 25px;
-  height: 2px;
+  height: 25px;
   ${media.lessThan("large")`
     width: 15px;
     height: 2px;

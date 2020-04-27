@@ -6,7 +6,7 @@ export const MenuBarWrapper = styled.aside`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  height: 9rem;
+  height: 8rem;
   width: 100%;
   padding: 0;
   border-top: 1px solid var(--borders);
@@ -14,19 +14,14 @@ export const MenuBarWrapper = styled.aside`
 `
 export const MenuBarGroup = styled.div`
   display: flex;
-  flex-direction: row;
   ${media.lessThan("large")`
     flex-direction: row;
   `}
 `
-
 export const MenuBarLink = styled(Link)`
   display: block;
 `
 export const MenuBarItem = styled.span`
-  display: block;
-  position: relative;
-
   padding: 1.1rem;
   color: var(--backgroundMenuBar);
 

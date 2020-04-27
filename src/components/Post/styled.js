@@ -3,9 +3,11 @@ import media from "styled-media-query"
 import { Link } from "gatsby"
 
 export const PostHeader = styled.header`
-  margin: auto;
-  max-width: 70rem;
-  padding: 5rem 5rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 1rem 0rem;
+  margin-left: 16rem;
+  max-width: 50rem;
   ${media.lessThan("large")`
   margin-top: 2rem;
     padding: 5rem 0 0;
@@ -14,11 +16,12 @@ export const PostHeader = styled.header`
 `
 export const PostTag = styled(Link)`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   margin-top: 0.2rem;
   color: var(--black);
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   opacity: 0.8;
   &:hover {
@@ -34,12 +37,12 @@ export const PostTag = styled(Link)`
   `}
 `
 export const PostTitle = styled.h1`
-  padding: 0rem 4rem;
-  margin: 2rem 4rem 2rem 0;
   text-align: end;
-  font-family: "Merriweather", serif;
+  margin: 1rem;
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 700;
+  line-height: 1.15;
   color: var(--black);
   &::selection {
     color: var(--white);
@@ -54,12 +57,11 @@ export const PostTitle = styled.h1`
   `}
 `
 export const PostDescription = styled.h2`
-  margin-right: 4rem;
-  padding: 0rem 4rem;
+  margin: 0.4rem 1rem 0 1rem;
   letter-spacing: 0rem;
   font-weight: 100;
   line-height: 1.5;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-style: italic;
   text-align: end;
@@ -83,9 +85,8 @@ export const PostDate = styled.p`
   color: var(--black);
   font-size: 0.9rem;
   font-weight: 100;
-  font-family: "Merriweather", sans-serif;
-  padding: 0rem 4rem;
-  margin-right: 4rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem 1rem 0 1rem;
   text-align: end;
   opacity: 0.7;
   &::selection {
@@ -102,13 +103,14 @@ export const PostDate = styled.p`
 `
 export const IconWrapper = styled.div`
   display: flex;
-  padding: 0rem 4rem;
-  margin: 2rem 4rem 0 0;
+  margin: 2rem 3rem 0 1rem;
+  padding-left: 2rem;
   color: var(--white);
+  opacity: 0.6;
   ${media.lessThan("large")`
    margin: 1rem 1rem 0 0;
    padding: 1rem 0 0 1rem;
-  `}
+  `};
 `
 export const Icon = styled.div`
   margin-right: 0.5rem;
@@ -123,9 +125,8 @@ export const Icon = styled.div`
   `}
 `
 export const MainContent = styled.article`
-  margin-right: 4rem;
-  max-width: 70rem;
-  padding: 3rem 7rem;
+  max-width: 65rem;
+  padding: 1rem 0rem 2rem 18rem;
   text-align: justify;
   ${media.lessThan("large")`
     padding: 0;

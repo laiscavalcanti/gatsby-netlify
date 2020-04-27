@@ -5,15 +5,17 @@ import Img from "gatsby-image"
 
 export const PostItemLink = styled(AniLink)`
   display: flex;
-  text-decoration: none;
+  padding: 1rem 15rem 0 15rem;
+  width: 100%;
   color: var(--black);
 `
 export const PostItemWrapper = styled.div`
   display: flex;
-  padding: 0rem 3.5rem 1rem;
+  justify-content: center;
+  padding: 1rem 3.5rem 1rem;
   width: 100%;
   align-items: center;
-  border-bottom: 1px solid var(--borders);
+
   ${media.lessThan("large")`
     align-items: flex-start;
     flex-direction: row;
@@ -26,6 +28,7 @@ export const PostItemInfo = styled.div`
   align-items: flex-start;
   max-width: 40rem;
   margin-left: 2rem;
+  font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`
   margin-left: 0.8rem;
   `}
@@ -39,11 +42,8 @@ export const PostItemInfo = styled.div`
 export const PostItemImg = styled(Img)`
   display: flex;
   justify-content: center;
-  margin-left: 2rem;
-  margin-top: 2rem;
-  border-radius: 50%;
-  min-height: 7rem;
-  min-width: 7rem;
+  min-height: 9rem;
+  min-width: 9rem;
   ${media.lessThan("large")`
   display: flex;
   justify-content: flex-start;
@@ -52,14 +52,15 @@ export const PostItemImg = styled(Img)`
   min-width: 4.5rem;
   `}
   &:hover {
-    min-height: 7.3rem;
-    min-width: 7.3rem;
+    min-height: 11rem;
+    min-width: 11rem;
   }
 `
 export const PostItemTitle = styled.h1`
   display: flex;
   align-content: center;
   justify-content: center;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   margin: 0.9rem 0rem 0.9rem 0.5rem;
@@ -71,7 +72,7 @@ export const PostItemTitle = styled.h1`
 `
 export const PostItemDate = styled.section`
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin: 1.5rem 0.5rem 0rem 0.5rem;
   font-size: 0.7rem;
   opacity: 0.8;
