@@ -5,6 +5,7 @@ import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 import Pagination from "../components/Pagination"
+import PostFeatured from "../components/PostFeatured"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -18,6 +19,7 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Home" />
+      <div>{currentPage === 1 && <PostFeatured />}</div>
       {postList.map(
         ({
           node: {
@@ -61,7 +63,12 @@ const BlogList = props => {
 }
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }, limit: $limit, skip: $skip) {
+    allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+      filter: { frontmatter: { featured: { eq: false } } }
+      limit: $limit
+      skip: $skip
+    ) {
       edges {
         node {
           fields {
@@ -75,7 +82,7 @@ export const query = graphql`
             title
             image {
               childImageSharp {
-                fluid(maxWidth: 300) {
+                fluid(maxWidth: 500) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
