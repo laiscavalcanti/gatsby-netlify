@@ -32,8 +32,8 @@ export const WrapperLight = styled.div`
 `
 
 export const IconLight = styled.div`
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
   border: none;
   background: none;
   cursor: pointer;

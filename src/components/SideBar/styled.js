@@ -33,5 +33,5 @@ export const LogoItem = styled.section`
 export const WrapperButtonTheme = styled.section`
   display: flex;
   justify-content: flex-end;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 `

@@ -6,6 +6,7 @@ import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 import Pagination from "../components/Pagination"
 import PostFeatured from "../components/PostFeatured"
+import { GridWrapper } from "../components/GridPost/styled"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -20,36 +21,38 @@ const BlogList = props => {
     <Layout>
       <SEO title="Home" />
       <div>{currentPage === 1 && <PostFeatured />}</div>
-      {postList.map(
-        ({
-          node: {
-            frontmatter: {
-              tags,
-              background,
-              date,
-              description,
-              title,
-              image: {
-                childImageSharp: { fluid },
-              },
-            },
-            timeToRead,
-            fields: { slug },
-          },
-        }) => (
-          <PostItem
-            slug={slug}
-            background={background}
-            tags={tags}
-            date={date}
-            timeToRead={timeToRead}
-            title={title}
-            description={description}
-            image={fluid}
-          />
-        )
-      )}
 
+      <GridWrapper>
+        {postList.map(
+          ({
+            node: {
+              frontmatter: {
+                tags,
+                author,
+                date,
+                description,
+                title,
+                image: {
+                  childImageSharp: { fluid },
+                },
+              },
+              timeToRead,
+              fields: { slug },
+            },
+          }) => (
+            <PostItem
+              slug={slug}
+              tags={tags}
+              date={date}
+              timeToRead={timeToRead}
+              title={title}
+              description={description}
+              image={fluid}
+              author={author}
+            />
+          )
+        )}
+      </GridWrapper>
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
@@ -75,7 +78,7 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            background
+            author
             tags
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description

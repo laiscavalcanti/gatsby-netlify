@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 import * as S from "./styled"
 
-const PostItem = ({ slug, description, title, image, date, tags }) => (
+const PostItem = ({ slug, description, title, image, date, tags, author }) => (
   <S.PostItemLink to={slug} cover direction="right" duration={0.3}>
     <S.PostItemWrapper>
       <S.PostItemImg fluid={image} />
@@ -12,6 +12,7 @@ const PostItem = ({ slug, description, title, image, date, tags }) => (
           {date} - {tags}
         </S.PostItemDate>
         <S.PostItemTitle>{title}</S.PostItemTitle>
+        <S.PostItemAuthor>{author}</S.PostItemAuthor>
         <S.PostItemDescription>{description}</S.PostItemDescription>
       </S.PostItemInfo>
     </S.PostItemWrapper>
@@ -21,12 +22,12 @@ const PostItem = ({ slug, description, title, image, date, tags }) => (
 PostItem.propTypes = {
   slug: PropTypes.string.isRequired,
   tags: PropTypes.array,
-  background: PropTypes.string,
   date: PropTypes.string.isRequired,
   timeToRead: PropTypes.number,
   description: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
+  author: PropTypes.object,
 }
 
 export default PostItem

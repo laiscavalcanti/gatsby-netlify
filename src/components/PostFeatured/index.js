@@ -11,10 +11,12 @@ const PostFeatured = () => {
       <S.WrapperFeatured>
         <S.FeaturedImage fluid={markdownRemark.frontmatter.image.childImageSharp.fluid} />
         <S.FeaturedInfo>
-          {markdownRemark.frontmatter.date}
-          {markdownRemark.frontmatter.tags}
           <S.FeaturedTitle>{markdownRemark.frontmatter.title}</S.FeaturedTitle>
+          <S.FeaturedAuthor>{markdownRemark.frontmatter.author}</S.FeaturedAuthor>
           <S.FeaturedDescription>{markdownRemark.frontmatter.description}</S.FeaturedDescription>
+          <S.FeaturedDate>
+            {markdownRemark.frontmatter.date} - {markdownRemark.frontmatter.tags}
+          </S.FeaturedDate>
         </S.FeaturedInfo>
       </S.WrapperFeatured>
     </S.FeaturedLink>
@@ -31,6 +33,7 @@ const query = graphql`
       }
       frontmatter {
         title
+        author
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         tags

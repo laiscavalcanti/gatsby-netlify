@@ -9,7 +9,7 @@ const postQuery = `{
               slug
             }
             frontmatter {
-              background
+              author
               tags
               date_timestamp: date
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")

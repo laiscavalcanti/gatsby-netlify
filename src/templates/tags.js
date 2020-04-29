@@ -2,13 +2,14 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
+import { GridWrapper } from "../components/GridPost/styled"
 
 const Tags = ({ data }) => {
   const { edges } = data.allMarkdownRemark
 
   return (
     <Layout>
-      <ul>
+      <GridWrapper>
         {edges.map(
           ({
             node: {
@@ -38,7 +39,7 @@ const Tags = ({ data }) => {
             />
           )
         )}
-      </ul>
+      </GridWrapper>
     </Layout>
   )
 }

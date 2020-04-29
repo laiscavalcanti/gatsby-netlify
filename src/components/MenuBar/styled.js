@@ -6,7 +6,7 @@ export const MenuBarWrapper = styled.aside`
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  height: 8rem;
+  height: 9rem;
   width: 100%;
   padding: 0;
   border-top: 1px solid var(--borders);

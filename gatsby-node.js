@@ -32,10 +32,10 @@ exports.createPages = ({ graphql, actions }) => {
             }
 
             frontmatter {
-              background
               tags
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
+              author
               title
               image {
                 id
@@ -98,7 +98,7 @@ exports.createPages = ({ graphql, actions }) => {
       })
     })
 
-    const postsPerPage = 6
+    const postsPerPage = 7
     const numPages = Math.ceil(posts.length / postsPerPage)
 
     Array.from({ length: numPages }).forEach((_, index) => {

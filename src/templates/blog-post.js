@@ -54,6 +54,7 @@ export const query = graphql`
       }
       frontmatter {
         title
+        author
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         tags
