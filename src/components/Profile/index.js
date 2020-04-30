@@ -21,12 +21,11 @@ const Profile = () => {
   `)
   return (
     <S.ProfileContainer>
+      <Avatar />
       <S.ContainerLine>
-        <Avatar />
         <S.ProfileAuthor>{author}</S.ProfileAuthor>
+        <S.ProfileDescription>{description}</S.ProfileDescription>
       </S.ContainerLine>
-
-      <S.ProfileDescription>{description}</S.ProfileDescription>
     </S.ProfileContainer>
   )
 }

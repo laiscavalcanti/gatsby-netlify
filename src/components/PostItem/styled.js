@@ -32,7 +32,6 @@ export const PostItemInfo = styled.div`
   `}
 
   &:hover {
-    opacity: 0.8;
     color: var(--backgroundHoverPostItem);
     transition: opacity 0.6s, transform 0.3s;
   }
@@ -81,7 +80,7 @@ export const PostItemAuthor = styled.p`
 export const PostItemDate = styled.section`
   display: flex;
   justify-content: flex-start;
-  margin: 1.5rem 0.5rem 0rem 0rem;
+  margin: 0.5rem 0.5rem 0rem 0rem;
   font-size: 0.7rem;
   ${media.lessThan("large")`
     font-size: 0.6rem;

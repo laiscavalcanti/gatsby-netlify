@@ -26,6 +26,10 @@ export const FeaturedInfo = styled.div`
   align-content: center;
   margin: 1rem 0 0 0;
   font-family: "Montserrat", sans-serif;
+  &:hover {
+    color: var(--backgroundHoverPostItem);
+    transition: opacity 0.6s, transform 0.3s;
+  }
 `
 export const FeaturedImage = styled(Img)`
   display: flex;

@@ -8,6 +8,7 @@ export const LayoutNav = styled.nav`
   height: auto;
   margin: 1rem;
   padding: 1rem;
+  color: var(--samecolorWhite);
 `
 export const LayoutList = styled.li`
   margin: 0.7rem;
@@ -20,7 +21,7 @@ export const LayoutList = styled.li`
   `}
 `
 export const LayoutLink = styled(Link)`
-  color: var(--colorSideBar);
+  color: var(--sameColorWhite);
   letter-spacing: 0rem;
   font-size: 1rem;
   font-weight: 500;

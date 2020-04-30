@@ -13,5 +13,9 @@ export const IconSearch = styled.button`
   border: none;
   background: none;
   cursor: pointer;
+  color: var(--sameColorWhite);
+  &:hover {
+    color: #900020;
+  }
 `
 export default Icon

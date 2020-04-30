@@ -5,12 +5,11 @@ import { Link } from "gatsby"
 export const MenuBarWrapper = styled.aside`
   display: flex;
   align-items: flex-end;
-  justify-content: space-between;
-  height: 9rem;
+  justify-content: space-around;
+  height: 6.5rem;
   width: 100%;
   padding: 0;
-  border-top: 1px solid var(--borders);
-  background-color: var(--colorMenuBar);
+  background-color: var(--sameColorBlack);
 `
 export const MenuBarGroup = styled.div`
   display: flex;

@@ -11,7 +11,7 @@ export const SideBarWrapper = styled.aside`
   width: 100%;
   height: 6rem;
   position: fixed;
-  background-color: var(--backgroundSideBar);
+  background-color: var(--color);
   ${media.lessThan("large")`
     display: flex;
     align-items: flex-start;

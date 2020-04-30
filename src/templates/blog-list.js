@@ -6,7 +6,7 @@ import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 import Pagination from "../components/Pagination"
 import PostFeatured from "../components/PostFeatured"
-import { GridWrapper } from "../components/GridPost/styled"
+import { GridWrapper, Line } from "../components/GridPost/styled"
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -21,7 +21,7 @@ const BlogList = props => {
     <Layout>
       <SEO title="Home" />
       <div>{currentPage === 1 && <PostFeatured />}</div>
-
+      <Line />
       <GridWrapper>
         {postList.map(
           ({

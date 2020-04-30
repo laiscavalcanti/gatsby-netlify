@@ -22,10 +22,10 @@ export const SocialLinksItem = styled.li`
   `}
 `
 export const SocialLinksLink = styled.a`
-  color: var(--colorSideBar);
+  color: var(--sameColorWhite);
   transition: color 0.5s;
   &:hover {
-    color: var(--colorHoverSideBar);
+    color: var(--black);
     transition: opacity 0.3s, transform 0.3s;
   }
 `

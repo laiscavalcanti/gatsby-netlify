@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components"
+import img from "../images/bg-pattern.png"
 
 const GlobalStyles = createGlobalStyle`
 
@@ -19,6 +20,7 @@ body{
     line-height: 1;
     font-size: 100%;
     font-family: 'Montserrat', serif;
+    background-image: url(${img});
 }
 
   img {
@@ -48,12 +50,14 @@ body{
   }*/
 
   body.light{
+    --sameColorBlack: #191919;
+    --sameColorWhite: #fff;
     --borders: #222;
     --texts: #222;
     --color: #900020;
-    --background-color: #f5f5f5;
+    --background-color: #00000;
     --black:#222;
-    --white:#fff;
+    --white:#191919;
     --mediumColor: #4c4c4c;
     --colorMenuBar: #900020;
     --backgroundMenuBar: #f5f5f5;
@@ -63,24 +67,28 @@ body{
     --colorHoverSideBar: #900020;
     --colorHoverPostItem:#900020;
     --backgroundHoverPostItem:#900020;
+    --highlight: #ffd700;
   }
 
   body.dark{
+    --sameColorBlack: #191919;
+    --sameColorWhite: #fff;
     --borders: #fff;
     --texts: #fff;
-    --color: #4c4c4c;
-    --background-color: #28324e;
+    --color: #900020;
+    --background-color: #191919;
     --black: #fff;
-    --white:#222;
+    --white:#191919;
     --mediumColor: #282828;
-    --colorMenuBar: #28324e;
+    --colorMenuBar: #000000;
     --backgroundMenuBar:#f5f5f5;
     --backgroundSideBar: #b1c0cd; 
     --borderSideBar: #fff;
     --colorSideBar: #222;
     --colorHoverSideBar: #900020;
     --colorHoverPostItem:#900020;
-    --backgroundHoverPostItem:#b1c0cd;
+    --backgroundHoverPostItem:#e9e9e9;
+    --highlight: #ffd700;
   }
 `
 export default GlobalStyles

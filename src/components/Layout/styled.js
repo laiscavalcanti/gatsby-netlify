@@ -1,9 +1,10 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 
-export const LayoutWrapper = styled.section`
+export const LayoutWrapper = styled.body`
   display: flex;
   flex-direction: column;
+
   ${media.lessThan("large")`
       flex-direction: column;
   `}

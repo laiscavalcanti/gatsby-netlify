@@ -5,22 +5,24 @@ export const ProfileContainer = styled.div`
   display: flex;
   justify-content: flex-end;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
 `
 export const ContainerLine = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  flex-direction: column;
   margin-top: 0.8rem;
+  margin-left: 0.7rem;
 `
 export const ProfileAuthor = styled.section`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-left: 1rem;
+  margin-left: 0.7rem;
   font-size: 0.9rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  color: var(--colorSideBar);
+  color: var(--sameColorWhite);
   letter-spacing: 0.1rem;
   &::selection {
     color: var(--white);
@@ -29,14 +31,16 @@ export const ProfileAuthor = styled.section`
 `
 export const ProfileDescription = styled.p`
   font-family: "Montserrat", sans-serif;
+  max-width: 25rem;
+  margin-top: 0.4rem;
+  margin-left: 0.5rem;
+  text-align: left;
   letter-spacing: 0rem;
   font-size: 0.8rem;
   opacity: 0.7;
   font-style: oblique;
-  text-align: center;
-  line-height: 1.6;
-  margin-top: 0.4rem;
-  color: var(--colorSideBar);
+  line-height: 1.4;
+  color: var(--sameColorWhite);
   &::selection {
     color: var(--white);
     background: var(--backgroundHoverPostItem);

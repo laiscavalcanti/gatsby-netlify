@@ -25,10 +25,20 @@ const ButtonTheme = () => {
   )
 }
 
-export const WrapperLight = styled.div`
+export const WrapperLight = styled.p`
   height: auto;
   margin: 1rem;
   padding: 1rem;
+  color: var(--sameColorWhite);
+  &.light {
+    color: #ffd700;
+    &:hover {
+      color: #900020;
+    }
+  }
+  &:hover {
+    color: var(--highlight);
+  }
 `
 
 export const IconLight = styled.div`
