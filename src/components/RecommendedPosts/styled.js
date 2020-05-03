@@ -4,18 +4,23 @@ import { Link } from "gatsby"
 
 export const RecommendedWrapper = styled.section`
   display: flex;
-  border-top: 1px solid var(--black);
+  border-top: 1px dashed var(--black);
+  margin: 0 8rem 0 8rem;
   background-color: var(--background-color);
 `
 export const RecommendedLink = styled(Link)`
   align-items: center;
   background: var(--background-color);
-  color: var(--backgroundHoverPostItem);
+  color: var(--black);
   display: flex;
   padding: 1rem;
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;
+  &::selection {
+    color: var(--colorSelection);
+    background: var(--backgroundSelection);
+  }
 
   ${media.lessThan("large")`
     line-height: 1.3;

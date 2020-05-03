@@ -6,8 +6,10 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import PostImage from "../components/PostImage"
-
+import scrollToTop from "../utils/scrollToTop"
+import { ArrowUpward as ArrowUp } from "@styled-icons/material-rounded/ArrowUpward"
 import { Tag } from "@styled-icons/boxicons-regular/Tag"
+
 import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
@@ -41,6 +43,11 @@ const BlogPost = ({ data, pageContext }) => {
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </S.MainContent>
+      <S.IconArrowWrapper>
+        <S.Icon title="Ir para o topo" onClick={scrollToTop}>
+          <ArrowUp />
+        </S.Icon>
+      </S.IconArrowWrapper>
       <RecommendedPosts next={next} previous={previous} />
     </Layout>
   )

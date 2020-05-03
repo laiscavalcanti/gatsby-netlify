@@ -4,20 +4,25 @@ import { Link } from "gatsby"
 
 export const LayoutNav = styled.nav`
   display: flex;
-  flex-wrap: wrap;
   height: auto;
   margin: 1rem;
   padding: 1rem;
   color: var(--samecolorWhite);
+  @media only screen and (max-width: 600px) {
+    background-color: lightblue;
+  }
 `
 export const LayoutList = styled.li`
   margin: 0.7rem;
   padding-top: 0rem;
   .active {
-    color: var(--color);
+    color: var(--sameColorBlack);
   }
   ${media.lessThan("large")`
-   margin: 0;
+   display: flex;
+   flex-direction: row;
+   margin: 0rem 0.4rem 0.7rem 0.4rem;
+   padding-left: 0.8rem;
   `}
 `
 export const LayoutLink = styled(Link)`
@@ -26,11 +31,24 @@ export const LayoutLink = styled(Link)`
   font-size: 1rem;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  &:hover {
-    color: var(--colorHoverSideBar);
-    transition: opacity 0.3s, transform 0.3s;
+  display: inline-block;
+  position: relative;
+  &:after {
+    margin-bottom: -6px;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
   }
   ${media.lessThan("large")`
+  display: flex;
+   flex-direction: row;
     font-size: 0.7rem;
   `}
   &::selection {

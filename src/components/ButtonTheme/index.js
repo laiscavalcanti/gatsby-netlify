@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import styled from "styled-components"
+import media from "styled-media-query"
 import { Lightbulb } from "@styled-icons/fa-regular/Lightbulb"
 
 const ButtonTheme = () => {
@@ -30,10 +31,16 @@ export const WrapperLight = styled.p`
   margin: 1rem;
   padding: 1rem;
   color: var(--sameColorWhite);
+  ${media.lessThan("large")`
+    height:10px;
+    width: 10px;
+    margin: 0;
+  `}
+
   &.light {
     color: #ffd700;
     &:hover {
-      color: #900020;
+      color: var(--sameColorWhite);
     }
   }
   &:hover {
@@ -47,6 +54,11 @@ export const IconLight = styled.div`
   border: none;
   background: none;
   cursor: pointer;
+  ${media.lessThan("large")`
+    height:13px;
+    width: 13px;
+    margin: 0;
+  `}
 `
 
 export default ButtonTheme

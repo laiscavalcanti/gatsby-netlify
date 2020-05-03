@@ -9,6 +9,8 @@ export const PostItemLink = styled(AniLink)`
   align-items: center;
   padding: 1rem 0rem 2rem 3.5rem;
   width: 100%;
+  position: relative;
+  overflow: hidden;
   color: var(--black);
 `
 export const PostItemWrapper = styled.div`
@@ -32,7 +34,7 @@ export const PostItemInfo = styled.div`
   `}
 
   &:hover {
-    color: var(--backgroundHoverPostItem);
+    color: var(--backgroundSelection);
     transition: opacity 0.6s, transform 0.3s;
   }
 `
@@ -40,13 +42,17 @@ export const PostItemImg = styled(Img)`
   display: flex;
   height: 10rem;
   width: 22.5rem;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -moz-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -ms-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   &:hover img {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
   }
   ${media.lessThan("large")`
     display: flex;

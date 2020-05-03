@@ -7,10 +7,15 @@ export const PaginationWrapper = styled.section`
   margin: 0.5rem;
   display: flex;
   padding: 1rem 2rem 0 2rem;
+  margin: 0 4rem 0 4rem;
   font-size: 1rem;
   background-color: var(--background-color);
   justify-content: space-between;
   align-content: flex-end;
+  &::selection {
+    color: var(--colorSelection);
+    background: var(--backgroundSelection);
+  }
   a {
     color: var(--black);
     transition: color 0.5s;

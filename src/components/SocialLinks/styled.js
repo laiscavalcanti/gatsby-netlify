@@ -24,9 +24,27 @@ export const SocialLinksItem = styled.li`
 export const SocialLinksLink = styled.a`
   color: var(--sameColorWhite);
   transition: color 0.5s;
+  transition: transform 0.2s;
   &:hover {
-    color: var(--black);
-    transition: opacity 0.3s, transform 0.3s;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: -5px;
+      width: 0px;
+      height: 5px;
+      margin: 3px 0 0;
+      transition: all 0.2s ease-in-out;
+      transition-duration: 0.75s;
+      opacity: 0;
+      background-color: darken(orange, 5%);
+    }
   }
 `
 export const IconWrapper = styled.div`

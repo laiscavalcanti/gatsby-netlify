@@ -1,5 +1,7 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import { Link } from "gatsby"
+import imgLogo from "../../images/menor.png"
 
 export const SideBarWrapper = styled.aside`
   display: flex;
@@ -14,24 +16,31 @@ export const SideBarWrapper = styled.aside`
   background-color: var(--color);
   ${media.lessThan("large")`
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    height: 10rem;
-    padding: 2rem 2rem;
+    justify-content: space-between;
+    align-content: center;
+    height: 4rem;
+    padding: 0.5rem 0.5rem;
     width: 100%;
   `}
 `
-export const LogoItem = styled.section`
+export const LogoItem = styled(Link)`
   display: flex;
   margin: 0.5rem 0rem 0.5rem 4rem;
   ${media.lessThan("large")`
-    height: 9.785rem;
-    width: 12.875rem;
+    height:3.4rem;
+    width: 4.875rem;
+    margin: 0;
+    background-image: url(${imgLogo});
   `}
 `
 export const WrapperButtonTheme = styled.section`
   display: flex;
   justify-content: flex-end;
   margin-top: 0.5rem;
+  ${media.lessThan("large")`
+    height:3.785rem;
+    width: 3.875rem;
+    margin: 0;
+    object-fit: cover;
+  `}
 `

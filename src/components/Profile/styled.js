@@ -6,6 +6,10 @@ export const ProfileContainer = styled.div`
   justify-content: flex-end;
   flex-wrap: wrap;
   flex-direction: row;
+  ${media.lessThan("large")`
+  display: flex;
+  flex-direction: column;
+  `}
 `
 export const ContainerLine = styled.div`
   display: flex;
@@ -25,8 +29,8 @@ export const ProfileAuthor = styled.section`
   color: var(--sameColorWhite);
   letter-spacing: 0.1rem;
   &::selection {
-    color: var(--white);
-    background: var(--backgroundHoverPostItem);
+    color: var(--sameColorBlack);
+    background-color: var(--sameColorWhite);
   }
 `
 export const ProfileDescription = styled.p`
@@ -42,7 +46,11 @@ export const ProfileDescription = styled.p`
   line-height: 1.4;
   color: var(--sameColorWhite);
   &::selection {
-    color: var(--white);
-    background: var(--backgroundHoverPostItem);
+    color: var(--sameColorBlack);
+    background: var(--sameColorWhite);
   }
+
+  ${media.lessThan("large")`
+   display: none;
+  `}
 `

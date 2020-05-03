@@ -39,14 +39,14 @@ export const PostTag = styled(Link)`
 export const PostTitle = styled.h1`
   text-align: end;
   margin: 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Merriweather", sans-serif;
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.15;
   color: var(--black);
   &::selection {
-    color: var(--white);
-    background: var(--backgroundHoverPostItem);
+    color: var(--colorSelection);
+    background: var(--backgroundSelection);
   }
   ${media.lessThan("large")`
     text-align: start;
@@ -68,8 +68,8 @@ export const PostDescription = styled.h2`
   color: var(--black);
   opacity: 0.8;
   &::selection {
-    color: var(--white);
-    background: var(--backgroundHoverPostItem);
+    color: var(--colorSelection);
+    background: var(--backgroundSelection);
   }
   ${media.lessThan("large")`
     font-size: 1.6rem;
@@ -90,8 +90,8 @@ export const PostDate = styled.p`
   text-align: end;
   opacity: 0.7;
   &::selection {
-    color: var(--white);
-    background: var(--backgroundHoverPostItem);
+    color: var(--colorSelection);
+    background: var(--backgroundSelection);
   }
   ${media.lessThan("large")`
     opacity: 1;
@@ -118,11 +118,18 @@ export const Icon = styled.div`
   height: 20px;
   color: var(--black);
   opacity: 0.7;
+  cursor: pointer;
   ${media.lessThan("large")`
     opacity: 1;
     width: 15px;
     height: 15px;
   `}
+`
+export const IconArrowWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  max-width: 65rem;
+  padding: 1rem 0rem 2rem 18rem;
 `
 export const MainContent = styled.article`
   max-width: 65rem;
@@ -152,8 +159,8 @@ export const MainContent = styled.article`
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {
-      color: var(--white);
-      background: var(--backgroundHoverPostItem);
+      color: var(--colorSelection);
+      background: var(--backgroundSelection);
     }
 
     ${media.lessThan("large")`
