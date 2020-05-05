@@ -8,9 +8,11 @@ export const LayoutNav = styled.nav`
   margin: 1rem;
   padding: 1rem;
   color: var(--samecolorWhite);
-  @media only screen and (max-width: 600px) {
-    background-color: lightblue;
-  }
+  ${media.lessThan("large")`
+   display: flex;
+   flex-direction: column;
+
+  `}
 `
 export const LayoutList = styled.li`
   margin: 0.7rem;
@@ -20,9 +22,8 @@ export const LayoutList = styled.li`
   }
   ${media.lessThan("large")`
    display: flex;
-   flex-direction: row;
-   margin: 0rem 0.4rem 0.7rem 0.4rem;
-   padding-left: 0.8rem;
+   flex-direction: column;
+
   `}
 `
 export const LayoutLink = styled(Link)`
@@ -46,11 +47,7 @@ export const LayoutLink = styled(Link)`
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
-  ${media.lessThan("large")`
-  display: flex;
-   flex-direction: row;
-    font-size: 0.7rem;
-  `}
+
   &::selection {
     color: var(--white);
     background: var(--backgroundHoverPostItem);

@@ -15,9 +15,8 @@ export const IconSearch = styled.button`
   background: none;
   cursor: pointer;
   ${media.lessThan("large")`
-    display: none;
-    height:17px;
-    width: 17px;
+    height:20px;
+    width: 20px;
     margin: 0;
   `}
   color: var(--sameColorWhite);

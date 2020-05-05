@@ -1,11 +1,9 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 import { Link } from "gatsby"
-import imgLogo from "../../images/menor.png"
 
-export const SideBarWrapper = styled.aside`
+export const SideBarWrapper = styled.ul`
   display: flex;
-  justify-content: space-between;
   left: 0;
   top: 0;
   right: 0;
@@ -15,32 +13,104 @@ export const SideBarWrapper = styled.aside`
   position: fixed;
   background-color: var(--color);
   ${media.lessThan("large")`
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    height: 4rem;
-    padding: 0.5rem 0.5rem;
-    width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin: 0;
   `}
+`
+export const NavWrapper = styled.nav`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  .menu-toggle {
+    margin-top: 1rem;
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 10px;
+    top: calc(100vh + 30px);
+    width: 30px;
+    height: 3px;
+    background: white;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 8px;
+      width: 30px;
+      height: 3px;
+      background: white;
+      border-radius: 15px;
+      transform-origin: right;
+      transform: scaleX(0.8);
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 8px;
+      width: 30px;
+      height: 3px;
+      background: white;
+      border-radius: 15px;
+      transform-origin: right;
+      transform: scaleX(0.8);
+    }
+  }
+  ${media.lessThan("large")`
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    will-change: transform;
+    background-color: var(--color);
+    a {
+      padding-bottom: 10px;
+    }
+    &.toggle {
+      transform: translateY(0);
+    }
+    .menu-toggle {
+      display: block;
+      &.toggle {
+        top: 30px;
+        transform: rotate(45deg);
+        &::after {
+          transform: scaleX(1) rotate(90deg) translate(25%, 490%);
+        }
+        &::before {
+          opacity: 0;
+        }
+      }
+    }
+  }
+`}
 `
 export const LogoItem = styled(Link)`
   display: flex;
   margin: 0.5rem 0rem 0.5rem 4rem;
   ${media.lessThan("large")`
-    height:3.4rem;
-    width: 4.875rem;
-    margin: 0;
-    background-image: url(${imgLogo});
+   display: flex;
+   flex-direction: column;
+   margin: 0.7rem 0 0 0;
   `}
 `
 export const WrapperButtonTheme = styled.section`
   display: flex;
-  justify-content: flex-end;
   margin-top: 0.5rem;
   ${media.lessThan("large")`
-    height:3.785rem;
-    width: 3.875rem;
-    margin: 0;
-    object-fit: cover;
+    margin-left: -7.5rem;
+    margin-top: -2rem;
   `}
 `

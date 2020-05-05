@@ -55,8 +55,8 @@ export const IconLight = styled.div`
   background: none;
   cursor: pointer;
   ${media.lessThan("large")`
-    height:13px;
-    width: 13px;
+    height:15px;
+    width: 15px;
     margin: 0;
   `}
 `
