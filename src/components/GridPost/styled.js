@@ -4,7 +4,7 @@ export const GridWrapper = styled.section`
   display: flex;
   flex-direction: column;
   background-color: var(--background-color);
-  margin-top: 1.5rem;
+  margin-top: 1.2rem;
 `
 export const Line = styled.div`
   border-top: 1px dashed var(--borders);

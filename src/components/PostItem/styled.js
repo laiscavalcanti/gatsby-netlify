@@ -9,8 +9,6 @@ export const PostItemLink = styled(AniLink)`
   align-items: center;
   padding: 1rem 0rem 2rem 3.5rem;
   width: 100%;
-  position: relative;
-  overflow: hidden;
   color: var(--black);
 `
 export const PostItemWrapper = styled.div`

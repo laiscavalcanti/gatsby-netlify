@@ -16,6 +16,10 @@ class Slideshow extends React.Component {
         el: ".swiper-pagination",
         clickable: true,
         bullets: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
       },
       grabCursor: false,
       loop: true,
@@ -23,7 +27,7 @@ class Slideshow extends React.Component {
 
     return (
       <S.CarouselWrapper>
-        <div className="slideshow">
+        <div className="slideshow ">
           <div class="swiper-container">
             <Swiper {...params}>
               {posts &&
@@ -32,6 +36,9 @@ class Slideshow extends React.Component {
                     <S.CarouselLink to={post.fields.slug}>
                       <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="oi" />
                       <S.CarouselInfo>
+                        <S.CarouselDate>
+                          {post.frontmatter.date} - {post.frontmatter.tags}
+                        </S.CarouselDate>
                         <S.CarouselTitle>{post.frontmatter.title}</S.CarouselTitle>
                         <S.CarouselAuthor>{post.frontmatter.author}</S.CarouselAuthor>
                         <S.CarouselDescription>{post.frontmatter.description}</S.CarouselDescription>
@@ -72,7 +79,7 @@ export default () => (
                 title
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 1000, quality: 100) {
+                    fluid(maxWidth: 800, quality: 100) {
                       ...GatsbyImageSharpFluid_tracedSVG
                     }
                   }

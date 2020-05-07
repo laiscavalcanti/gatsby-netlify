@@ -7,32 +7,21 @@ export const CarouselWrapper = styled.section`
   display: flex;
   width: 100%;
   .swiper-container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .swiper-slide {
     display: flex;
     flex-direction: row;
-    text-align: center;
     font-size: 18px;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 0;
   }
+
   .slideshow {
     text-align: left;
     width: 100%;
     color: black;
     padding: 0;
-
-    h1.carousel-desc {
-      color: black;
-      font-size: 22px;
-      line-height: 30px;
-      font-weight: 600;
-      margin: 0;
-    }
 
     .swiper-container img {
       width: 100%;
@@ -52,33 +41,33 @@ export const CarouselWrapper = styled.section`
           margin: 0 8px 0 0;
           display: inline-block;
           width: 20px;
-          font-size: 14px;
+          font-size: 20px;
         }
 
         &:first-child:before {
-          content: "01";
+          content: "⦿";
         }
         &:nth-child(2):before {
-          content: "02";
+          content: "⦿";
         }
         &:nth-child(3):before {
-          content: "03";
+          content: "⦿";
         }
         &:nth-child(4):before {
-          content: "04";
+          content: "⦿";
         }
         &:nth-child(5):before {
-          content: "05";
+          content: "⦿";
         }
         &:nth-child(6):before {
-          content: "06";
+          content: "⦿";
         }
         &:nth-child(7):before {
-          content: "07";
+          content: "⦿";
         }
       }
       .swiper-pagination-bullet-active {
-        margin: 0 50px 0 0;
+        margin: 0 30px 0 0;
         position: relative;
         opacity: 1;
 
@@ -100,9 +89,15 @@ export const CarouselWrapper = styled.section`
     }
   }
 `
+export const CarouselLink = styled(Link)`
+  display: flex;
+  width: 100%;
+  color: var(--black);
+  padding: 1rem 0rem 3rem 0rem;
+`
 export const CarouselImage = styled(Img)`
   display: flex;
-  width: 60rem;
+  width: 60%;
   height: 30rem;
 `
 
@@ -110,8 +105,21 @@ export const CarouselInfo = styled.section`
   display: flex;
   flex-direction: column;
   align-content: center;
+  margin: 3rem 0 0 0;
+  width: 40%;
+  font-family: "Montserrat", sans-serif;
+  &:hover {
+    color: var(--backgroundHoverPostItem);
+    transition: opacity 0.6s, transform 0.3s;
+  }
+`
+export const CarouselDate = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   margin: 1rem 0 0 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
   &:hover {
     color: var(--backgroundHoverPostItem);
     transition: opacity 0.6s, transform 0.3s;
@@ -120,7 +128,7 @@ export const CarouselInfo = styled.section`
 export const CarouselTitle = styled.h1`
   display: flex;
   justify-content: center;
-  margin: 4rem 1rem 0rem 0rem;
+  margin: 4rem 1rem 0rem 1rem;
   width: 30rem;
   text-align: center;
   font-family: "Merriweather", serif;
@@ -141,7 +149,7 @@ export const CarouselAuthor = styled.span`
 `
 export const CarouselDescription = styled.span`
   display: flex;
-  margin: 2rem 1rem 0rem 2.5rem;
+  margin: 2rem 1rem 0rem 1rem;
   text-align: center;
   font-size: 1.7rem;
   font-weight: 300;
