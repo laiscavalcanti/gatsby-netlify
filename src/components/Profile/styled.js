@@ -9,6 +9,7 @@ export const ProfileContainer = styled.div`
   ${media.lessThan("large")`
   display: flex;
   flex-direction: column;
+  margin-left: 1rem;
   `}
 `
 export const ContainerLine = styled.div`
@@ -17,6 +18,9 @@ export const ContainerLine = styled.div`
   flex-direction: column;
   margin-top: 0.8rem;
   margin-left: 0.7rem;
+  ${media.lessThan("large")`
+  margin: 0;
+  `}
 `
 export const ProfileAuthor = styled.section`
   display: flex;
@@ -28,6 +32,12 @@ export const ProfileAuthor = styled.section`
   font-family: "Montserrat", sans-serif;
   color: var(--sameColorWhite);
   letter-spacing: 0.1rem;
+  ${media.lessThan("large")`
+
+  margin-top: 0.5rem;
+  margin-left: 0;
+  font-size: 0.5rem;
+  `}
   &::selection {
     color: var(--sameColorBlack);
     background-color: var(--sameColorWhite);

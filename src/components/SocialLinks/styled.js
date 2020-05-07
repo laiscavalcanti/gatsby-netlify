@@ -12,13 +12,15 @@ export const SocialLinksList = styled.nav`
   display: flex;
   ${media.lessThan("large")`
     display: flex;
-    flex-direction: column;
+    margin-bottom: 1.1rem;
+    margin-right: 1rem;
   `}
 `
 export const SocialLinksItem = styled.li`
   margin: 1rem;
   ${media.lessThan("large")`
-    margin: 0.5rem;
+    margin: 0.7rem;
+
   `}
 `
 export const SocialLinksLink = styled.a`
@@ -52,7 +54,7 @@ export const IconWrapper = styled.div`
   width: 25px;
   height: 25px;
   ${media.lessThan("large")`
-    width: 15px;
-    height: 2px;
+    width: 21px;
+    height: 21px;
   `}
 `

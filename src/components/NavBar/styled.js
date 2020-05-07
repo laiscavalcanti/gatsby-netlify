@@ -34,18 +34,30 @@ export const LayoutLink = styled(Link)`
   font-family: "Montserrat", sans-serif;
   display: inline-block;
   position: relative;
-  &:after {
-    margin-bottom: -6px;
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
+  &::after {
     position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    margin-top: 1px;
+    background: var(--sameColorWhite);
+    content: "";
+    opacity: 0;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  &:hover::after,
+  &:focus::after {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    transform: translateY(0px);
   }
 
   &::selection {

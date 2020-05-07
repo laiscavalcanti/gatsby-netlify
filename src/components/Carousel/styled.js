@@ -41,29 +41,30 @@ export const CarouselWrapper = styled.section`
           margin: 0 8px 0 0;
           display: inline-block;
           width: 20px;
-          font-size: 20px;
+          font-size: 50px;
+          color: var(--black);
         }
 
         &:first-child:before {
-          content: "⦿";
+          content: "◦";
         }
         &:nth-child(2):before {
-          content: "⦿";
+          content: "◦";
         }
         &:nth-child(3):before {
-          content: "⦿";
+          content: "◦";
         }
         &:nth-child(4):before {
-          content: "⦿";
+          content: "◦";
         }
         &:nth-child(5):before {
-          content: "⦿";
+          content: "◦";
         }
         &:nth-child(6):before {
-          content: "⦿";
+          content: "⚪";
         }
         &:nth-child(7):before {
-          content: "⦿";
+          content: "⚪";
         }
       }
       .swiper-pagination-bullet-active {
@@ -73,11 +74,11 @@ export const CarouselWrapper = styled.section`
 
         &:after {
           content: "";
-          border-bottom: 1px solid #fff;
-          width: 50px;
+
+          width: 30px;
           position: absolute;
           left: 25px;
-          top: 11px;
+          top: 26px;
         }
         &:last-child {
           margin: 0 8px 0 0;
@@ -120,6 +121,7 @@ export const CarouselDate = styled.div`
   margin: 1rem 0 0 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
+  opacity: 0.7;
   &:hover {
     color: var(--backgroundHoverPostItem);
     transition: opacity 0.6s, transform 0.3s;
@@ -128,7 +130,7 @@ export const CarouselDate = styled.div`
 export const CarouselTitle = styled.h1`
   display: flex;
   justify-content: center;
-  margin: 4rem 1rem 0rem 1rem;
+  margin: 2.5rem 1rem 0rem 1rem;
   width: 30rem;
   text-align: center;
   font-family: "Merriweather", serif;
@@ -151,7 +153,7 @@ export const CarouselDescription = styled.span`
   display: flex;
   margin: 2rem 1rem 0rem 1rem;
   text-align: center;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   line-height: 1.3;

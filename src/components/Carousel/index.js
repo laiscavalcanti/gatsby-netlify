@@ -18,7 +18,6 @@ class Slideshow extends React.Component {
         bullets: true,
         autoplay: {
           delay: 5000,
-          disableOnInteraction: false,
         },
       },
       grabCursor: false,
