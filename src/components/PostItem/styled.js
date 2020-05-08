@@ -10,25 +10,30 @@ export const PostItemLink = styled(AniLink)`
   padding: 1rem 0rem 2rem 3.5rem;
   width: 100%;
   color: var(--black);
+  ${media.lessThan("large")`
+  padding: 0.5rem 0 1rem 1rem;
+`}
 `
 export const PostItemWrapper = styled.div`
   display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
   ${media.lessThan("large")`
-    align-items: flex-start;
-    flex-direction: row;
-    padding: 1rem;
+
   `}
 `
 export const PostItemInfo = styled.div`
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
   max-width: 30rem;
   margin: 0 0 0 1rem;
   font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`
-  margin-left: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    margin: 0 0 0 0.5rem;
   `}
 
   &:hover {
@@ -53,10 +58,8 @@ export const PostItemImg = styled(Img)`
     transform: scale(1.05);
   }
   ${media.lessThan("large")`
-    display: flex;
-    margin-left: 1rem;
-    min-height: 4.5rem;
-    min-width: 4.5rem;
+    min-height: 5rem;
+    min-width: 10.5rem;
   `}
 `
 export const PostItemTitle = styled.h1`
@@ -69,7 +72,8 @@ export const PostItemTitle = styled.h1`
   margin: 0.9rem 0rem 0.9rem 0rem;
   ${media.lessThan("large")`
     font-size: 1rem;
-    line-height: 1.2;
+    line-height: 1.1;
+    margin: 0.5rem 0rem 0.6rem 0rem;
   `}
 `
 export const PostItemAuthor = styled.p`
@@ -80,6 +84,9 @@ export const PostItemAuthor = styled.p`
   text-transform: uppercase;
   font-size: 0.7rem;
   opacity: 0.8;
+  ${media.lessThan("large")`
+  font-size: 0.5rem;
+  `}
 `
 export const PostItemDate = styled.section`
   display: flex;
@@ -87,8 +94,8 @@ export const PostItemDate = styled.section`
   margin: 0.5rem 0.5rem 0rem 0rem;
   font-size: 0.7rem;
   ${media.lessThan("large")`
-    font-size: 0.6rem;
-    margin: 0.8rem 0.5rem 0rem 0.5rem;
+    font-size: 0.5rem;
+    margin: 0.2rem 0.5rem 0rem 0.4rem;
   `}
 `
 export const PostItemDescription = styled.p`

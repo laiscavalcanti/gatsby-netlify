@@ -6,6 +6,12 @@ import Img from "gatsby-image"
 export const CarouselWrapper = styled.section`
   display: flex;
   width: 100%;
+
+  ${media.lessThan("large")`
+    display: flex;
+    flex-direction: column;
+
+`}
   .swiper-container {
     display: flex;
     flex-direction: row;
@@ -16,29 +22,33 @@ export const CarouselWrapper = styled.section`
     width: 100%;
     z-index: 0;
   }
-
+  .swiper-slide .swiper-slide-prev {
+    width: 100%;
+  }
   .slideshow {
+    display: flex;
     text-align: left;
     width: 100%;
     color: black;
     padding: 0;
 
-    .swiper-container img {
+    .swiper-container {
       width: 100%;
     }
 
     .swiper-pagination {
+      bottom: 10px;
+
       .swiper-pagination-bullet {
         background: transparent !important;
         width: auto;
         opacity: 0.5;
-
         &:focus {
           outline: none;
         }
         &:before {
           cursor: pointer;
-          margin: 0 8px 0 0;
+          margin: 0px 8px 0px 0;
           display: inline-block;
           width: 20px;
           font-size: 50px;
@@ -95,11 +105,21 @@ export const CarouselLink = styled(Link)`
   width: 100%;
   color: var(--black);
   padding: 1rem 0rem 3rem 0rem;
+  ${media.lessThan("large")`
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+`}
 `
 export const CarouselImage = styled(Img)`
   display: flex;
   width: 60%;
   height: 30rem;
+  ${media.lessThan("large")`
+    display: flex;
+    width: 100%;
+    height: 20rem;
+`}
 `
 
 export const CarouselInfo = styled.section`
@@ -113,19 +133,26 @@ export const CarouselInfo = styled.section`
     color: var(--backgroundHoverPostItem);
     transition: opacity 0.6s, transform 0.3s;
   }
+  ${media.lessThan("large")`
+    display: flex;
+    width: 100%;
+    margin: 1.5rem 0 0 0;
+`}
 `
 export const CarouselDate = styled.div`
   display: flex;
   flex-direction: column;
-  align-content: center;
+  justify-content: center;
   margin: 1rem 0 0 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   opacity: 0.7;
-  &:hover {
-    color: var(--backgroundHoverPostItem);
-    transition: opacity 0.6s, transform 0.3s;
-  }
+  ${media.lessThan("large")`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 0.8rem;
+`}
 `
 export const CarouselTitle = styled.h1`
   display: flex;
@@ -138,6 +165,14 @@ export const CarouselTitle = styled.h1`
   font-size: 2.7rem;
   font-weight: 700;
   line-height: 50px;
+  ${media.lessThan("large")`
+  display: flex;
+  justify-content: center;
+    width: 100%;
+    margin: 1rem 0.5rem 0 0.5rem;
+    font-size: 1.7rem;
+    line-height: 1.1;
+`}
 `
 export const CarouselAuthor = styled.span`
   display: flex;
@@ -148,6 +183,14 @@ export const CarouselAuthor = styled.span`
   text-transform: uppercase;
   font-size: 0.8rem;
   opacity: 0.7;
+  ${media.lessThan("large")`
+  display: flex;
+  justify-content: center;
+    width: 100%;
+    margin: 1rem 0.5rem 0 0.5rem;
+    font-size: 0.7rem;
+    line-height: 1.1;
+`}
 `
 export const CarouselDescription = styled.span`
   display: flex;
@@ -157,4 +200,12 @@ export const CarouselDescription = styled.span`
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   line-height: 1.3;
+  ${media.lessThan("large")`
+  display: flex;
+  justify-content: center;
+    width: 100%;
+    margin: 1rem 0.5rem 0 0.5rem;
+    font-size: 1rem;
+    line-height: 1.1;
+`}
 `
