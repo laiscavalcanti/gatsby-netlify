@@ -32,8 +32,7 @@ export const PostItemInfo = styled.div`
   ${media.lessThan("large")`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-    margin: 0 0 0 0.5rem;
+    margin: 0rem 0.5rem 0 1rem;
   `}
 
   &:hover {
@@ -96,6 +95,7 @@ export const PostItemDate = styled.section`
   ${media.lessThan("large")`
     font-size: 0.5rem;
     margin: 0.2rem 0.5rem 0rem 0.4rem;
+    display: none;
   `}
 `
 export const PostItemDescription = styled.p`

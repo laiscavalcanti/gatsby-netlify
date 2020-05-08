@@ -14,6 +14,6 @@ export const Line = styled.div`
   border-top: 1px dashed var(--borders);
   margin: 0.5rem 2rem 0rem 2rem;
   ${media.lessThan("large")`
-  margin: 2rem 2rem 0rem 2rem;
+  margin: 0rem 2rem 0rem 2rem;
 `}
 `

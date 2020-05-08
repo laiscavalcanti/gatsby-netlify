@@ -5,16 +5,15 @@ import Img from "gatsby-image"
 
 export const CarouselWrapper = styled.section`
   display: flex;
+  justify-content: center;
   width: 100%;
 
   ${media.lessThan("large")`
     display: flex;
     flex-direction: column;
-
 `}
   .swiper-container {
     display: flex;
-    flex-direction: row;
     font-size: 18px;
     justify-content: center;
     align-items: center;
@@ -22,19 +21,14 @@ export const CarouselWrapper = styled.section`
     width: 100%;
     z-index: 0;
   }
-  .swiper-slide .swiper-slide-prev {
-    width: 100%;
-  }
+
   .slideshow {
     display: flex;
     text-align: left;
     width: 100%;
+    height: 100%;
     color: black;
     padding: 0;
-
-    .swiper-container {
-      width: 100%;
-    }
 
     .swiper-pagination {
       bottom: 10px;
@@ -84,7 +78,6 @@ export const CarouselWrapper = styled.section`
 
         &:after {
           content: "";
-
           width: 30px;
           position: absolute;
           left: 25px;
@@ -104,11 +97,13 @@ export const CarouselLink = styled(Link)`
   display: flex;
   width: 100%;
   color: var(--black);
+  height: 36rem;
   padding: 1rem 0rem 3rem 0rem;
   ${media.lessThan("large")`
     display: flex;
     flex-direction: column;
     padding: 0;
+    height: 40rem;
 `}
 `
 export const CarouselImage = styled(Img)`
@@ -118,7 +113,7 @@ export const CarouselImage = styled(Img)`
   ${media.lessThan("large")`
     display: flex;
     width: 100%;
-    height: 20rem;
+    height: 22rem;
 `}
 `
 
@@ -136,13 +131,15 @@ export const CarouselInfo = styled.section`
   ${media.lessThan("large")`
     display: flex;
     width: 100%;
-    margin: 1.5rem 0 0 0;
+    margin: 1.5rem 0rem 0 0rem;
+    padding: 0 1rem 0 1rem;
 `}
 `
 export const CarouselDate = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   margin: 1rem 0 0 0;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
@@ -150,7 +147,6 @@ export const CarouselDate = styled.div`
   ${media.lessThan("large")`
     display: flex;
     flex-direction: column;
-    width: 100%;
     font-size: 0.8rem;
 `}
 `
@@ -158,7 +154,6 @@ export const CarouselTitle = styled.h1`
   display: flex;
   justify-content: center;
   margin: 2.5rem 1rem 0rem 1rem;
-  width: 30rem;
   text-align: center;
   font-family: "Merriweather", serif;
   line-height: 1.3;
@@ -166,11 +161,9 @@ export const CarouselTitle = styled.h1`
   font-weight: 700;
   line-height: 50px;
   ${media.lessThan("large")`
-  display: flex;
-  justify-content: center;
     width: 100%;
     margin: 1rem 0.5rem 0 0.5rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 1.1;
 `}
 `
@@ -178,15 +171,13 @@ export const CarouselAuthor = styled.span`
   display: flex;
   align-content: center;
   justify-content: center;
+  width: 100%;
   margin: 2rem 0 0 0;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 0.8rem;
   opacity: 0.7;
   ${media.lessThan("large")`
-  display: flex;
-  justify-content: center;
-    width: 100%;
     margin: 1rem 0.5rem 0 0.5rem;
     font-size: 0.7rem;
     line-height: 1.1;
@@ -194,6 +185,7 @@ export const CarouselAuthor = styled.span`
 `
 export const CarouselDescription = styled.span`
   display: flex;
+  width: 100%;
   margin: 2rem 1rem 0rem 1rem;
   text-align: center;
   font-size: 1.4rem;
@@ -201,10 +193,7 @@ export const CarouselDescription = styled.span`
   font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   ${media.lessThan("large")`
-  display: flex;
-  justify-content: center;
-    width: 100%;
-    margin: 1rem 0.5rem 0 0.5rem;
+    margin: 1rem 0.7rem 0 0.7rem;
     font-size: 1rem;
     line-height: 1.1;
 `}

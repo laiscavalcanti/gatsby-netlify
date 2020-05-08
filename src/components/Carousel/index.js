@@ -16,11 +16,8 @@ class Slideshow extends React.Component {
         el: ".swiper-pagination",
         clickable: true,
         bullets: true,
-        autoplay: {
-          delay: 5000,
-        },
       },
-      grabCursor: false,
+      grabCursor: true,
       loop: true,
     }
 
@@ -31,7 +28,7 @@ class Slideshow extends React.Component {
             <Swiper {...params}>
               {posts &&
                 posts.map(({ node: post }) => (
-                  <div key={post.fields.slug}>
+                  <div className="carousel-items" key={post.fields.slug}>
                     <S.CarouselLink to={post.fields.slug}>
                       <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="oi" />
                       <S.CarouselInfo>
