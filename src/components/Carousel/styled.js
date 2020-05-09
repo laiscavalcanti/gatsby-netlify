@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Img from "gatsby-image"
 
 export const CarouselWrapper = styled.section`
@@ -93,7 +93,7 @@ export const CarouselWrapper = styled.section`
     }
   }
 `
-export const CarouselLink = styled(Link)`
+export const CarouselLink = styled(AniLink)`
   display: flex;
   width: 100%;
   color: var(--black);

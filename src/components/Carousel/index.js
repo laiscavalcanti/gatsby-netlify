@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { graphql, StaticQuery } from "gatsby"
 import Swiper from "react-id-swiper"
 import "swiper/css/swiper.css"
+import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
 
@@ -29,7 +30,7 @@ class Slideshow extends React.Component {
               {posts &&
                 posts.map(({ node: post }) => (
                   <div className="carousel-items" key={post.fields.slug}>
-                    <S.CarouselLink to={post.fields.slug}>
+                    <S.CarouselLink to={post.fields.slug} cover direction="right" duration={0.5} bg={getThemeColor()}>
                       <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="oi" />
                       <S.CarouselInfo>
                         <S.CarouselDate>

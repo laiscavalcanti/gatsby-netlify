@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const LayoutNav = styled.nav`
   display: flex;
@@ -26,7 +26,7 @@ export const LayoutList = styled.li`
 
   `}
 `
-export const LayoutLink = styled(Link)`
+export const LayoutLink = styled(AniLink)`
   color: var(--sameColorWhite);
   letter-spacing: 0rem;
   font-size: 1rem;

@@ -19,7 +19,11 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        imagePost={post.frontmatter.imagePost}
+      />
       <PostImage imagePost={post.frontmatter.imagePost} />
       <S.PostHeader>
         <S.PostDate>
