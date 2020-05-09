@@ -124,16 +124,16 @@ export const CarouselInfo = styled.section`
   margin: 3rem 0 0 0;
   width: 40%;
   font-family: "Montserrat", sans-serif;
-  &:hover {
-    color: var(--backgroundHoverPostItem);
-    transition: opacity 0.6s, transform 0.3s;
-  }
   ${media.lessThan("large")`
     display: flex;
     width: 100%;
     margin: 1.5rem 0rem 0 0rem;
     padding: 0 1rem 0 1rem;
 `}
+  &:hover {
+    color: var(--backgroundSelection);
+    transition: opacity 0.6s, transform 0.3s;
+  }
 `
 export const CarouselDate = styled.div`
   display: flex;

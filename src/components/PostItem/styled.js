@@ -12,6 +12,7 @@ export const PostItemLink = styled(AniLink)`
   color: var(--black);
   ${media.lessThan("large")`
   padding: 0.5rem 0 1rem 1rem;
+  margin-top: 2rem;
 `}
 `
 export const PostItemWrapper = styled.div`

@@ -7,6 +7,8 @@ export const PostImage = styled(Img)`
   width: 100%;
   height: 20rem;
   ${media.lessThan("large")`
-    display: none;
-    `}
+    display: flex;
+    width: 100%;
+    height: 22rem;
+`}
 `

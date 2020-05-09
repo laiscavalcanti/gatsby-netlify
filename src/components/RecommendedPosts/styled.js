@@ -7,6 +7,12 @@ export const RecommendedWrapper = styled.section`
   border-top: 1px dashed var(--black);
   margin: 0 8rem 0 8rem;
   background-color: var(--background-color);
+  ${media.lessThan("large")`
+    line-height: 1;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    margin: 0 0.5rem 0 0.5rem;
+  `}
 `
 export const RecommendedLink = styled(Link)`
   align-items: center;
@@ -23,18 +29,26 @@ export const RecommendedLink = styled(Link)`
   }
 
   ${media.lessThan("large")`
+  widht: 100%;
     line-height: 1.3;
     font-size: 0.8rem;
-    padding: 0.5rem 1rem 1rem 1rem;
-    margin-bottom: 2rem;
+    padding: 0;
+    margin-left: 1rem;
   `}
 
   &.previous {
     margin-left: 3rem;
+    ${media.lessThan("large")`
+      margin-left: 0rem;
+  `}
   }
   &.next {
     justify-content: flex-end;
     margin-right: 3rem;
+
+    ${media.lessThan("large")`
+      margin-right: 0rem;
+  `}
   }
   &.previous:before {
     content: "\\2190";

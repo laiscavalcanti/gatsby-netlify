@@ -15,6 +15,7 @@ export const SideBarWrapper = styled.ul`
   ${media.lessThan("large")`
    display: flex;
    flex-direction: column;
+   height: 5rem;
    margin: 0;
   `}
 `
@@ -99,11 +100,13 @@ export const NavWrapper = styled.nav`
 `
 export const LogoItem = styled(Link)`
   display: flex;
+  width: 60%;
   margin: 0.5rem 0rem 0.5rem 4rem;
   ${media.lessThan("large")`
    display: flex;
+   width: 60%;
    flex-direction: column;
-   margin: 0.7rem 0 0 0;
+   margin: 0.7rem 0rem 0 0;
   `}
 `
 export const WrapperButtonTheme = styled.section`

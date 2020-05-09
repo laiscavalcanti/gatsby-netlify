@@ -12,6 +12,11 @@ export const PaginationWrapper = styled.section`
   background-color: var(--background-color);
   justify-content: space-between;
   align-content: flex-end;
+  ${media.lessThan("large")`
+      padding: 0.5rem 0 0 0.5rem;
+      margin: 0 0.5rem 0 0.5rem;
+      font-size: 0.8rem;
+  `}
   &::selection {
     color: var(--colorSelection);
     background: var(--backgroundSelection);
@@ -23,9 +28,5 @@ export const PaginationWrapper = styled.section`
     &:hover {
       color: var(--backgroundMenuBar);
     }
-    ${media.lessThan("large")`
-      padding: 0.5rem 0.5rem;
-      font-size: 0.8rem;
-  `}
   }
 `

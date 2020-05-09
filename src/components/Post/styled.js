@@ -9,8 +9,8 @@ export const PostHeader = styled.header`
   margin-left: 16rem;
   max-width: 50rem;
   ${media.lessThan("large")`
-  margin-top: 2rem;
-    padding: 5rem 0 0;
+  margin: 0.5rem 1rem 1rem 1rem;
+    padding: 1rem 0 0;
     max-width: 100%;
   `}
 `
@@ -53,8 +53,8 @@ export const PostTitle = styled.h1`
     font-size: 2.8rem;
     line-height: 1.1;
     padding: 0 1rem;
-    font-size: 1.5rem;
-  `}
+    font-size: 1.7rem;
+    margin: 1rem 0 1rem  0;  `}
 `
 export const PostDescription = styled.h2`
   margin: 0.4rem 1rem 0 1rem;
@@ -97,8 +97,9 @@ export const PostDate = styled.p`
     opacity: 1;
     text-align: start;
     margin: 0;
-    padding: 0 1rem;
+    padding: 0.5rem;
     font-size: 0.7rem;
+    margin-left: 1rem;
   `}
 `
 export const IconWrapper = styled.div`
