@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, imagePost }) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -22,7 +22,7 @@ function SEO({ description, lang, meta, title, imagePost }) {
   const metaDescription = description || site.siteMetadata.description
 
   const url = site.siteMetadata.siteUrl
-  const ogImagePost = `${url}${imagePost || "static/assets/img/house.png"}`
+  const ogImage = `${url}${image || "static/assets/img/house.png"}`
   return (
     <Helmet
       htmlAttributes={{
@@ -45,7 +45,7 @@ function SEO({ description, lang, meta, title, imagePost }) {
         },
         {
           name: `og:imagePost`,
-          content: ogImagePost,
+          content: ogImage,
         },
         {
           property: `og:type`,
@@ -56,12 +56,12 @@ function SEO({ description, lang, meta, title, imagePost }) {
           content: `summary_large_image`,
         },
         {
-          name: `twitter:card`,
-          content: `summary_large_image`,
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
         },
         {
           name: `twitter:image:src`,
-          content: ogImagePost,
+          content: ogImage,
         },
         {
           name: `twitter:title`,
@@ -69,6 +69,26 @@ function SEO({ description, lang, meta, title, imagePost }) {
         },
         {
           name: `twitter:description`,
+          content: metaDescription,
+        },
+        {
+          name: `facebook:card`,
+          content: `summary_large_image`,
+        },
+        {
+          name: `facebook:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `facebook:image:src`,
+          content: ogImage,
+        },
+        {
+          name: `facebook:title`,
+          content: title,
+        },
+        {
+          name: `facebook:description`,
           content: metaDescription,
         },
       ].concat(meta)}

@@ -60,5 +60,4 @@ export const IconLight = styled.div`
     margin: 0;
   `}
 `
-
 export default ButtonTheme

@@ -1,12 +1,10 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import PostItem from "../components/PostItem"
 
-const AllTags = ({ props, pageContext }) => {
+const AllTags = ({ pageContext }) => {
   console.log(pageContext)
-  const { posts, tagName } = pageContext
+
   return <Layout></Layout>
 }
 

@@ -9,14 +9,16 @@
     "babel-plugin-styled-components": "^1.10.7",
     "components": "^0.1.0",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.20.12",
+    "gatsby": "^2.21.21",
     "gatsby-background-image": "^1.0.1",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-algolia-search": "^0.5.7",
     "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-mdx": "^1.2.5",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-sitemap": "^2.4.2",
     "gatsby-plugin-styled-components": "^3.2.1",
     "gatsby-plugin-transition-link": "^1.18.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
@@ -43,6 +45,10 @@
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "eslint": "^7.0.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-loader": "^4.0.2",
+    "gatsby-plugin-eslint": "^2.0.8",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -56,7 +62,11 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:css": "stylelint './src/**/*.js'",
+    "lint:js": "eslint ./src/",
+    "lint:fix": "eslint ./src/ --fix"
   },
   "repository": {
     "type": "git",

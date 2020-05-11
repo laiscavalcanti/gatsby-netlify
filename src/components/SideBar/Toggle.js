@@ -13,7 +13,15 @@ class MenuToggle extends Component {
   }
 
   render() {
-    return <div onClick={this.handleClick} className="menu-toggle"></div>
+    return (
+      <div
+        role="button"
+        tabIndex={0}
+        onClick={this.handleClick}
+        onKeyDown={this.handleClick}
+        className="menu-toggle"
+      ></div>
+    )
   }
 }
 

@@ -10,7 +10,7 @@ const Logo = () => {
     <>
       <S.LogoWrapper>
         <AniLink to="/" cover direction="left" duration={0.5} bg={getThemeColor()}>
-          <img src={logoSVG} />
+          <img src={logoSVG} alt="logo" />
         </AniLink>
       </S.LogoWrapper>
     </>

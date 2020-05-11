@@ -5,7 +5,6 @@ import Layout from "../components/Layout"
 import PostItem from "../components/PostItem"
 import SEO from "../components/seo"
 import Pagination from "../components/Pagination"
-//import PostFeatured from "../components/PostFeatured"
 import { GridWrapper, Line } from "../components/GridPost/styled"
 import Slideshow from "../components/Carousel"
 
