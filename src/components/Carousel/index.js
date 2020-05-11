@@ -76,7 +76,7 @@ export default () => (
                 title
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 800, quality: 100) {
+                    fluid(maxWidth: 800, quality: 60) {
                       ...GatsbyImageSharpFluid_tracedSVG
                     }
                   }

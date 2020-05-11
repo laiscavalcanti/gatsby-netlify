@@ -6,7 +6,7 @@ module.exports = {
     title: `Subsidiário`,
     description: `Sou um homem que graças a Deus não tem ideais, nem quer tê-las, e nem razão em nada tem. (H. Sales)`,
     author: `Cícero Marra`,
-    siteUrl: `https://subsidiario.com.br`,
+    siteUrl: `https://subsidiario.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,

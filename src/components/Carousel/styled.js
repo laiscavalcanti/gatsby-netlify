@@ -128,7 +128,7 @@ export const CarouselInfo = styled.section`
     display: flex;
     width: 100%;
     margin: 1.5rem 0.5rem 0 0.5rem;
-    padding: 0 2rem 0 1rem;
+    padding: 0 3rem 0 1rem;
 `}
   &:hover {
     color: var(--backgroundSelection);
