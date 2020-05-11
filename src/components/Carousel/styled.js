@@ -127,8 +127,8 @@ export const CarouselInfo = styled.section`
   ${media.lessThan("large")`
     display: flex;
     width: 100%;
-    margin: 1.5rem 0rem 0 0rem;
-    padding: 0 1rem 0 1rem;
+    margin: 1.5rem 0.5rem 0 0.5rem;
+    padding: 0 2rem 0 1rem;
 `}
   &:hover {
     color: var(--backgroundSelection);
@@ -162,7 +162,7 @@ export const CarouselTitle = styled.h1`
   line-height: 50px;
   ${media.lessThan("large")`
     width: 100%;
-    margin: 1rem 0.5rem 0 0.5rem;
+    margin: 1rem 0.5rem 0 0.3rem;
     font-size: 1.5rem;
     line-height: 1.1;
 `}
@@ -178,7 +178,7 @@ export const CarouselAuthor = styled.span`
   font-size: 0.8rem;
   opacity: 0.7;
   ${media.lessThan("large")`
-    margin: 1rem 0.5rem 0 0.5rem;
+    margin: 1rem 0.5rem 0 0.3rem;
     font-size: 0.7rem;
     line-height: 1.1;
 `}
@@ -193,7 +193,7 @@ export const CarouselDescription = styled.span`
   font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   ${media.lessThan("large")`
-    margin: 1rem 0.7rem 0 0.7rem;
+    margin: 1rem 0.5rem 0 0.3rem;
     font-size: 1rem;
     line-height: 1.1;
 `}
