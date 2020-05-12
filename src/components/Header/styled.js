@@ -4,12 +4,13 @@ import { Link } from "gatsby"
 
 export const SideBarWrapper = styled.ul`
   display: flex;
+  padding-left: 16rem;
   left: 0;
   top: 0;
   right: 0;
   z-index: 1;
   width: 100%;
-  height: 6rem;
+  height: 5.7rem;
   position: fixed;
   background-color: var(--color);
   ${media.lessThan("large")`
@@ -17,6 +18,7 @@ export const SideBarWrapper = styled.ul`
    flex-direction: column;
    height: 5rem;
    margin: 0;
+   padding: 0;
   `}
 `
 export const NavWrapper = styled.nav`
@@ -100,7 +102,7 @@ export const NavWrapper = styled.nav`
 `
 export const LogoItem = styled(Link)`
   display: flex;
-  width: 60%;
+
   margin: 0.5rem 0rem 0.5rem 4rem;
   ${media.lessThan("large")`
    display: flex;

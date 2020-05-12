@@ -73,7 +73,7 @@ export const PostItemTitle = styled.h1`
   ${media.lessThan("large")`
     font-size: 1rem;
     line-height: 1.1;
-    margin: 0.5rem 0rem 0.6rem 0rem;
+    margin: 0.1rem 0rem 0.6rem 0rem;
   `}
 `
 export const PostItemAuthor = styled.p`
@@ -94,8 +94,6 @@ export const PostItemDate = styled.section`
   margin: 0.5rem 0.5rem 0rem 0rem;
   font-size: 0.7rem;
   ${media.lessThan("large")`
-    font-size: 0.5rem;
-    margin: 0.2rem 0.5rem 0rem 0.4rem;
     display: none;
   `}
 `
@@ -110,5 +108,6 @@ export const PostItemDescription = styled.p`
   line-height: 1.3;
   ${media.lessThan("large")`
     font-size: 0.8rem;
+    margin: 0.5rem 0 0 0;
   `}
 `

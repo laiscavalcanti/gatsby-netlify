@@ -17,7 +17,7 @@ export const SocialLinksList = styled.nav`
   `}
 `
 export const SocialLinksItem = styled.li`
-  margin: 1rem;
+  margin: 0.8rem 0.5rem 0.8rem 0.5rem;
   ${media.lessThan("large")`
     margin: 0.7rem;
 
@@ -28,25 +28,7 @@ export const SocialLinksLink = styled.a`
   transition: color 0.5s;
   transition: transform 0.2s;
   &:hover {
-    font-size: 36px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0;
-    transition: all 0.2s ease-in-out;
-    position: relative;
-    &:before,
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: -5px;
-      width: 0px;
-      height: 5px;
-      margin: 3px 0 0;
-      transition: all 0.2s ease-in-out;
-      transition-duration: 0.75s;
-      opacity: 0;
-      background-color: darken(orange, 5%);
-    }
+    color: var(--color);
   }
 `
 export const IconWrapper = styled.div`

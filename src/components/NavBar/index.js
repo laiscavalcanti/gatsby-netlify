@@ -8,14 +8,7 @@ const NavBar = () => {
     <S.LayoutNav>
       {links.map((link, i) => (
         <S.LayoutList key={i}>
-          <S.LayoutLink
-            to={link.url}
-            activeClassName="active"
-            cover
-            direction="right"
-            duration={0.5}
-            bg={getThemeColor}
-          >
+          <S.LayoutLink to={link.url} activeClassName="active" direction="right" duration={0.5} bg={getThemeColor()}>
             {link.label}
             {link.icon}
           </S.LayoutLink>

@@ -110,7 +110,7 @@ export const CarouselLink = styled(AniLink)`
   width: 100%;
   color: var(--black);
   height: 36rem;
-  padding: 1rem 0rem 3rem 0rem;
+  padding: 0.5rem 0rem 3rem 0rem;
   ${media.lessThan("large")`
     display: flex;
     flex-direction: column;
@@ -140,7 +140,7 @@ export const CarouselInfo = styled.section`
     display: flex;
     width: 100%;
     margin: 1.5rem 0.5rem 0 0.5rem;
-    padding: 0 3rem 0 1rem;
+    padding: 0 3rem 0 1.5rem;
 `}
   &:hover {
     color: var(--backgroundSelection);
@@ -197,15 +197,15 @@ export const CarouselAuthor = styled.span`
 `
 export const CarouselDescription = styled.span`
   display: flex;
-  width: 100%;
-  margin: 2rem 1rem 0rem 1rem;
+  justify-content: center;
+  margin: 2.5rem 2rem 0rem 2rem;
   text-align: center;
   font-size: 1.4rem;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   ${media.lessThan("large")`
-    margin: 1rem 0.5rem 0 0.3rem;
+    margin: 1rem 1rem 0 1rem;
     font-size: 1rem;
     line-height: 1.1;
 `}

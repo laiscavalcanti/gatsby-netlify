@@ -17,7 +17,6 @@ export const ContainerLine = styled.div`
   justify-content: center;
   flex-direction: column;
   margin-top: 0.8rem;
-  margin-left: 0.7rem;
   ${media.lessThan("large")`
   margin: 0;
   `}
@@ -33,7 +32,6 @@ export const ProfileAuthor = styled.section`
   color: var(--sameColorWhite);
   letter-spacing: 0.1rem;
   ${media.lessThan("large")`
-
   margin-top: 0.5rem;
   margin-left: 0;
   font-size: 0.5rem;

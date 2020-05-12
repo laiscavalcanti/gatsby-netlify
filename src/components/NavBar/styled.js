@@ -18,7 +18,8 @@ export const LayoutList = styled.li`
   margin: 0.7rem;
   padding-top: 0rem;
   .active {
-    color: var(--sameColorBlack);
+    color: var(--sameColorWhite);
+    opacity: 0.6;
   }
   ${media.lessThan("large")`
    display: flex;
@@ -32,32 +33,33 @@ export const LayoutLink = styled(AniLink)`
   font-size: 1rem;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  display: inline-block;
+  display: block;
   position: relative;
-  &::after {
+  &:after,
+  &:before {
+    transition: all 0.5s;
+  }
+  &:hover {
+    color: var(--sameColorWhite);
+    box-shadow: yellow;
+  }
+  &:after {
     position: absolute;
-    top: 100%;
+    bottom: 0;
     left: 0;
-    width: 100%;
-    height: 2px;
-    margin-top: 1px;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: ".";
+    color: transparent;
     background: var(--sameColorWhite);
-    content: "";
-    opacity: 0;
-    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-    -moz-transition: opacity 0.3s, -moz-transform 0.3s;
-    transition: opacity 0.3s, transform 0.3s;
-    -webkit-transform: translateY(10px);
-    -moz-transform: translateY(10px);
-    transform: translateY(10px);
+    opacity: 0.8;
+    height: 2px;
+    top: 20px;
   }
 
-  &:hover::after,
-  &:focus::after {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-    -moz-transform: translateY(0px);
-    transform: translateY(0px);
+  &:hover:after {
+    width: 100%;
   }
 
   &::selection {
