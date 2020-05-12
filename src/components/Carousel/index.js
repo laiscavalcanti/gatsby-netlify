@@ -12,15 +12,25 @@ class Slideshow extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
-    const params = {
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        bullets: true,
-      },
-      grabCursor: true,
-      loop: true,
-    }
+    const params =
+      (".swiper-container",
+      {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 4500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        loop: true,
+      })
 
     return (
       <S.CarouselWrapper>
@@ -31,7 +41,7 @@ class Slideshow extends React.Component {
                 posts.map(({ node: post }) => (
                   <div className="carousel-items" key={post.fields.slug}>
                     <S.CarouselLink to={post.fields.slug} cover direction="right" duration={0.5} bg={getThemeColor()}>
-                      <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="oi" />
+                      <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="pictures-slide" />
                       <S.CarouselInfo>
                         <S.CarouselDate>
                           {post.frontmatter.date} - {post.frontmatter.tags}

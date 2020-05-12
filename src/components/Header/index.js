@@ -12,7 +12,7 @@ const handleClick = event => {
   event.target.parentNode.classList.toggle("toggle")
 }
 
-const SideBar = () => {
+const Header = () => {
   return (
     <S.SideBarWrapper>
       <S.LogoItem>
@@ -29,4 +29,4 @@ const SideBar = () => {
   )
 }
 
-export default SideBar
+export default Header

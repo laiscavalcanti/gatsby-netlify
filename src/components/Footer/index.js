@@ -4,7 +4,7 @@ import * as S from "./styled"
 import Profile from "../Profile"
 import SocialLinks from "../SocialLinks"
 
-const MenuBar = () => {
+const Footer = () => {
   return (
     <S.MenuBarWrapper>
       <S.MenuBarGroup>
@@ -21,4 +21,4 @@ const MenuBar = () => {
   )
 }
 
-export default MenuBar
+export default Footer

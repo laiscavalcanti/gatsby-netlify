@@ -30,6 +30,18 @@ export const CarouselWrapper = styled.section`
     color: black;
     padding: 0;
 
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #900020;
+      opacity: 0.5;
+      cursor: pointer;
+      ${media.lessThan("large")`
+        width: 20px;
+        height: 20px;
+        top: 30%;
+`}
+    }
+
     .swiper-pagination {
       bottom: 10px;
 
