@@ -4,7 +4,8 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Subsidiário`,
-    description: `Sou um homem que graças a Deus não tem ideais, nem quer tê-las, e nem razão em nada tem. (H. Sales)`,
+    description: `Sou um homem que não tem ideias, nem quer tê-las,
+    e nem razão em nada tem. `,
     author: `Cícero Marra`,
     siteUrl: `https://subsidiario.netlify.app/`,
   },

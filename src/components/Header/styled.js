@@ -27,7 +27,7 @@ export const NavWrapper = styled.nav`
   justify-content: space-between;
   width: 100%;
   .menu-toggle {
-    margin-top: 1rem;
+    margin: 0.7rem 1.2rem 0;
     cursor: pointer;
     display: none;
     position: fixed;

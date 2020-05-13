@@ -77,10 +77,10 @@ export const CarouselWrapper = styled.section`
           content: "◦";
         }
         &:nth-child(6):before {
-          content: "⚪";
+          content: "◦";
         }
         &:nth-child(7):before {
-          content: "⚪";
+          content: "◦";
         }
       }
       .swiper-pagination-bullet-active {

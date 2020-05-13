@@ -33,7 +33,7 @@ export const PostTag = styled(Link)`
   }
   ${media.lessThan("large")`
     opacity: 1;
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   `}
 `
 export const PostTitle = styled.h1`
@@ -121,9 +121,7 @@ export const Icon = styled.div`
   opacity: 0.7;
   cursor: pointer;
   ${media.lessThan("large")`
-    opacity: 1;
-    width: 15px;
-    height: 15px;
+
   `}
 `
 export const IconArrowWrapper = styled.div`

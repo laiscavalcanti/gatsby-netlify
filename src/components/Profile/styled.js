@@ -3,7 +3,7 @@ import media from "styled-media-query"
 
 export const ProfileContainer = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
   ${media.lessThan("large")`
@@ -43,7 +43,7 @@ export const ProfileAuthor = styled.section`
 `
 export const ProfileDescription = styled.p`
   font-family: "Montserrat", sans-serif;
-  max-width: 25rem;
+  max-width: 22rem;
   margin-top: 0.4rem;
   margin-left: 0.5rem;
   text-align: left;

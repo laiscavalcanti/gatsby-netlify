@@ -8,7 +8,6 @@ export const MenuBarWrapper = styled.aside`
   justify-content: center;
   height: 6.5rem;
   width: 100%;
-  padding: 0;
   background-color: var(--sameColorBlack);
   ${media.lessThan("large")`
   display: flex;
@@ -19,6 +18,7 @@ export const MenuBarWrapper = styled.aside`
 `
 export const MenuBarGroup = styled.div`
   display: flex;
+  margin: 0 1.5rem 0 1.5rem;
   ${media.lessThan("large")`
     flex-direction: row;
   `}

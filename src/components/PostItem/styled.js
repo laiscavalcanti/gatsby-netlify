@@ -67,9 +67,10 @@ export const PostItemTitle = styled.h1`
   justify-content: flex-start;
   text-align: left;
   font-family: "Merriweather", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 700;
-  margin: 0.9rem 0rem 0.9rem 0rem;
+  line-height: 1.2;
+  margin: 0.7rem 0rem 0.9rem 0rem;
   ${media.lessThan("large")`
     font-size: 1rem;
     line-height: 1.1;
