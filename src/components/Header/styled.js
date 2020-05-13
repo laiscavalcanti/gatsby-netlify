@@ -27,6 +27,7 @@ export const NavWrapper = styled.nav`
   justify-content: space-between;
   width: 100%;
   .menu-toggle {
+    display: block;
     margin: 0.7rem 1.7rem 0;
     cursor: pointer;
     display: none;
@@ -37,8 +38,10 @@ export const NavWrapper = styled.nav`
     height: 3px;
     background: white;
     border-radius: 15px;
+    -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     &::after {
+      display: block;
       content: "";
       position: absolute;
       right: 0;
@@ -48,9 +51,12 @@ export const NavWrapper = styled.nav`
       background: white;
       border-radius: 15px;
       transform-origin: right;
+      -webkit-transform-origin: right;
       transform: scaleX(0.8);
+      -webkit-transform: scaleX(0.8);
     }
     &::before {
+      display: block;
       content: "";
       position: absolute;
       right: 0;
@@ -61,6 +67,7 @@ export const NavWrapper = styled.nav`
       border-radius: 15px;
       transform-origin: right;
       transform: scaleX(0.8);
+      -webkit-transform: scaleX(0.8);
     }
   }
   ${media.lessThan("large")`
@@ -75,7 +82,9 @@ export const NavWrapper = styled.nav`
     bottom: 0;
     width: 100%;
     transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
     transition: transform 0.3s ease;
+    -webkit-transition: transform 0.3s ease;
     will-change: transform;
     background-color: var(--color);
     a {
@@ -83,14 +92,17 @@ export const NavWrapper = styled.nav`
     }
     &.toggle {
       transform: translateY(0);
+      -webkit-transition: translateY(0);
     }
     .menu-toggle {
       display: block;
       &.toggle {
         top: 30px;
         transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
         &::after {
           transform: scaleX(1) rotate(90deg) translate(25%, 490%);
+          -webkit-transform: scaleX(1) rotate(90deg) translate(25%, 490%);
         }
         &::before {
           opacity: 0;

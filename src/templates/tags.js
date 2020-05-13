@@ -14,6 +14,7 @@ const Tags = ({ data }) => {
           ({
             node: {
               frontmatter: {
+                author,
                 tags,
                 background,
                 date,
@@ -28,6 +29,7 @@ const Tags = ({ data }) => {
             },
           }) => (
             <PostItem
+              author={author}
               slug={slug}
               background={background}
               tags={tags}
@@ -60,6 +62,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            author
             title
             date(formatString: "MMMM DD, YYYY")
             description
