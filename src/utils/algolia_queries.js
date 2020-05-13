@@ -23,7 +23,6 @@ const postQuery = `{
                 }
               }
             }
-            excerpt(pruneLength: 5000)
           }
         }
       }

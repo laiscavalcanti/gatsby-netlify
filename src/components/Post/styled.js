@@ -33,7 +33,7 @@ export const PostTag = styled(Link)`
   }
   ${media.lessThan("large")`
     opacity: 1;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   `}
 `
 export const PostTitle = styled.h1`
@@ -115,20 +115,21 @@ export const IconWrapper = styled.div`
 `
 export const Icon = styled.div`
   margin-right: 0.5rem;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   color: var(--black);
   opacity: 0.7;
   cursor: pointer;
   ${media.lessThan("large")`
-
+  width: 25px;
+  height: 25px;
   `}
 `
 export const IconArrowWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
   max-width: 65rem;
-  padding: 1rem 0rem 2rem 18rem;
+  padding: 1rem 0.5rem 2rem 18rem;
 `
 export const MainContent = styled.article`
   max-width: 65rem;
