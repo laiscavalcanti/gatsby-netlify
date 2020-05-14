@@ -18,7 +18,8 @@ export const ContainerLine = styled.div`
   flex-direction: column;
   margin-top: 0.8rem;
   ${media.lessThan("large")`
-  margin: 0;
+  width: 5rem;
+  margin: 0 0rem 0 0rem;
   `}
 `
 export const ProfileAuthor = styled.section`

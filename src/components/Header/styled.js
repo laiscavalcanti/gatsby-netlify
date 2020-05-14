@@ -27,10 +27,8 @@ export const NavWrapper = styled.nav`
   justify-content: space-between;
   width: 100%;
   .menu-toggle {
-    display: block;
     margin: 0.7rem 1.7rem 0;
     cursor: pointer;
-    display: none;
     position: fixed;
     right: 10px;
     top: calc(100vh + 30px);
@@ -41,7 +39,6 @@ export const NavWrapper = styled.nav`
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     &::after {
-      display: block;
       content: "";
       position: absolute;
       right: 0;
@@ -56,7 +53,6 @@ export const NavWrapper = styled.nav`
       -webkit-transform: scaleX(0.8);
     }
     &::before {
-      display: block;
       content: "";
       position: absolute;
       right: 0;

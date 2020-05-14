@@ -13,7 +13,7 @@ export const SocialLinksList = styled.nav`
   ${media.lessThan("large")`
     display: flex;
     margin-bottom: 1.1rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
   `}
 `
 export const SocialLinksItem = styled.li`

@@ -11,8 +11,7 @@ export const MenuBarWrapper = styled.aside`
   background-color: var(--sameColorBlack);
   ${media.lessThan("large")`
   display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
+  justify-content: flex-start;
   height: 5.5rem;
   `}
 `
@@ -21,6 +20,7 @@ export const MenuBarGroup = styled.div`
   margin: 0 1.5rem 0 1.5rem;
   ${media.lessThan("large")`
     flex-direction: row;
+    margin: 0;
   `}
 `
 export const MenuBarLink = styled(Link)`
