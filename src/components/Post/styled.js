@@ -7,7 +7,7 @@ export const PostHeader = styled.header`
   flex-direction: column;
   padding: 1rem 0 1rem 0rem;
   margin-left: 16rem;
-  max-width: 50rem;
+  max-width: 48.4rem;
   ${media.lessThan("large")`
   margin: 0.5rem 1rem 1rem 1rem;
     padding: 1rem 0 0;
@@ -38,7 +38,8 @@ export const PostTag = styled(Link)`
 `
 export const PostTitle = styled.h1`
   text-align: end;
-  margin: 1rem;
+  margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 0 1rem 0 1rem;
   font-family: "Merriweather", sans-serif;
   font-size: 3rem;
   font-weight: 700;
@@ -57,7 +58,8 @@ export const PostTitle = styled.h1`
     margin: 1rem 0 1rem  0;  `}
 `
 export const PostDescription = styled.h2`
-  margin: 0.4rem 1rem 0 1rem;
+  margin: 1.2rem 0.5rem 0 0.5rem;
+  padding: 0 1rem 0 1rem;
   letter-spacing: 0rem;
   font-weight: 100;
   line-height: 1.5;
@@ -82,6 +84,8 @@ export const PostDescription = styled.h2`
   `}
 `
 export const PostDate = styled.p`
+  margin: 0.4rem 0.5rem 0 0.5rem;
+  padding: 0 1rem 0 0rem;
   color: var(--black);
   font-size: 0.9rem;
   font-weight: 100;
@@ -132,7 +136,7 @@ export const IconArrowWrapper = styled.div`
   padding: 1rem 0.5rem 2rem 18rem;
 `
 export const MainContent = styled.article`
-  max-width: 65rem;
+  max-width: 64.5rem;
   padding: 1rem 0rem 2rem 18rem;
   text-align: justify;
   ${media.lessThan("large")`

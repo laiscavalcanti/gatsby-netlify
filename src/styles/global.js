@@ -33,7 +33,7 @@ body{
     --sameColorBlack: #191919;
     --sameColorWhite: #fff;
     --borders: #222;
-    --texts: #222;
+    --texts: #000000;
     --color: #900020;
     --background-color: #00000;
     --black:#222;

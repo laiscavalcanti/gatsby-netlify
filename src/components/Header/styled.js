@@ -26,6 +26,7 @@ export const NavWrapper = styled.nav`
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  position: relative;
   .menu-toggle {
     margin: 0.7rem 1.7rem 0;
     cursor: pointer;

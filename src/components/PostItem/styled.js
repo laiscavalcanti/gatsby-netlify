@@ -7,7 +7,7 @@ export const PostItemLink = styled(AniLink)`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 0rem 2rem 3.5rem;
+  padding: 1rem 1rem 2rem 0rem;
   width: 100%;
   color: var(--black);
   ${media.lessThan("large")`
@@ -27,7 +27,7 @@ export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 30rem;
+  max-width: 20.5rem;
   margin: 0 0 0 1rem;
   font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`
@@ -43,7 +43,7 @@ export const PostItemInfo = styled.div`
 `
 export const PostItemImg = styled(Img)`
   display: flex;
-  height: 10rem;
+  height: 11.5rem;
   width: 22.5rem;
   -webkit-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
