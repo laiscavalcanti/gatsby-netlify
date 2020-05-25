@@ -1,15 +1,14 @@
 import React from "react"
 
-import PostItem from "../PostItem"
+import PostItemSearch from "../PostItemSearch"
 
 const Hit = ({ hit }) => (
-  <PostItem
+  <PostItemSearch
     slug={hit.fields.slug}
     date={hit.date}
     title={hit.title}
     description={hit.description}
     tags={hit.tags}
-    image={hit.image}
   />
 )
 

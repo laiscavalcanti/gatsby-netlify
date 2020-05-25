@@ -18,12 +18,13 @@ const Header = () => {
       <S.LogoItem>
         <Logo />
       </S.LogoItem>
-
-      <MenuToggle />
-      <NavBar onClick={handleClick} />
-      <S.WrapperButtonTheme>
-        <ButtonTheme onClick={handleClick} />
-      </S.WrapperButtonTheme>
+      <S.NavWrapper>
+        <MenuToggle />
+        <NavBar onClick={handleClick} />
+        <S.WrapperButtonTheme>
+          <ButtonTheme onClick={handleClick} />
+        </S.WrapperButtonTheme>
+      </S.NavWrapper>
     </S.SideBarWrapper>
   )
 }

@@ -16,7 +16,6 @@ const Tags = ({ data }) => {
               frontmatter: {
                 author,
                 tags,
-                background,
                 date,
                 description,
                 title,
@@ -31,7 +30,6 @@ const Tags = ({ data }) => {
             <PostItem
               author={author}
               slug={slug}
-              background={background}
               tags={tags}
               date={date}
               timeToRead={timeToRead}
