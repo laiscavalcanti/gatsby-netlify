@@ -33,7 +33,7 @@ export const SearchWrapper = styled.section`
     display: flex;
     font-size: 1.6rem;
     padding: 0.5rem;
-    width: 40.5rem;
+    width: 38.2rem;
     margin: 0 auto;
     &::placeholder {
       color: var(--backgroundSelection);
