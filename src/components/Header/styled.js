@@ -10,7 +10,7 @@ export const SideBarWrapper = styled.ul`
   right: 0;
   z-index: 1;
   width: 100%;
-  height: 5.7rem;
+  height: 5rem;
   position: fixed;
   background-color: var(--color);
   ${media.lessThan("large")`
@@ -25,6 +25,7 @@ export const NavWrapper = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: start;
   width: 100%;
   position: relative;
   .menu-toggle {
@@ -111,8 +112,7 @@ export const NavWrapper = styled.nav`
 `
 export const LogoItem = styled(Link)`
   display: flex;
-
-  margin: 0.5rem 0rem 0.5rem 4rem;
+  margin: 0.3rem 0rem 0.5rem 4rem;
   ${media.lessThan("large")`
    display: flex;
    width: 60%;

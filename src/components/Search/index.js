@@ -3,7 +3,7 @@ import React from "react"
 import * as S from "./styled"
 
 import algoliasearch from "algoliasearch/lite"
-import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom"
+import { InstantSearch, SearchBox, Hits, Configure } from "react-instantsearch-dom"
 
 import Hit from "./Hit"
 
@@ -20,6 +20,7 @@ const Search = () => (
     <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
       <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
       <Hits hitComponent={Hit} />
+      <Configure hitsPerPage={8} />
     </InstantSearch>
   </S.SearchWrapper>
 )

@@ -3,7 +3,7 @@ import media from "styled-media-query"
 import Img from "gatsby-image"
 
 export const LogoWrapper = styled(Img)`
-  width: 17rem;
+  width: 16.5rem;
   ${media.lessThan("large")`
     max-width: 14rem;
     margin-left: 0.5rem;

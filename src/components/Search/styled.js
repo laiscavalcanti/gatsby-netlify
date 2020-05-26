@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const SearchWrapper = styled.section`
   background: var(--background-color);
@@ -32,10 +33,15 @@ export const SearchWrapper = styled.section`
     display: flex;
     font-size: 1.6rem;
     padding: 0.5rem;
-    width: 100%;
+    width: 40.5rem;
+    margin: 0 auto;
     &::placeholder {
       color: var(--backgroundSelection);
     }
+    ${media.lessThan("large")`
+    font-size: 1.2rem;
+    width: 18.5rem;
+`}
   }
   .ais-SearchBox-submit,
   .ais-SearchBox-reset {

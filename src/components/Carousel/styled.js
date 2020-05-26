@@ -109,7 +109,7 @@ export const CarouselLink = styled(AniLink)`
   display: flex;
   width: 100%;
   color: var(--black);
-  height: 36rem;
+  height: 37rem;
   padding: 0.5rem 0rem 3rem 0rem;
   ${media.lessThan("large")`
     display: flex;

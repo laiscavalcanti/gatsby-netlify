@@ -19,14 +19,12 @@ export const PostItemWrapper = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
-  ${media.lessThan("large")`
-
-  `}
 `
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   max-width: 20.5rem;
   margin: 0 0 0 1rem;
   font-family: "Montserrat", sans-serif;
@@ -43,8 +41,8 @@ export const PostItemInfo = styled.div`
 `
 export const PostItemImg = styled(Img)`
   display: flex;
-  height: 11.5rem;
-  width: 22.5rem;
+  height: 11rem;
+  width: 19rem;
   -webkit-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -moz-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
   -ms-transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
@@ -74,7 +72,7 @@ export const PostItemTitle = styled.h1`
   ${media.lessThan("large")`
     font-size: 1rem;
     line-height: 1.1;
-    margin: 0.1rem 0rem 0.6rem 0rem;
+    margin: 0.7rem 0rem 0.6rem 0rem;
   `}
 `
 export const PostItemAuthor = styled.p`
@@ -92,10 +90,10 @@ export const PostItemAuthor = styled.p`
 export const PostItemDate = styled.section`
   display: flex;
   justify-content: flex-start;
-  margin: 0.5rem 0.5rem 0rem 0rem;
+  margin: 0rem 0.5rem 0rem 0rem;
   font-size: 0.7rem;
   ${media.lessThan("large")`
-    display: none;
+    font-size: 0.6rem;
   `}
 `
 export const PostItemDescription = styled.p`

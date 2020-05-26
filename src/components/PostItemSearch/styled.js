@@ -11,6 +11,7 @@ export const PostItemLink = styled(AniLink)`
   width: 50%;
   color: var(--black);
   ${media.lessThan("large")`
+  width: 85%;
   padding: 0.5rem 0 1rem 1rem;
   margin-top: 2rem;
 `}
@@ -53,7 +54,7 @@ export const PostItemTitle = styled.h1`
   ${media.lessThan("large")`
     font-size: 1rem;
     line-height: 1.1;
-    margin: 0.1rem 0rem 0.6rem 0rem;
+    margin: 0.7rem 0rem 0.6rem 0rem;
   `}
 `
 export const PostItemAuthor = styled.p`
@@ -74,7 +75,7 @@ export const PostItemDate = styled.section`
   margin: 0.5rem 0.5rem 0rem 0rem;
   font-size: 0.7rem;
   ${media.lessThan("large")`
-    display: none;
+  font-size: 0.6rem;
   `}
 `
 export const PostItemDescription = styled.p`

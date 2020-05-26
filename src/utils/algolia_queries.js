@@ -9,13 +9,13 @@ const postQuery = `{
             slug
           }
           frontmatter {
-            author
             tags
             date_timestamp: date
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
           }
+          excerpt(pruneLength: 5000)
         }
       }
     }
@@ -32,7 +32,7 @@ const queries = [
   {
     query: postQuery,
     transformer: ({ data }) => flatten(data.posts.edges),
-    indexName: "dev_POST",
+    indexName: "prod_POST",
     settings: {
       attributesToSnippet: ["excerpt: 20"],
     },
