@@ -8,7 +8,7 @@ export const SideBarWrapper = styled.ul`
   left: 0;
   top: 0;
   right: 0;
-  z-index: 0;
+  z-index: 1;
   width: 100%;
   height: 5rem;
   position: fixed;
@@ -26,13 +26,14 @@ export const NavWrapper = styled.nav`
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-
+  width: 100%;
+  position: relative;
   .menu-toggle {
     margin: 0.7rem 1.7rem 0;
     cursor: pointer;
     position: fixed;
     right: 10px;
-    top: 42.5rem;
+    top: calc(100vh + 30px);
     width: 30px;
     height: 3px;
     background: white;
