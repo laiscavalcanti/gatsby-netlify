@@ -22,7 +22,11 @@ const BlogPost = ({ data, pageContext }) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        imagePost={post.frontmatter.imagePost}
+        imagePost={
+          post.frontmatter.imagePost
+            ? `https://subsidiario.netlify.app/${post.frontmatter.image.publicURL}`
+            : `https://subsidiario.netlify.app/assests/statis/logo.png`
+        }
       />
       <PostImage imagePost={post.frontmatter.imagePost} />
       <S.PostHeader>

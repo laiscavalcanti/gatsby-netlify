@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, image }) {
+function SEO({ description, lang, meta, title, imagePost, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -13,6 +13,7 @@ function SEO({ description, lang, meta, title, image }) {
             description
             author
             siteUrl
+            image
           }
         }
       }
@@ -21,8 +22,8 @@ function SEO({ description, lang, meta, title, image }) {
 
   const metaDescription = description || site.siteMetadata.description
 
-  const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image || "static/assets/img/house.png"}`
+  //const url = site.siteMetadata.siteUrl
+  const ogImage = image || "static/assets/img/logo.png"
   return (
     <Helmet
       htmlAttributes={{
@@ -37,14 +38,14 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${title} | ${site.siteMetadata.title}`,
         },
         {
           property: `og:description`,
           content: metaDescription,
         },
         {
-          name: `og:imagePost`,
+          name: `og:image`,
           content: ogImage,
         },
         {
@@ -60,12 +61,16 @@ function SEO({ description, lang, meta, title, image }) {
           content: site.siteMetadata.author,
         },
         {
+          name: `twitter:image`,
+          content: ogImage,
+        },
+        {
           name: `twitter:image:src`,
           content: ogImage,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title} | ${site.siteMetadata.title}`,
         },
         {
           name: `twitter:description`,

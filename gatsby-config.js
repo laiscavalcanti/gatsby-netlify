@@ -8,6 +8,7 @@ module.exports = {
     e nem razão em nada tem. `,
     author: `Cícero Marra`,
     siteUrl: `https://subsidiario.netlify.app/`,
+    image: "src/components/static/assets/img/logo.png",
   },
   plugins: [
     `gatsby-plugin-transition-link`,
