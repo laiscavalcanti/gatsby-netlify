@@ -24,6 +24,7 @@ function SEO({ description, lang, meta, title, imagePost, image }) {
 
   //const url = site.siteMetadata.siteUrl
   const ogImage = image || "static/assets/img/logo.png"
+  const ogImagePost = imagePost || "static/assets/img/logo.png"
   return (
     <Helmet
       htmlAttributes={{
@@ -47,6 +48,10 @@ function SEO({ description, lang, meta, title, imagePost, image }) {
         {
           name: `og:image`,
           content: ogImage,
+        },
+        {
+          name: `og:imagePost`,
+          content: ogImagePost,
         },
         {
           property: `og:type`,
