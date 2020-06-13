@@ -59,6 +59,7 @@ body{
     --highlight: #ffd700;
     --colorSelection: #900020;
     --backgroundSelection: #fff;
+   
   }
 `
 export default GlobalStyles

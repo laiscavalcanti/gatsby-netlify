@@ -25,7 +25,7 @@ export const PostTag = styled(Link)`
   font-weight: 400;
   opacity: 0.8;
   &:hover {
-    color: var(--backgroundHoverPostItem);
+    color: var(--black);
   }
   &::selection {
     color: var(--white);
