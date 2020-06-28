@@ -19,7 +19,7 @@ Não é uma gripezinha, é real e está próxima de nós. Nosso governador Renan
 
 Impossível não fundir o motor do cérebro ao interpretar o show de contorcionismo academiquês-vazio no enunciado do primeiro fórum online de “Fundamentos Filosóficos da Pedagogia”. Leia:
 
-    Considerando a importância dos fundamentos filosóficos para compreender e distinguir melhor as mudanças que ocorrem no âmbito do processo educacional, é correto afirmar que, ao refletir na dimensão dos Fundamentos Filosóficos da Educação, no ambiente de trabalho, torna-se condição ímpar verificar esses aspectos crítico-reflexivos. A dimensão conceitual tem significado para o trajeto e reconhecimento no âmbito da escola e na formação docente, sendo muitas vezes seu foco uma questão singular no dinamismo, que merece uma atenção atenta do educador.
+> <i>Considerando a importância dos fundamentos filosóficos para compreender e distinguir melhor as mudanças que ocorrem no âmbito do processo educacional, é correto afirmar que, ao refletir na dimensão dos Fundamentos Filosóficos da Educação, no ambiente de trabalho, torna-se condição ímpar verificar esses aspectos crítico-reflexivos. A dimensão conceitual tem significado para o trajeto e reconhecimento no âmbito da escola e na formação docente, sendo muitas vezes seu foco uma questão singular no dinamismo, que merece uma atenção atenta do educador.</i>
 
 Por que não dizer apenas: conhecer os fundamentos filosóficos da educação é algo importante para o professor? Beleza que a minha frase não é a mais bem escrita do mundo mas, sem dúvida, é mais curta.
 
