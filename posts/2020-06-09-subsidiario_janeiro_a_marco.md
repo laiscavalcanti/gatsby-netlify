@@ -1,8 +1,8 @@
 ---
 date: 2020-06-09
-title: Janeiro a março de 2020
+title: Janeiro a Março de 2020
 description: Quem é esse cara e que tipo de cultura se pratica ali?
-tags: ["subisidiario"]
+tags: ["subsidiario"]
 author: por Cícero Marra
 image: ../src/images/images-09-06/pipoca.jpg
 imagePost: ../src/static/assets/img/imagesPosts/pipoca.jpg
@@ -22,15 +22,14 @@ templateKey: slideshow
 <br />-- O foda é que ela é uma ex-namorada de um amigo meu...
 <br />Não entendi o porquê daquele detalhe, estava meio retardado de uma noite mal dormida e não falei nada. Pluguei o fone no ouvido direito.
 <br />-- O outro passageiro deve estar chegando aí...
-<br />Paguei a importância de trinta reais, pluguei o fone remanescente no ouvido esquerdo e voltei a ouvir nosso velho Olavão.
-<br />Passado um minuto, outro passageiro entra no carro, um rapaz jovem e forte que ia para Recife e trazia um terno numa embalagem: 
+<br />Passado um minuto, outro passageiro entra no carro, um rapaz jovem e forte que ia para Recife e trazia um terno numa embalagem:
 <br />-- Bom dia.
 <br />-- bom dia -- partimos.
 
 <br />O terceiro passageiro foi recolhido num posto de gasolina na avenida Fernandes Lima. Dessa vez, era um cara de uns trinta anos, talvez um pouco mais velho que eu, forte, mas não malhado de academia. Não arriscaria adivinhar profissão dele nem o motivo da viagem. Só sei que agora eu estava ali, forçado a enfiar minhas pernas no vão entre os bancos dianteiros. E assim fomos entrando no bairro da Serraria.
 <br />A tal ex-namorada do amigo do motorista acabou nos dando um pequeno chá-de-cadeira em frente ao condomínio onde morava mas tudo foi perdoado quando ela apareceu. Os caronas ficaram imóveis pra assegurar que o vulto era mesmo de uma mulher classuda. morena com luzes no cabelo, óculos escuros, e uma grande mala rosa. Nem feia nem muito bonita. Perfeita. O sonho do brasileiro médio. Enquanto ela sentava no banco da frente, um moralizador e doce perfume de mulher garantia a assepsia daquele. Dei-lhe pelo retrovisor a cortesia de um alô e seguimos. O motorista parecia mesmo interessado na menina, toda vez que ela falava alguma coisa o nosso amigo desviava o rosto da pista e a olhava fixamente, de um jeito não natural, feito um robô. Mais adiante, talvez para transparecer um ar de caroneiro profissional, ou talvez só para impressionar a moça, o motorista nos aplicou sua playlist de sertanejo, o que me obrigou a aumentar o volume do Spotify.
 
-![livros](../src/images/images-09-06/livros.jpg)
+[logo]: ../src/images/images-09-06/livros.jpg
 
 _“...É o mentor do Obama, é o guru do Obama! o qual durante muito tempo se dedicou a implantar a estratégia que aqueles dois outros picaretas inventaram baseado no Saul Alinsky. A teoria era a seguinte: existe a previdência social, a previdência social dá uma lista de direitos que as pessoas têm. No entanto, na prática, só uns 5% das pessoas que teoricamente tem esse direito se apresentam para reivindicar esse direito. Os outros 95 ignoram, ou porque não estão precisando, ou porque...sei lá! por algum motivo. Se a gente fizesse os 95 entrar na fila também...o que que vai acontecer? a Previdência Social vai falir. Falindo a Previdência Social vai falir os bancos. Falindo os bancos a gente vai falir o sistema inteiro. Assim que a gente derruba o sistema. O Obama trabalhou durante anos nesse serviço, empurrando pessoas para explorar a previdência social!_
 

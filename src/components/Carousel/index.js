@@ -72,7 +72,10 @@ export default () => (
   <StaticQuery
     query={graphql`
       query {
-        allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "slideshow" } } }) {
+        allMarkdownRemark(
+          sort: { fields: frontmatter___date, order: DESC }
+          filter: { frontmatter: { templateKey: { eq: "slideshow" } } }
+        ) {
           edges {
             node {
               fields {
