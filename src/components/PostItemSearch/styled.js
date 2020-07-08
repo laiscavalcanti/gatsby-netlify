@@ -27,8 +27,7 @@ export const PostItemWrapper = styled.div`
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  max-width: 50rem;
+  width: 90%;
   margin: 0 0 0 1rem;
   font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`

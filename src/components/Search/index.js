@@ -20,7 +20,7 @@ const Search = () => (
     <InstantSearch searchClient={searchClient} indexName={algolia.indexName}>
       <SearchBox autoFocus translations={{ placeholder: "Pesquisar..." }} />
       <Hits hitComponent={Hit} />
-      <Configure hitsPerPage={8} />
+      <Configure hitsPerPage={10} />
     </InstantSearch>
   </S.SearchWrapper>
 )
