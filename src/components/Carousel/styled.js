@@ -167,7 +167,7 @@ export const CarouselTitle = styled.h1`
   justify-content: center;
   margin: 2.5rem 1rem 0rem 1rem;
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: "Montserrat", serif;
   line-height: 1.3;
   font-size: 2.7rem;
   font-weight: 700;

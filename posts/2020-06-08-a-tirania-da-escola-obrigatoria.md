@@ -6,7 +6,7 @@ tags: ["homeschooling"]
 author: por John Taylor Gatto
 image: ../src/images/images-08-06/Gatto_Image.png
 imagePost: ../src/static/assets/img/imagesPosts/Imagepost_Gatto.png
-templateKey: slideshow
+templateKey: " "
 ---
 
 <p>A melhor forma de adentrar o estranho mundo do ensino obrigatório é através dos livros. Eu sempre soube que livros de verdade e livros didáticos eram diferentes, mas eu nunca tomei consciência das particularidades até que um dia eu me cansei do Currículo sem sentido de Inglês e decidi ensinar <i>Moby Dick</i> para as turmas regulares do oitavo ano. Eu descobri que a baleia branca era grande demais pra caber nos espaços de quarenta e cinco minutos de uma <i>high school</i>. Não dava para “encaixá-la”. Mas os editores da versão escolar de <i>Moby Dick</i> tinham providenciado um pacote de perguntas pré-fabricadas e interpretações próprias. Cada capítulo começava e terminava com uma montanha dessas intervenções. Eu percebi que a edição escolar não era um livro de verdade, e sim doutrinação disfarçada. O livro tinha se blindado à prova de professores e de alunos.

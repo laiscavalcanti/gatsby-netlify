@@ -64,7 +64,7 @@ export const PostItemTitle = styled.h1`
   display: flex;
   justify-content: flex-start;
   text-align: left;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.2;

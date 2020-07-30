@@ -6,7 +6,7 @@ export const PostHeader = styled.header`
   display: flex;
   flex-direction: column;
   padding: 1rem 0 1rem 0rem;
-  margin-left: 16rem;
+  margin-left: 12rem;
   max-width: 48.4rem;
   ${media.lessThan("large")`
   margin: 0.5rem 1rem 1rem 1rem;
@@ -16,11 +16,11 @@ export const PostHeader = styled.header`
 `
 export const PostTag = styled(Link)`
   display: flex;
-  align-items: flex-end;
-  margin-top: 0.2rem;
+  justify-content: center;
+  margin-top: 0.3rem;
   color: var(--black);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   opacity: 0.8;
@@ -40,7 +40,7 @@ export const PostTitle = styled.h1`
   text-align: end;
   margin: 1.5rem 0.5rem 0.5rem 0.5rem;
   padding: 0 1rem 0 1rem;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.15;
@@ -108,8 +108,8 @@ export const PostDate = styled.p`
 `
 export const IconWrapper = styled.div`
   display: flex;
-  margin: 2rem 3rem 0 1rem;
-  padding-left: 2rem;
+  margin: 2rem 03rem 0 1rem;
+  padding-left: 8rem;
   color: var(--white);
   opacity: 0.6;
   ${media.lessThan("large")`
@@ -136,9 +136,9 @@ export const IconArrowWrapper = styled.div`
   padding: 1rem 0.5rem 2rem 18rem;
 `
 export const MainContent = styled.article`
-  max-width: 64.5rem;
-  padding: 1rem 0rem 2rem 18rem;
-  text-align: justify;
+  max-width: 60.5rem;
+  padding: 1rem 0rem 2rem 20rem;
+  text-align: left;
   ${media.lessThan("large")`
     padding: 0;
     padding: 2rem 0;

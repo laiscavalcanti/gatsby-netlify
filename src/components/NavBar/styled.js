@@ -31,7 +31,7 @@ export const LayoutLink = styled(AniLink)`
   color: var(--sameColorWhite);
   letter-spacing: 0rem;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: "Montserrat", sans-serif;
   display: block;
   position: relative;
