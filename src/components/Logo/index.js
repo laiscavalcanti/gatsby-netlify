@@ -2,7 +2,7 @@ import React from "react"
 //import { useStaticQuery, graphql } from "gatsby"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import getThemeColor from "../../utils/getThemeColor"
-import LogoSite from "./subsidiario_logo.svg"
+import LogoSite from "./subsidiario_logo_branco.svg"
 
 import * as S from "./styled"
 
