@@ -10,7 +10,7 @@ export const SideBarWrapper = styled.ul`
   right: 0;
   z-index: 2;
   width: 100%;
-  height: 5rem;
+  height: 4.7rem;
   position: fixed;
   background-color: var(--color);
   ${media.lessThan("large")`

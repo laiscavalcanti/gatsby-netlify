@@ -29,10 +29,10 @@ export const LayoutList = styled.li`
 `
 export const LayoutLink = styled(AniLink)`
   color: var(--sameColorWhite);
-  letter-spacing: 0rem;
+  letter-spacing: 1px;
   font-size: 1rem;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-family: "Roboto Slab", sans-serif;
   display: block;
   position: relative;
   &:after,

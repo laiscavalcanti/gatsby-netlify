@@ -7,7 +7,6 @@ export const SearchWrapper = styled.section`
   flex-direction: column;
   width: 100%;
   transition: opacity 0.4s;
-
   .ais-InstantSearch__root {
     display: flex;
     flex-direction: column;
@@ -32,9 +31,10 @@ export const SearchWrapper = styled.section`
     color: var(--texts);
     display: flex;
     font-size: 1.6rem;
-    padding: 0.5rem;
-    width: 38.2rem;
+    padding: 0.6rem;
+    width: 35rem;
     margin: 0 auto;
+    font-family: "Roboto Slab", sans-serif;
     &::placeholder {
       color: var(--backgroundSelection);
     }

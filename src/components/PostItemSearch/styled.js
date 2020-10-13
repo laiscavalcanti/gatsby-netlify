@@ -29,7 +29,7 @@ export const PostItemInfo = styled.div`
   flex-direction: column;
   width: 90%;
   margin: 0 0 0 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   ${media.lessThan("large")`
   display: flex;
   flex-direction: column;
@@ -45,8 +45,8 @@ export const PostItemTitle = styled.h1`
   display: flex;
   justify-content: flex-start;
   text-align: left;
-  font-family: "Merriweather", sans-serif;
-  font-size: 1.4rem;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.6rem;
   font-weight: 700;
   line-height: 1.2;
   margin: 0.7rem 0rem 0.9rem 0rem;
@@ -60,9 +60,9 @@ export const PostItemAuthor = styled.p`
   display: flex;
   align-content: center;
   justify-content: flex-start;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   text-transform: uppercase;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   opacity: 0.8;
   ${media.lessThan("large")`
   font-size: 0.5rem;
@@ -72,7 +72,7 @@ export const PostItemDate = styled.section`
   display: flex;
   justify-content: flex-start;
   margin: 0.5rem 0.5rem 0rem 0rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   ${media.lessThan("large")`
   font-size: 0.6rem;
   `}
@@ -82,9 +82,9 @@ export const PostItemDescription = styled.p`
   justify-content: flex-start;
   text-align: left;
   margin: 0.8rem 0 0 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", sans-serif;
   line-height: 1.3;
   ${media.lessThan("large")`
     font-size: 0.8rem;

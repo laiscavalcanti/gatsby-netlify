@@ -41,7 +41,7 @@ class Slideshow extends React.Component {
                 posts.map(({ node: post }) => (
                   <div className="carousel-items" key={post.fields.slug}>
                     <S.CarouselLink to={post.fields.slug} cover direction="right" duration={0.5} bg={getThemeColor()}>
-                      
+                    <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="pictures-slide" />
                       <S.CarouselInfo>
                         <S.CarouselDate>
                           {post.frontmatter.date} - {post.frontmatter.tags}
@@ -50,7 +50,7 @@ class Slideshow extends React.Component {
                         <S.CarouselAuthor>{post.frontmatter.author}</S.CarouselAuthor>
                         <S.CarouselDescription>{post.frontmatter.description}</S.CarouselDescription>
                       </S.CarouselInfo>
-                      <S.CarouselImage fluid={post.frontmatter.image.childImageSharp.fluid} alt="pictures-slide" />
+                      
                     </S.CarouselLink>
                   </div>
                 ))}

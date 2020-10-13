@@ -20,8 +20,8 @@ export const PostTag = styled(Link)`
   margin-top: 0.3rem;
   color: var(--black);
   text-decoration: none;
-  font-size: 0.8rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-family: "Roboto Slab", serif;
   font-weight: 400;
   opacity: 0.8;
   &:hover {
@@ -40,7 +40,7 @@ export const PostTitle = styled.h1`
   text-align: end;
   margin: 1.5rem 0.5rem 0.5rem 0.5rem;
   padding: 0 1rem 0 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 3rem;
   font-weight: 700;
   line-height: 1.15;
@@ -59,16 +59,17 @@ export const PostTitle = styled.h1`
 `
 export const PostDescription = styled.h2`
   margin: 1.2rem 0.5rem 0 0.5rem;
-  padding: 0 1rem 0 1rem;
+  padding: 0 0rem 0 8rem;
   letter-spacing: 0rem;
   font-weight: 100;
   line-height: 1.5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 1rem;
   font-style: italic;
   text-align: end;
   color: var(--black);
   opacity: 0.8;
+  max-width: 45rem;
   &::selection {
     color: var(--colorSelection);
     background: var(--backgroundSelection);
@@ -89,7 +90,7 @@ export const PostDate = styled.p`
   color: var(--black);
   font-size: 0.9rem;
   font-weight: 100;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Slab", serif;
   margin: 1rem 1rem 0 1rem;
   text-align: end;
   opacity: 0.7;
@@ -155,7 +156,7 @@ export const MainContent = styled.article`
   .tags,
   iframe,
   .button-post {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto Slab", sans-serif;
     color: var(--texts);
     font-size: 1rem;
     font-weight: 300;

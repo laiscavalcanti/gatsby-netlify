@@ -9,7 +9,7 @@ imagePost: ../src/static/assets/img/imagesPosts/papagaiotransp.png
 templateKey: slideshow
 ---
 
-### ANOS DO JARDIM DE INFÂNCIA - 4 E 5 ANOS
+#### ANOS DO JARDIM DE INFÂNCIA - 4 E 5 ANOS
 
 _em The Well-trained Mind: A Guide to Classical Education at Home de Susan Wise Bauer e Jessie Wise_
 
