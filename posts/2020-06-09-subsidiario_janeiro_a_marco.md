@@ -6,7 +6,7 @@ tags: ["subsidiario"]
 author: por Cícero Marra
 image: ../src/images/images-09-06/pipoca.jpg
 imagePost: ../src/static/assets/img/imagesPosts/pipoca.jpg
-templateKey: slideshow
+templateKey: " "
 ---
 
 ## 17 DE JANEIRO

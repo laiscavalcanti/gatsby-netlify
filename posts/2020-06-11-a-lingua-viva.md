@@ -6,7 +6,7 @@ tags: ["subsidiario"]
 author: por Mário de Andrade
 image: ../src/images/images-11-06/mariograndepost.png
 imagePost: ../src/static/assets/img/imagesPosts/mariograndepost(2).png
-templateKey: slideshow
+templateKey: " "
 ---
 
 Nem líder-iconoclasta, nem artista revolucionário, nem destruidor anárquico da forma culta da língua; Mário de Andrade foi antes de tudo um homem culto, de múltiplos interesses e um pesquisador de método sério e, por isso, dono de opiniões deliciosamente justas. “A Língua Viva”, publicado pelo Estado de São Paulo em 10 de março de 1940 e reunido em 1972 no “O Empalhador de Passarinhos”, é uma aula de justeza e bom senso a respeito das diferentes vocações da língua culta e popular; de quebra, o texto acaba pondo em panos limpos muitas das polêmicas e dos mitos atribuídos ao mestre de “Os Contos de Belazarte”, aumentados pelos que há muito não pegam mais nas obras originais e que só repetem as opiniões de sempre (pró e contra).
