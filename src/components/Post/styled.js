@@ -203,8 +203,9 @@ export const MainContent = styled.article`
   }
   img {
     display: block;
-    max-width: 100%;
-    margin: 1.875rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   iframe {
     padding: 0 1.6rem 1.6rem;
