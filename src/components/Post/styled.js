@@ -160,7 +160,7 @@ export const MainContent = styled.article`
     color: var(--texts);
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 1.5;
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {
