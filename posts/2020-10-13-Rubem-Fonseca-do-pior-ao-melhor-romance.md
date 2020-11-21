@@ -62,7 +62,7 @@ O médico e o monstro, ou o policial e o escritor? “Bufo & Sapallanzani” é 
 ----------------------
 <p align="center">
   <img width="186" height="300" src="https://i.imgur.com/VStwo1I.jpg">
-
+</p>
 Alguns podem até achar que “O Caso Morel”, o primeiro romance de Rubem Fonseca, não merecia estar na lista de melhores. De fato é um das tramas  mais simples, mas, me perdoem, é uma das mais deliciosas dele também, e um exemplo perfeito sobre como Rubem Fonseca às vezes flerta perigosamente com a pornochanchada sem nunca cair na banalidade, sem nunca perder totalmente a classe. O jornalista Vilela havia se comprometido a transformar em livro o caso do publicitário Paul Morel, um bon vivant carioca acusado de matar Heloísa, uma das 4 mulheres as quais Morel havia trazido para seu apartamento, convencendo-as a tolerarem entre si, como num harém moderno. As cenas de sexo são muito bem descritas, há bons relatos sobre o bastidores das festinhas badaladas no Rio de Janeiro, mas, principalmente, Rubem Fonseca consegue dar um ar de respeitabilidade e até de beleza inocente à devassidão que era a vida de Morel. Às vezes as ideias mais simples são as mais eficientes.
 
 ### 4º - A GRANDE ARTE (1983)
@@ -71,7 +71,7 @@ Alguns podem até achar que “O Caso Morel”, o primeiro romance de Rubem Fons
   <img width="186" height="300" src="https://i.imgur.com/8zBuiar.jpg">
 
 Dez anos depois de “O Caso Morel” somos apresentados ao sedutor advogado  -- e detetive nas horas vagas -- Mandrake em “A Grande Arte”, um romance muito mais ambicioso que o anterior. “A Grande Arte” é tudo aquilo que se espera de uma história policial, atualizada com os nomes e os cenários brasileiros; a trama viaja pelo Rio, em Itaipava, pelo interior de Minas, pela Bolívia e em São Paulo. (Não sei quanto a vocês, mas eu adoro isso!). A única coisa que Rubem Fonseca talvez não tenha conseguido abrasileirar são os diálogos que a mim parecem, se não mal inseridos, pouco brasileiros, escrito naquele português que parece traduzido de legendas de filmes americanos. Mas até esse defeito acaba funcionando em favor do romance pois, uma vez que a linguagem não chama a nossa atenção, estamos livres para visualizar a história. Para além desse defeito, Rubem Fonseca nos mostra três outras qualidades. A primeira delas (e que dentro da literatura brasileira se torna mais valiosa ainda) é a de não ser excessivamente retórico, e nem psicologicamente gratuito ao justificar os atos dos seus personagens. Outra qualidade é o bom senso na hora de mostrar ao leitor suas referências, sem abusar do name-dropping. Rubem Fonseca também detesta desperdiçar o tempo do leitor e por isso, ele profere golpes certos, que nos acertam sempre na artéria certa. O leitor se diverte, aprende e agradece. “A Grande Arte” é isto: uma história policial bem executada e divertida. Perfeita para um jovem adulto que quer fazer a transição dos filmes pros livros.
-
+</p>
 ### 3º - VASTAS EMOÇÕES E PENSAMENTOS IMPERFEITOS (1988)
 --------------------------------------------------------------------------------
 <p align="center">
