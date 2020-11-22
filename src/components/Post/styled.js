@@ -160,7 +160,7 @@ export const MainContent = styled.article`
     color: var(--texts);
     font-size: 1rem;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 1.5;
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {
@@ -203,8 +203,9 @@ export const MainContent = styled.article`
   }
   img {
     display: block;
-    max-width: 100%;
-    margin: 1.875rem auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
   }
   iframe {
     padding: 0 1.6rem 1.6rem;
