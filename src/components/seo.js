@@ -1,9 +1,16 @@
+/**
+ * SEO component that queries for data with
+ *  Gatsby's useStaticQuery React hook
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
+
 import React from "react"
 import PropTypes from "prop-types"
-import Helmet from "react-helmet"
+import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title, imagePost, image }) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -13,18 +20,17 @@ function SEO({ description, lang, meta, title, imagePost, image }) {
             description
             author
             siteUrl
-            image
           }
         }
       }
     `
   )
 
+
   const metaDescription = description || site.siteMetadata.description
 
-  //const url = site.siteMetadata.siteUrl
-  const ogImage = image || "static/assets/img/logo.png"
-  const ogImagePost = imagePost || "static/assets/img/logo.png"
+  const url = site.siteMetadata.siteurl
+  const ogImage = `${url}${image || "/assets/img/logo.png"}`
   return (
     <Helmet
       htmlAttributes={{
@@ -39,19 +45,11 @@ function SEO({ description, lang, meta, title, imagePost, image }) {
         },
         {
           property: `og:title`,
-          content: `${title} | ${site.siteMetadata.title}`,
+          content: title,
         },
         {
           property: `og:description`,
           content: metaDescription,
-        },
-        {
-          name: `og:image`,
-          content: ogImage,
-        },
-        {
-          name: `og:imagePost`,
-          content: ogImagePost,
         },
         {
           property: `og:type`,
@@ -59,46 +57,23 @@ function SEO({ description, lang, meta, title, imagePost, image }) {
         },
         {
           name: `twitter:card`,
+          content: `summary`,
           content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
-        },
-        {
-          name: `twitter:image`,
-          content: ogImage,
         },
         {
           name: `twitter:image:src`,
           content: ogImage,
         },
         {
-          name: `twitter:title`,
-          content: `${title} | ${site.siteMetadata.title}`,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-        {
-          name: `facebook:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `facebook:creator`,
+          name: `twitter:creator`,
           content: site.siteMetadata.author,
         },
         {
-          name: `facebook:image:src`,
-          content: ogImage,
-        },
-        {
-          name: `facebook:title`,
+          name: `twitter:title`,
           content: title,
         },
         {
-          name: `facebook:description`,
+          name: `twitter:description`,
           content: metaDescription,
         },
       ].concat(meta)}

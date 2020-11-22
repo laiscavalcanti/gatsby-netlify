@@ -7,8 +7,7 @@ module.exports = {
     description: `Sou um homem que não tem ideias, nem quer tê-las,
     e nem razão em nada tem. `,
     author: `Cícero Marra`,
-    siteUrl: `https://subsidiario.netlify.app/`,
-    image: "src/components/static/assets/img/logo.png",
+    siteUrl: `https://subsidiario.com`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
