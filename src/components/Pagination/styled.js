@@ -12,6 +12,7 @@ export const PaginationWrapper = styled.section`
   background-color: var(--background-color);
   justify-content: space-around;
   align-content: flex-end;
+  font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`
       padding: 0.5rem 0 0 0.5rem;
       margin: 0 0.5rem 0 0.5rem;

@@ -29,7 +29,7 @@ export const ProfileAuthor = styled.section`
   margin-left: 0.7rem;
   font-size: 0.9rem;
   font-weight: 700;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: var(--sameColorWhite);
   letter-spacing: 0.1rem;
   ${media.lessThan("large")`
@@ -43,7 +43,7 @@ export const ProfileAuthor = styled.section`
   }
 `
 export const ProfileDescription = styled.p`
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Montserrat", sans-serif;
   max-width: 22rem;
   margin-top: 0.4rem;
   margin-left: 0.5rem;

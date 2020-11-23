@@ -19,7 +19,7 @@ body{
     background: white;
     line-height: 1;
     font-size: 100%;
-    font-family: "Roboto Slab", serif;
+    font-family: "Montserrat", sans-serif;
     background-image: url(${img});
 }
 

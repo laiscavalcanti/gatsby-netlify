@@ -5,9 +5,11 @@ import { Link } from "gatsby"
 export const PostHeader = styled.header`
   display: flex;
   flex-direction: column;
-  padding: 1rem 0 1rem 0rem;
-  margin-left: 12rem;
-  max-width: 48.4rem;
+  justify-content: flex-end;
+  max-width: 45rem;
+  padding: 1rem 3rem 3rem 0rem;
+  margin: 0 auto;
+  text-align: end;
   ${media.lessThan("large")`
   margin: 0.5rem 1rem 1rem 1rem;
     padding: 1rem 0 0;
@@ -16,14 +18,14 @@ export const PostHeader = styled.header`
 `
 export const PostTag = styled(Link)`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   margin-top: 0.3rem;
   color: var(--black);
   text-decoration: none;
-  font-size: 0.9rem;
-  font-family: "Roboto Slab", serif;
+  font-size: .9rem;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  opacity: 0.8;
+  opacity: 0.9;
   &:hover {
     color: var(--black);
   }
@@ -38,17 +40,16 @@ export const PostTag = styled(Link)`
 `
 export const PostTitle = styled.h1`
   text-align: end;
-  margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
   padding: 0 1rem 0 1rem;
-  font-family: "Roboto Slab", serif;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.15;
   color: var(--black);
   &::selection {
     color: var(--colorSelection);
     background: var(--backgroundSelection);
-  }
+  }font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`
     text-align: start;
     font-size: 2.8rem;
@@ -63,13 +64,13 @@ export const PostDescription = styled.h2`
   letter-spacing: 0rem;
   font-weight: 100;
   line-height: 1.5;
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-style: italic;
   text-align: end;
   color: var(--black);
   opacity: 0.8;
-  max-width: 45rem;
+  max-width: 40rem;
   &::selection {
     color: var(--colorSelection);
     background: var(--backgroundSelection);
@@ -90,7 +91,7 @@ export const PostDate = styled.p`
   color: var(--black);
   font-size: 0.9rem;
   font-weight: 100;
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
   margin: 1rem 1rem 0 1rem;
   text-align: end;
   opacity: 0.7;
@@ -109,8 +110,8 @@ export const PostDate = styled.p`
 `
 export const IconWrapper = styled.div`
   display: flex;
-  margin: 2rem 03rem 0 1rem;
-  padding-left: 8rem;
+  justify-content: flex-end;
+  margin: 2rem 1.3rem 0 2rem;
   color: var(--white);
   opacity: 0.6;
   ${media.lessThan("large")`
@@ -137,8 +138,8 @@ export const IconArrowWrapper = styled.div`
   padding: 1rem 0.5rem 2rem 18rem;
 `
 export const MainContent = styled.article`
-  max-width: 60.5rem;
-  padding: 1rem 0rem 2rem 20rem;
+  max-width: 40.5rem;
+  margin: 1rem 0rem 2rem 20rem;
   text-align: left;
   ${media.lessThan("large")`
     padding: 0;
@@ -156,10 +157,10 @@ export const MainContent = styled.article`
   .tags,
   iframe,
   .button-post {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "EB Garamond", serif;
     color: var(--texts);
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;

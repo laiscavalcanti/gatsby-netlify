@@ -67,7 +67,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: [ "EB Garamond", "Merriweather", "Montserrat", 'Roboto Slab', 'Roboto'],
+          families: [ "EB Garamond", "Montserrat"],
         },
       },
     },
