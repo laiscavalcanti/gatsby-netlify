@@ -2,11 +2,11 @@ import React from "react"
 import Icon from "./Icon"
 
 const links = [
-  //{
-    //label: "Cursos",
-    //url: "/tags/cursos/",
-    //icon: "",
-  //},
+  {
+    label: "Darlene, Meu Amor",
+    url: "/tags/livro/",
+    icon: "",
+  },
   {
     label: "Subsidiário",
     url: "/tags/subsidiario/",
