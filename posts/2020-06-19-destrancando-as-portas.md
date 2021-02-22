@@ -2,7 +2,7 @@
 date: 2020-06-19
 title: Destrancando as Portas - Os Anos da Pré-escola
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
-tags: ["homeschooling"]
+tags: ["subsidiario"]
 author: por Susan Wise Bauer e Jessie Wise
 image: ../src/images/images-19-06/books.jpg
 imagePost: ../src/static/assets/img/imagesPosts/books.jpg

@@ -64,7 +64,7 @@ export const PostItemTitle = styled.h1`
   display: flex;
   justify-content: flex-start;
   text-align: left;
-  font-family:  'Roboto Slab', serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.2;
@@ -79,7 +79,7 @@ export const PostItemAuthor = styled.p`
   display: flex;
   align-content: center;
   justify-content: flex-start;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 0.7rem;
   opacity: 0.8;
@@ -92,7 +92,7 @@ export const PostItemDate = styled.section`
   justify-content: flex-start;
   margin: 0rem 0.5rem 0rem 0rem;
   font-size: 0.8rem;
-  font-family: 'Roboto Slab', serif;
+  font-family: "Montserrat", sans-serif;
   ${media.lessThan("large")`
     font-size: 0.6rem;
   `}
@@ -104,7 +104,7 @@ export const PostItemDescription = styled.p`
   margin: 0.8rem 0 0 0;
   font-size: 1rem;
   font-weight: 300;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   ${media.lessThan("large")`
     font-size: 0.8rem;

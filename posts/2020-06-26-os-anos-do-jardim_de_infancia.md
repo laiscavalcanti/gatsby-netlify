@@ -2,11 +2,11 @@
 date: 2020-06-26
 title: Os Anos do Jardim de Infância (4 e 5 Anos)
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
-tags: ["homeschooling"]
+tags: ["subsidiario"]
 author: por Susan Wise Bauer e Jessie Wise
 image: ../src/images/images-26-06/familia.jpg
 imagePost: ../src/static/assets/img/imagesPosts/familia.jpg
-templateKey: slideshow
+templateKey: " "
 ---
 
 <p> Temos opiniões mistas a respeito dos programas formais de jardim de infância para crianças de quatro e cinco anos. Um programa que combine iniciação à leitura e à escrita com vários trabalhos de arte e brincadeiras pode ser produtivo. Mas é raro que uma criança de cinco anos não esteja pronta pra fazer muito trabalho de lápis e papel, assim como é raro uma criança de seis anos que não tenha passado pelo jardim de infância não possa facilmente fazer o trabalho da primeira série.

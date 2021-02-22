@@ -32,7 +32,7 @@ export const LayoutLink = styled(AniLink)`
   letter-spacing: 1px;
   font-size: 1rem;
   font-weight: 400;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: block;
   position: relative;
   &:after,

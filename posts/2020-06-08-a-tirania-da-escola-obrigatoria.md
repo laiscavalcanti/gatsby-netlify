@@ -2,7 +2,7 @@
 date: 2020-06-08
 title: A Tirania da Escola Obrigatória
 description: A melhor forma de adentrar o estranho mundo do ensino obrigatório é através dos livros.
-tags: ["homeschooling"]
+tags: ["subsidiario"]
 author: por John Taylor Gatto
 image: ../src/images/images-08-06/Gatto_Image.png
 imagePost: ../src/static/assets/img/imagesPosts/Imagepost_Gatto.png
