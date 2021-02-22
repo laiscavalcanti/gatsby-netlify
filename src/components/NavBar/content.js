@@ -12,11 +12,11 @@ const links = [
     url: "/tags/subsidiario/",
     icon: "",
   },
-  //{
-    //label: "Homeschooling",
-    //url: "/tags/homeschooling/",
-    //icon: "",
-  //},
+  {
+    label: "Ensaios",
+    url: "/tags/ensaios/",
+    icon: "",
+  },
   {
     label: "",
     url: "/search/",

@@ -2,6 +2,9 @@ require("dotenv").config()
 const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+  },
   siteMetadata: {
     title: `Subsidiário`,
     description: `Sou um homem que não tem ideias, nem quer tê-las,
@@ -67,7 +70,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: [ "EB Garamond", "Montserrat"],
+          families: [ "EB Garamond", "Montserrat", "Merriweather"],
         },
       },
     },

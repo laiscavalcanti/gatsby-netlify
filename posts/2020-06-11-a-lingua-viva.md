@@ -2,7 +2,7 @@
 date: 2020-06-11
 title: Mário de Andrade e "A Língua Viva"
 description: Impor a simplicidade como garantia de profundeza é simplesmente um academismo.
-tags: ["subsidiario"]
+tags: ["ensaios"]
 author: por Mário de Andrade
 image: ../src/images/images-11-06/mariograndepost.png
 imagePost: ../src/static/assets/img/imagesPosts/mariograndepost(2).png

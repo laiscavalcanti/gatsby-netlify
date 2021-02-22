@@ -2,13 +2,12 @@
 date: 2021-02-20
 title: Capítulo 2 - "O Homem que Vendeu o Mundo"
 description: Segundo capítulo de "Darlene, meu Amor" (nome provisório) a ser lançado em alguma data do ano de 2021, espero.
-tags: ["subsidiario"]
+tags: ["livro"]
 author: por Cícero Marra
-image: ../src/images/images-livro/tabajaras.jpg
-imagePost: ../src/images/images-livro/tabajaras.jpg
+image: ../src/images/images-livro/tabajaras.PNG
+imagePost: ../src/images/images-livro/tabajaras.PNG
 templateKey: slideshow
 ---
-Capítulo 2 - O Homem que Vendeu o Mundo.
 
 Em dias normais, Bento teria simplesmente cumprido a rotina desescolar que incluía lançar o fichário de capa azul transparente na mesa de centro da sala de recepção, despir com o calcanhar os tênis, que ficariam lá até que sua mãe Célia viesse pegá-los mais tarde, cruzar a sala da TV até a copa onde seu pai estaria de costas, sentado na escrivania, hipnotizado diante da tela do computador, e alcançar o quarto de onde, finalmente, teria se despido do uniforme cinza e da bermuda azul marinho para sempre, pelo menos até o dia seguinte. Mas com Beethoven em casa, Bento tem que pisar em ovos. Afinal de contas, a configuração espacial dos moradores -- em especial, do pai e do irmão mais velho, que não podem ser deixados juntos muito tempo no mesmo cômodo -- deve ser bem calculada para minimizar qualquer provocação, que, naquele ponto, próximo à uma da tarde, e considerando que Vânio e Beethoven tenham tido a manhã inteira para isso, já deve ter sem dúvida acontecido. Felizmente, a casa do Saraiva era grande o suficiente para que cada morador pudesse escolher um cômodo para se isolar um do outro.<br/>
 Bento tomou mais cuidado com a organização que o normal, preferindo manter o tênis e o fichário. E, lentamente, foi entrando pela copa, à espera de que Vânio rompesse o silêncio em seu lugar:<br/>

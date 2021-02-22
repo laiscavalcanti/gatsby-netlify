@@ -138,8 +138,8 @@ export const IconArrowWrapper = styled.div`
   padding: 1rem 0.5rem 2rem 18rem;
 `
 export const MainContent = styled.article`
-  max-width: 40.5rem;
-  margin: 1rem 0rem 2rem 20rem;
+  max-width: 41rem;
+  margin: 1rem 0rem 2rem 19.5rem;
   text-align: left;
   ${media.lessThan("large")`
     padding: 0;
@@ -157,11 +157,11 @@ export const MainContent = styled.article`
   .tags,
   iframe,
   .button-post {
-    font-family: "EB Garamond", serif;
+    font-family: 'Merriweather', serif;
     color: var(--texts);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.8;
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {

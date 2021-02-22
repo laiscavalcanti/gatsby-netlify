@@ -2,13 +2,12 @@
 date: 2021-01-11
 title: Capítulo 1 - "De Schola et Discipulī"
 description: Primeiro capítulo de "Darlene, meu Amor" (nome provisório) a ser lançado em alguma data do ano de 2021, espero.
-tags: ["subsidiario"]
+tags: ["livro"]
 author: por Cícero Marra
-image: ../src/images/images-livro/deschola.jpg
-imagePost: ../src/images/images-livro/deschola.jpg
+image: ../src/images/images-livro/deschola.png
+imagePost: ../src/images/images-livro/deschola.png
 templateKey: slideshow
 ---
-Capítulo 1 - "De Schola et Discipulī"
 
 Feito um milagre, uma vitória definitiva da vontade humana contra as forças que nos empurram ao chão, isto é, a gravidade, o analfabetismo, mas, sobretudo, uma leseira imposta à alma sertaneja por um meloso sol à pino de uma opressora e luminosa sexta-feira de setembro; afirmava-se imponente a Escola Estadual Joaquim Saraiva: a fortaleza pedagógica erguida sobre todo um quarteirão no bairro Saraiva, em Uberlândia. Estamos próximos ao fim de uma manhã letiva, uma dentre as milhares desde a sua fundação, e as paredes cobertas de tinta branca e azul marinho desbotado do velho “Quim” arfam com o barulho e o movimento interno, fazendo suas vigas feito veias de aço e seus tijolos em vez de carne tremerem de febre, preparando o espírito geral para o espetáculo do parto diário dos filhos dos outros. O calor se multiplicava no asfalto com o bafo dos motores ligados, e a luz do sol em vinho, verde e prata, explodia na lataria dos Monzas, dos Pálios, dos Corsas e das vans na calçada oposta, enquanto os espaços vazios por entre os carros eram preenchidos pelas motos e bicicletas. Não havia leis de trânsito na volta para a casa.</br>
 Em frente à entrada da escola, disputavam a sombra de dois oitis imóveis um baleiro e uma pequena multidão de mães e empregadas domésticas, quase todas em blusa de algodão, jeans (ou shorts de lycra), chinelo de dedo ou sandália. Para matar o tempo antes do sinal, as companheiras de momento espiavam a movimentação dos seus filhos por entre as frestas do estreito portão de aço azul marinho.</br>

@@ -2,7 +2,7 @@
 date: 2020-06-26
 title: Os Anos do Jardim de Infância (4 e 5 Anos)
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
-tags: ["subsidiario"]
+tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
 image: ../src/images/images-26-06/familia.jpg
 imagePost: ../src/static/assets/img/imagesPosts/familia.jpg
