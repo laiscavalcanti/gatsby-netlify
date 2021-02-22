@@ -11,16 +11,10 @@
     "babel-plugin-styled-components": "^1.10.7",
     "components": "^0.1.0",
     "dotenv": "^8.2.0",
-<<<<<<< HEAD
     "gatsby": "^2.32.3",
-    "gatsby-background-image": "^1.0.1",
-    "gatsby-image": "^2.3.1",
-=======
-    "gatsby": "^2.24.85",
     "gatsby-background-image": "^1.1.1",
     "gatsby-cli": "^2.14.0",
     "gatsby-image": "^2.4.6",
->>>>>>> df00386dab3917bcee62c9bc7d8ebc8a7ad1e411
     "gatsby-plugin-algolia-search": "^0.5.7",
     "gatsby-plugin-manifest": "^2.4.9",
     "gatsby-plugin-offline": "^3.2.7",
