@@ -6,7 +6,7 @@ module.exports = {
     DEV_SSR: false,
   },
   siteMetadata: {
-    title: `Subsidiario - Blog - Cícero Marra`,
+    title: `Subsidiario`,
     description: `Site com um compilado dos romances, contos, ensaios e diário do escritor mineiro Cícero Marra`,
     author: `Cícero Marra`,
     position: `Escritor`,
