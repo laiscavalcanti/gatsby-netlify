@@ -19,7 +19,7 @@ const BlogList = props => {
 
   return (
     <Layout>
-      <SEO title="Subsidiário" />
+      <SEO title="Blog" />
       <Slideshow />
       <Line />
       <GridWrapper>

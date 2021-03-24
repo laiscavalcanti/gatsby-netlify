@@ -6,11 +6,16 @@ module.exports = {
     DEV_SSR: false,
   },
   siteMetadata: {
-    title: `Subsidiário`,
-    description: `Sou um homem que não tem ideias, nem quer tê-las,
-    e nem razão em nada tem. `,
+    title: `Subsidiario - Blog - Cícero Marra`,
+    description: `Site com um compilado dos romances, contos, ensaios e diário do escritor mineiro Cícero Marra`,
     author: `Cícero Marra`,
-    siteUrl: `https://subsidiario.com`
+    position: `Escritor`,
+    siteUrl: `https://subsidiario.com`,
+    social: {
+      twitter: `cyceromarra`,
+      twitterLink: `https://twitter.com/cyceromarra`,
+      goodReadsLink: `https://www.goodreads.com/user/show/38694345-cicero-marra`,
+    },
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -77,8 +82,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Subsidiário`,
-        short_name: `Subsidiário`,
+        name: `Subsidiario`,
+        short_name: `Subsidiario`,
         start_url: `/`,
         background_color: `#900020`,
         theme_color: `#900020`,
