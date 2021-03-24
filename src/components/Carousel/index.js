@@ -35,7 +35,7 @@ class Slideshow extends React.Component {
     return (
       <S.CarouselWrapper>
         <div className="slideshow ">
-          <div class="swiper-container">
+          <div className="swiper-container">
             <Swiper {...params}>
               {posts &&
                 posts.map(({ node: post }) => (

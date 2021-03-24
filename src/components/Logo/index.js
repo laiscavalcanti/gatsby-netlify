@@ -9,7 +9,7 @@ import * as S from "./styled"
 const Logo = () => (
     <AniLink to="/" cover direction="left" duration={0.5} bg={getThemeColor()}>
       <S.LogoWrapper>
-        <img src={LogoSite} alt="logo" className="logo" />
+        <img src={LogoSite} alt="logo" className="logo" width="16.5rem" height="auto"/>
       </S.LogoWrapper>
     </AniLink>
   

@@ -27,7 +27,7 @@ PostItem.propTypes = {
   description: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   image: PropTypes.object.isRequired,
-  author: PropTypes.object,
+  author: PropTypes.string,
 }
 
 export default PostItem
