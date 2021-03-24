@@ -26,11 +26,10 @@ function SEO({ description, lang, meta, title, image }) {
     `
   )
 
-
   const metaDescription = description || site.siteMetadata.description
 
   const url = site.siteMetadata.siteUrl
-  const ogImage = `${url}${image || "/assets/img/logo.png"}`
+  const ogImage = `${url}${image || "https://i.imgur.com/5AqL0rH.jpg"}`
   return (
     <Helmet
       htmlAttributes={{
@@ -44,8 +43,12 @@ function SEO({ description, lang, meta, title, image }) {
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: ogImage
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: `${title} | ${site.siteMetadata.title}`
         },
         {
           property: `og:description`,
@@ -69,7 +72,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title} | ${site.siteMetadata.title}`
         },
         {
           name: `twitter:description`,
@@ -81,7 +84,7 @@ function SEO({ description, lang, meta, title, image }) {
 }
 
 SEO.defaultProps = {
-  lang: `en`,
+  lang: `pt-br`,
   meta: [],
   description: ``,
 }

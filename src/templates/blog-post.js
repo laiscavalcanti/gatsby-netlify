@@ -22,7 +22,7 @@ const BlogPost = ({ data, pageContext }) => {
        <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
-        image={post.frontmatter.image}
+        image={post.frontmatter.image ? `https://www.subsidiario.com${post.frontmatter.imagePost.publicURL}` : 'https://i.imgur.com/5AqL0rH.jpg'}
       />
       <PostImage imagePost={post.frontmatter.imagePost} />
       <S.PostHeader>
