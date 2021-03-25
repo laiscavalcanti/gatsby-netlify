@@ -4,8 +4,8 @@ title: Capítulo 3 - "A Viagem da Borracha"
 description: Terceiro capítulo de "Darlene, meu Amor" (nome provisório) a ser lançado em alguma data do ano de 2021, espero.
 tags: ["livro"]
 author: por Cícero Marra
-image: ../src/images/images-livro/escola1.jpg
-imagePost: ../src/images/images-livro/escola1.jpg
+image: ../images/images-livro/escola1.jpg
+imagePost: ../images/images-livro/escola1.jpg
 templateKey: slideshow
 ---
 

@@ -4,8 +4,8 @@ title: Os Anos do Papagaio
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
 tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
-image: ../src/static/assets/img/images-12-06/papagaiotransp.webp
-imagePost: .../src/static/assets/img/images-12-06/papagaiotransp.webp
+image: ../static/assets/img/images-12-06/papagaiotransp.webp
+imagePost: .../static/assets/img/images-12-06/papagaiotransp.webp
 templateKey: slideshow
 ---
 
@@ -13,7 +13,7 @@ templateKey: slideshow
 
 _em The Well-trained Mind: A Guide to Classical Education at Home de Susan Wise Bauer e Jessie Wise_
 
-<!-- ![escondendo](../src/images/images-12-06/escondendo.png)-->
+<!-- ![escondendo](../images/images-12-06/escondendo.png)-->
 
 **_Até agora (exceto, claro, pelo Latim), nosso currículo contém nada que destoe da prática comum. A diferença vai ser sentida mais pela atitude dos professores, que devem olhar sobre essas atividades menos como “matérias” elas mesmas mas como uma aglutinação de material para o uso na próxima parte do Trivium._**
 **(Dorothy Sayers, “The Lost Tools of Learning”)**
@@ -25,7 +25,7 @@ As casas dependem das suas fundações. Jornalistas agregam todos os fatos antes
 <P>As crianças são descritas como esponjas porque elas absorvem conhecimento. Mas existe outro lado para essa metáfora. Aperte uma esponja seca e nada sairá. Primeiro a esponja tem que estar cheia. A professora de linguagens Ruth Beechick escreve, “Nossa sociedade está tão obcecada com criatividade que as pessoas querem que seus filhos sejam criativos antes que elas tenham qualquer conhecimento ou habilidade com que elas possam ser criativas. O seu trabalho, durante os primeiros anos, é o de suprir o conhecimento e as habilidades que permitirão que seu filho transbordem com criatividade à medida que a mente deles amadureçam.  
 <p>Isso não significa que seu aluno tenha que aprender sobre assuntos complexos em profundidade ou que você irá forçá-lo a memorizar longas listas de detalhes. Nos primeiros anos de aprendizagem, você encherá a mente e a imaginação de seu filho com o máximo de imagens, histórias e fatos que você puder. Seu objetivo é o de suprir de “ganchos” mentais onde mais tarde a informação será pendurada.
 
-<!--![atacando](../src/images/images-12-06/atacando.png)-->
+<!--![atacando](../images/images-12-06/atacando.png)-->
 
 <P>Pense numa informação que a maioria dos adultos já tiveram. Você lê sobre uma estrela de cinema qualquer, e de repente, vê o nome dela em todo lugar. Você aprende um novo vocabulário e percebe instantaneamente que ele estava infiltrado em todo tipo de texto. Você cruza com o nome de um pequeno país obscuro e nos próximos dias percebe uma dúzia de notícias sobre ele. 
 <P>Você pode até dizer pro seu cônjuge, “Que coincidência!” Na verdade, você sempre esteve cercado esse tempo todo. O nome da estrela de cinema, o vocabulário novo, o país estrangeiro já estavam nas revistas e nos jornais, mas porque a informação era desconhecida pra você, seu olhar a perpassou sem reconhecimento. Uma vez que a informação entrou na sua memória, você a reconheceu e começou a acumular mais e mais detalhes.  
@@ -39,7 +39,7 @@ As casas dependem das suas fundações. Jornalistas agregam todos os fatos antes
 
 ### Por que as primeiras quatro séries são um período particularmente frutífero para concentrar-se em conteúdo?
 
-<!--![sentado](../src/images/images-12-06/sentado.png)-->
+<!--![sentado](../images/images-12-06/sentado.png)-->
 
 <P>Essa será a primeira vez que o seu filho vai conhecer os ritos egípcios de embalsamamento ou a atmosfera de Vênus; essa é a primeira vez que ele vai entender do que a luz é feita ou por que os americanos se rebelaram contra os ingleses. Ele nunca terá uma segunda chance de ler O leão a Bruxa e o Guarda-roupa, ou escutar O hobbit lido em voz alta. Aproveite essa primeira energia. Deixe-o aprofundar. Deixe-o ler, ler e ler. Não o force a parar e refletir sobre isso ainda. Não o faça decidir sobre o que ele gosta ou não da Roma antiga; deixe-o embebedar de gladiadores e corridas de carruagens. Ele quer descobrir como as coisas funcionam, como os antigos viviam, onde  fica o Vesúvio, como era Pompéia, coberta por cinzas vulcânicas.  Essa sede pela mera acumulação nunca morrerá completamente, mas será mais facilmente satisfeita mais tarde. Mas as maravilhas daquele primeiro encontro com uma civilização estranha nunca se repetirão. 
 <P>A mente imatura está mais preparada para a absorção que o argumento. A faculdade crítica e lógica só se desenvolve depois de muito tempo. O típico aluno de segunda série vai se sentir feliz em cantar o último jingle da televisão palavra por palavra mas vai te olhar de boca aberta se o perguntar porque o publicitário quer que ele compre o produto, ou quais são os méritos do produto, ou se o preço é justo. Não há nada errado em uma criança acumular informações que ele não entende ainda. Tudo vai para o depósito para uso futuro. 
@@ -48,7 +48,7 @@ As casas dependem das suas fundações. Jornalistas agregam todos os fatos antes
 
 ### COMO ENSINAR NO ESTÁGIO PAPAGAIO?
 
-<!--![dançando](../src/images/images-12-06/dançando.png)-->
+<!--![dançando](../images/images-12-06/dançando.png)-->
 
 Enquanto professor do seu filho, você servirá como uma fonte de informações. Nos primeiros anos, você contará histórias a partir de livros de histórias e de ciências. E você esperará que ele possa repetir a história e os fatos que ele ouviu de volta para você. Esse processo -- que vamos descrever em detalhes para cada área do currículo -- vai treiná-lo para agarrar os fatos e expressá-los nas palavras deles.
 Não faça os alunos cavarem fundo demais. Preencha a mente e a imaginação deles com imagens e conceitos, fotos e histórias. Espalhe conhecimento na frente deles e os deixem se esbanjarem.
@@ -62,6 +62,6 @@ As escolas se esforçam para arrumar tempo para todas as matérias que os estuda
 <p>Na primeira série especialmente, a mente do seu filho está cheia de novas habilidades. Você vai gastar uma imensa quantidade de tempo em tutoria individual. Habilidades de linguagem e matemática devem tomar a maior parte desse tempo. Se você tratar de História e Ciências duas ou três vezes por semana, tudo bem. Se você não iniciar música até o segundo ou terceiro ano, o céu não vai cair. Se você não tratar de Arte até a quarta ou quinta série, nada drástico vai acontecer. Não sinta que você deva ensinar cada matéria em profundidade. 
 <p>E lembre-se, a educação clássica ensina uma criança a como aprender. A criança que sabe aprender vai se transformar num bem formado -- e bem equipado -- adulto...mesmo se ele não terminar o livro de Ciências do primeiro grau.
 
-<!--![voando](../src/images/images-12-06/voando.png)-->
+<!--![voando](../images/images-12-06/voando.png)-->
 
 <!--_ilustrações: Cícero Marra_-->

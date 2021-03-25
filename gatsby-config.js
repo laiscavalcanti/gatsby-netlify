@@ -4,6 +4,10 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   flags: {
     DEV_SSR: false,
+    FAST_DEV: false,
+    PRESERVE_FILE_DOWNLOAD_CACHE: false,
+    PARALLEL_SOURCING: false,
+    PRESERVE_WEBPACK_CACHE: false,
   },
   siteMetadata: {
     title: `Subsidiario`,
@@ -88,7 +92,7 @@ module.exports = {
         background_color: `#900020`,
         theme_color: `#900020`,
         display: `minimal-ui`,
-        icon: `src/images/icon.webp`, // This path is relative to the root of the site.
+        icon: `static/assets/img/icon.webp`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,

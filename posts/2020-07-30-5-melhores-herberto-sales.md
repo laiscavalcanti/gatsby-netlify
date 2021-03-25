@@ -4,8 +4,8 @@ title: Herberto Sales em 5 romances definitivos
 description: O melhor de um dos mais ecléticos escritores do Brasil.
 tags: ["ensaios"]
 author: por Cícero Marra
-image: ../src/static/assets/img/images-30-07/unnamed.webp
-imagePost: ../src/static/assets/img/images-30-07/unnamed.webp
+image: ../static/assets/img/images-30-07/unnamed.webp
+imagePost: ../static/assets/img/images-30-07/unnamed.webp
 templateKey: slideshow
 ---
 
@@ -42,4 +42,4 @@ Antônio Policarpo Golfão e seu primo bastardo, Quincas Alçada, aportam na Bah
 
 Num país como o Brasil, terra de sonhos baixos e vocações perdidas, a simples existência de um homem bem sucedido em todos os níveis (intelectual, financeiro e de costumes) desperta sentimentos confusos  naqueles que dependem de sua luz para viverem o próprio sonho. Esse foi o caso do tio Marcelino, personagem fictício, baseado num homem de carne e osso, tio de Herberto Sales e que o havia acolhido quando o futuro escritor fora enviado a Salvador para estudar no famoso colégio Antônio Vieira. Marcelino era uma figura mítica na família:  havia abandonado  a cidadezinha de Andaraí para construir na capital o "Trianon", uma das primeiras lojas de importados da Bahia, um protótipo das atuais lojas de departamento e que, na época, servia para atualizar Salvador das principais novidades vindas da Europa. A presença de Marcelino junto a um jovem Herberto  deve ter deixado marcas profundas na sua vocação literária, não por acaso, o romance tem caráter de homenagem póstuma, ainda que se proponha a investigar os mistérios ao redor da morte do último gentleman da Bahia.  Mais importante que os fatos, a pesquisa biográfica de Herberto Sales serve como uma investigação da psique coletiva brasileira.  João Félix, tia Edite, Lemos, Costa Pereira, Vilela são personagens brasileiríssimos, dão vida ao estranhamento que nós sentimos quando confrontados com uma personalidade tão notável e superior, misturando sempre à amizade doses de inveja e de dependência sentimental. O romance é sutil demais para aparecer nas listas de melhores do Brasil, mas pudera!  “Marcelino” talvez nascera apenas para cumprir a vocação das grandes obras do passado: o esquecimento  
 
-[![video](../src/images/images-30-07/video.jpg)](https://www.youtube.com/watch?v=nZq5IzmV1iQ)
+[![video](../static/assets/img/images-30-07video.webp)](https://www.youtube.com/watch?v=nZq5IzmV1iQ)

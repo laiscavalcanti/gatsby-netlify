@@ -4,8 +4,8 @@ title: Rubem Fonseca - do pior ao melhor romance
 description: Quatro décadas de romances divertidos, ágeis e inteligentes também
 tags: ["ensaios"]
 author: por Cícero Marra
-image: ../src/static/assets/img//images-13-10/rubem.webp
-imagePost: ../src/static/assets/img//images-13-10/rubem.webp
+image: ../static/assets/img/images-13-10/rubem.webp
+imagePost: ../static/assets/img/images-13-10/rubem.webp
 templateKey: slideshow
 ---
 
