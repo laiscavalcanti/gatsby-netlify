@@ -4,8 +4,8 @@ title: Janeiro a Março de 2020
 description: Quem é esse cara e que tipo de cultura se pratica ali?
 tags: ["subsidiario"]
 author: por Cícero Marra
-image: ../src/images/images-09-06/pipoca.jpg
-imagePost: ../src/static/assets/img/imagesPosts/pipoca.jpg
+image: ../src/images/images-09-06/pipoca.webp
+imagePost: ../src/static/assets/img/imagesPosts/pipoca.webp
 templateKey: " "
 ---
 
@@ -29,7 +29,7 @@ templateKey: " "
 <br />O terceiro passageiro foi recolhido num posto de gasolina na avenida Fernandes Lima. Dessa vez, era um cara de uns trinta anos, talvez um pouco mais velho que eu, forte, mas não malhado de academia. Não arriscaria adivinhar profissão dele nem o motivo da viagem. Só sei que agora eu estava ali, forçado a enfiar minhas pernas no vão entre os bancos dianteiros. E assim fomos entrando no bairro da Serraria.
 <br />A tal ex-namorada do amigo do motorista acabou nos dando um pequeno chá-de-cadeira em frente ao condomínio onde morava mas tudo foi perdoado quando ela apareceu. Os caronas ficaram imóveis pra assegurar que o vulto era mesmo de uma mulher classuda. morena com luzes no cabelo, óculos escuros, e uma grande mala rosa. Nem feia nem muito bonita. Perfeita. O sonho do brasileiro médio. Enquanto ela sentava no banco da frente, um moralizador e doce perfume de mulher garantia a assepsia daquele. Dei-lhe pelo retrovisor a cortesia de um alô e seguimos. O motorista parecia mesmo interessado na menina, toda vez que ela falava alguma coisa o nosso amigo desviava o rosto da pista e a olhava fixamente, de um jeito não natural, feito um robô. Mais adiante, talvez para transparecer um ar de caroneiro profissional, ou talvez só para impressionar a moça, o motorista nos aplicou sua playlist de sertanejo, o que me obrigou a aumentar o volume do Spotify.
 
-[logo]: ../src/images/images-09-06/livros.jpg
+[logo]: ../src/images/images-09-06/livros.webp
 
 _“...É o mentor do Obama, é o guru do Obama! o qual durante muito tempo se dedicou a implantar a estratégia que aqueles dois outros picaretas inventaram baseado no Saul Alinsky. A teoria era a seguinte: existe a previdência social, a previdência social dá uma lista de direitos que as pessoas têm. No entanto, na prática, só uns 5% das pessoas que teoricamente tem esse direito se apresentam para reivindicar esse direito. Os outros 95 ignoram, ou porque não estão precisando, ou porque...sei lá! por algum motivo. Se a gente fizesse os 95 entrar na fila também...o que que vai acontecer? a Previdência Social vai falir. Falindo a Previdência Social vai falir os bancos. Falindo os bancos a gente vai falir o sistema inteiro. Assim que a gente derruba o sistema. O Obama trabalhou durante anos nesse serviço, empurrando pessoas para explorar a previdência social!_
 
@@ -55,7 +55,7 @@ Estou agora na garupa de um moto-táxi, o transporte mais eficiente de Palmares 
 <br />-- Óia, já almocei e tô saindo de Palmares agora e deu tudo certo, graças à Deus! Daqui a pouco chego no hotel pra gente se ver… E fala pro Felipe que de noite eu dou um beijo nele, tchau! 
 <br />Entrei na van satisfeito com a minha boa ação, e com um sentimento de que tudo daria certo. Chegaríamos todos na hora por um milagre dessa van fretada por um adolescente mas guiada pelo Senhor. Com ajuda de um Uber, cheguei à Pajuçara, em Maceió, exatamente às 15h; e a viagem foi, de fato, tranquila e leve, na santa paz de Deus.
 
-![farofacara](../src/images/images-09-06/farofa_cara.jpg)
+![farofacara](../src/images/images-09-06/farofa_cara.webp)
 
 ## 20 DE JANEIRO
 
@@ -76,7 +76,7 @@ _-- Gente, pode parecer idiotice, mas vamos aprender gramática no curso? Minha 
 <br />-- Português é muito difícil mesmo, até os gramáticos às vezes estão levantando novas teorias e se contradizendo.
 <br />-- Aprender espanhol me ajudou muito a conhecer melhor a língua portuguesa._
 
-![boate](../src/images/images-09-06/boate.jpg)
+![boate](../src/images/images-09-06/boate.webp)
 
 ## 16 DE FEVEREIRO
 
@@ -86,7 +86,7 @@ Um momento importantíssimo, sem dúvida... pena que não estava lá...
 
 <p>Confesso que matei a primeira aula por causa de uma prévia de Carnaval no sábado, seguida por uma cachaçada adolescente que começou no Pinto da Madrugada, na orla de Ponta Verde, terminou no apartamento de um amigo meu e de Laís. Ainda de noite, totalmente destruído e já na horizontal, juntei minhas últimas forças e enviei ao simpático motorista do aplicativo uma mensagem, mentindo-lhe ao dizer que havia arranjado outra carona de última hora e que precisaria cancelar a viagem. Pedi-lhe as devidas desculpas, mas ele nem me respondeu. Triste...na próxima eu vou.
 
-![deitados](../src/images/images-09-06/deitados.jpg)
+![deitados](../src/images/images-09-06/deitados.webp)
 
 ## 24 DE FEVEREIRO
 
@@ -103,7 +103,7 @@ Tudo aquilo que se diz sobre educação à distância, e como ela exige seriedad
 <br />Sempre cheguei atrasado em todas as aulas e me ferrei muito por isso. Até hoje sou acometido por um pesadelo recorrente onde estou atrasado para aula e que eu perdi a chamada.  
 <br />Fato é que só vou superar esse trauma quando terminar esse curso de cabo à rabo. Até lá, tenho que vencer o primeiro semestre e suas seis matérias: Língua Latina, Língua Portuguesa na Produção de Conhecimento (seja lá o que for isso), Metodologia Científica, Fundamentos Filosóficas da Educação, alguma coisa sobre raça e etnia, Literatura e Cinema (que me parece ser uma eletiva). Minha estratégia vai ser a de eleger as matérias favoritas e estudá-las por fora. Quanto às outras, vou me virando com a apostila, a ração de conhecimento que nos é dada.
 
-![pipoca_kindle](../src/images/images-09-06/pipoca_kindle.jpg)
+![pipoca_kindle](../src/images/images-09-06/pipoca_kindle.webp)
 
 16 DE MARÇO
 
@@ -155,7 +155,7 @@ Não sei o que é pior: creditar o Nicholas Sparks pela autoria de um livro que 
 <br />Mas o desleixo e a preguiça em se concentrar por mais de um minuto numa atividade minimamente aceitável -- considerando que é ele o autor dessa desgraça, ou o mandante, o que implica em responsabilidade por associação -- não tem importância perto da constatação cruel de que o professor da disciplina “Literatura e Cinema” do curso de LETRAS à distância da Universidade de Pernambuco é analfabeto.
 <br />Como se isso não fosse o bastante, um dos critérios para avaliação da atividade foi o “uso correto da língua escrita”. Como exigir dos alunos o domínio da língua culta um mestre que nem se dá ao trabalho de usar o corretor automático do <i>Word</i> para o próprio texto? Isso é tão absurdo quanto uma cafetina exigir da mocinha comprovação de virgindade para ser admitida no prostíbulo. E como não ficarmos ofendidos pelo pouco crédito o autor dá para a nossa inteligência, afinal foi permitido que a atividade fosse entregue em grupos de ATÉ CINCO PESSOAS! Isso é mais que sério, é criminoso.
 
-![farofa_kindle](../src/images/images-09-06/farofa_kindle.jpg)
+![farofa_kindle](../src/images/images-09-06/farofa_kindle.webp)
 
 ## 26 DE MARÇO
 
