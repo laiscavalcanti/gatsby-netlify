@@ -4,8 +4,8 @@ title: Os Anos do Jardim de Infância (4 e 5 Anos)
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
 tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
-image: ../src/images/images-26-06/familia.jpg
-imagePost: ../src/static/assets/img/imagesPosts/familia.jpg
+image: ../src/static/assets/img/images-26-06/familia.webp
+imagePost: ../src/static/assets/img/images-26-06/familia.webp
 templateKey: " "
 ---
 
@@ -57,7 +57,7 @@ Ler é simples.
 Pra começar, muitas pessoas que ensinam crianças de quatro ou cinco anos também têm crianças ou recém-nascidos. (Susan tinha os dois quando o seu filho mais velho estava com cinco anos). Separar imagens e músicas e tentar seguir um programa com muita ajuda faz do ensino algo mais complicado do que precisa ser. Com nosso método, tudo que você precisa é de uma cartilha e muitos livros.
 Em segundo lugar, todos esses reforços e ajudas criam degraus mentais para o aprendiz. Se você estiver ensinando a criança a cantar a música “A de amor, B de baixinho…” você está ensinando a ver um <i>a</i>, pensar em “amor”, e depois no som curto do <i>a</i>.
 
-![familia](../src/images/images-26-06/tarsila.jpg)
+![familia](../src/images/images-26-06/tarsila.webp)
 <small>Imagens: Tarsila do Amaral - O Vendendor de Frutas(1925)
 
 ---

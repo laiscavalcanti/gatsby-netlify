@@ -4,8 +4,8 @@ title: Destrancando as Portas - Os Anos da Pré-escola
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
 tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
-image: ../src/images/images-19-06/books.jpg
-imagePost: ../src/static/assets/img/imagesPosts/books.jpg
+image: ../src/static/assets/img/images-19-06/books.webp
+imagePost: ../src/static/assets/img/images-19-06/books.webp
 templateKey: slideshow
 ---
 
@@ -30,7 +30,7 @@ Desligue a televisão -- meia hora por dia é mais que suficiente para qualquer 
 <p> Leia, leia, leia. Comece a ler para o seu bebê no berço. Dê a ele livros para que possa manusear sozinho. (Um ou outro livro rasgado é um preço baixo pela alfabetização). Leia livros ilustrados, apontando para as palavras com o dedo. Leia os mesmos livros várias e várias vezes; a repetição alfabetiza (mesmo que possa deixá-los lentamente loucos). Leia livros mais longos sem imagens enquanto ele senta no seu colo ou corta, cola e colore. Grave sua leitura em áudio, junto com o comentário da criança, para que ela possa ouvi-lo ler várias vezes. Consiga um gravador para que possa ouvi-lo ler, cantar, falar, contar histórias, e recitar poemas enquanto ela brinca no berço.
 <p>Após a leitura, pergunte-o a respeito da história. O que o menino de biscoito fez quando a velhinha tentou comê-lo? Ou quando os cachorros chegaram ao topo da árvore ao final de “Vá, cachorrinho, vai”, o que eles encontraram? O que aconteceu após o gorila roubar todas as bananas?¹
 
-![books](../src/images/images-19-06/books.jpg)
+![books](../src/images/images-19-06/books.webp)
 <br /><small>¹Referências, respectivamente, aos livros “Gingerbread Boy” (St. Nicholas Magazine, 1873); “Go. Dog, Go” (P. D. Eastman, 1961) e Richard Scarry’s Bananas Gorilla (Richard Scarry, 1999)
 .
 

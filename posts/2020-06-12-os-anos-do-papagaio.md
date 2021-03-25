@@ -4,8 +4,8 @@ title: Os Anos do Papagaio
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
 tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
-image: ../src/images/images-12-06/papagaiotransp.png
-imagePost: ../src/static/assets/img/imagesPosts/papagaiotransp.png
+image: ../src/static/assets/img/images-12-06/papagaiotransp.webp
+imagePost: .../src/static/assets/img/images-12-06/papagaiotransp.webp
 templateKey: slideshow
 ---
 

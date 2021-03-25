@@ -4,8 +4,8 @@ title: Outubro a Dezembro de 2020
 description: Se ao menos todo dia fosse glorioso como este!
 tags: ["subsidiario"]
 author: por Cícero Marra
-image: ../src/images/images-01-11/CAPA.png
-imagePost: ../src/static/assets/img/imagesPosts/CAPA.png
+image: ../src/static/assets/img/images-01-11/CAPA.webp
+imagePost: ../src/static/assets/img/images-01-11/CAPA.webp
 templateKey: slideshow
 ---
 

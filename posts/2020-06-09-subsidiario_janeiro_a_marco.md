@@ -4,8 +4,8 @@ title: Janeiro a Março de 2020
 description: Quem é esse cara e que tipo de cultura se pratica ali?
 tags: ["subsidiario"]
 author: por Cícero Marra
-image: ../src/images/images-09-06/pipoca.webp
-imagePost: ../src/static/assets/img/imagesPosts/pipoca.webp
+image: ../src/static/assets/img/images-09-06/pipoca.webp
+imagePost: ../src/static/assets/img/images-09-06/pipoca.webp
 templateKey: " "
 ---
 

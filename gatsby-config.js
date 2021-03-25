@@ -88,7 +88,7 @@ module.exports = {
         background_color: `#900020`,
         theme_color: `#900020`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.webp`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,

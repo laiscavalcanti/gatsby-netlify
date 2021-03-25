@@ -4,8 +4,8 @@ title: A Tirania da Escola Obrigatória
 description: A melhor forma de adentrar o estranho mundo do ensino obrigatório é através dos livros.
 tags: ["ensaios"]
 author: por John Taylor Gatto
-image: ../src/images/images-08-06/Gatto_Image.png
-imagePost: ../src/static/assets/img/imagesPosts/Imagepost_Gatto.png
+image: ../src/static/assets/img/images-08-06/Gatto_Image.webp
+imagePost: ../src/static/assets/img/images-08-06/Gatto_Image.webp
 templateKey: " "
 ---
 
