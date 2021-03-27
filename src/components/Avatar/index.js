@@ -9,16 +9,14 @@ const Avatar = () => {
       query {
         avatarImage: file(relativePath: { eq: "avatar2.webp" }) {
           childImageSharp {
-            fluid(maxWidth: 100) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
+            gatsbyImageData(width: 100 layout: CONSTRAINED)
           }
         }
       }
     `
   )
 
-  return <S.AvatarWrapper fluid={avatarImage.childImageSharp.fluid} alt="avatar" />
+  return <S.AvatarWrapper image={avatarImage.childImageSharp.gatsbyImageData} alt="avatar" />
 }
 
 export default Avatar

@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 import * as S from "./styled"
 
 const ImagePost = ({ imagePost }) => {
-  return <S.PostImage fluid={imagePost.childImageSharp.fluid} />
+  return <S.PostImage image={imagePost} />
 }
 
 ImagePost.propTypes = {

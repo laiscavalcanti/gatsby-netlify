@@ -32,9 +32,7 @@ const BlogList = props => {
                 date,
                 description,
                 title,
-                image: {
-                  childImageSharp: { fluid },
-                },
+                image
               },
               timeToRead,
               fields: { slug },
@@ -48,7 +46,7 @@ const BlogList = props => {
               timeToRead={timeToRead}
               title={title}
               description={description}
-              image={fluid}
+              image={image}
               author={author}
             />
           )
@@ -79,13 +77,7 @@ export const query = graphql`
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
-            image {
-              childImageSharp {
-                fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
-            }
+            image
           }
           timeToRead
         }

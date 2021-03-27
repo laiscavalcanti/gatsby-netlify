@@ -69,22 +69,8 @@ export const query = graphql`
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         tags
-        imagePost {
-          id
-          publicURL
-          childImageSharp {
-            fluid(maxWidth: 1280, quality: 60) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 1200) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
+        imagePost
+        image
       }
       html
       timeToRead

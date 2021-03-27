@@ -19,9 +19,7 @@ const Tags = ({ data }) => {
                 date,
                 description,
                 title,
-                image: {
-                  childImageSharp: { fluid },
-                },
+                image
               },
               timeToRead,
               fields: { slug },
@@ -35,7 +33,7 @@ const Tags = ({ data }) => {
               timeToRead={timeToRead}
               title={title}
               description={description}
-              image={fluid}
+              image={image}
             />
           )
         )}
@@ -64,13 +62,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             description
-            image {
-              childImageSharp {
-                fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid_tracedSVG
-                }
-              }
-            }
+            image
             tags
           }
         }
