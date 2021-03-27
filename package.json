@@ -46,7 +46,8 @@
     "styled-components": "^5.1.1",
     "styled-icons": "^10.2.1",
     "styled-media-query": "^2.1.2",
-    "swiper": "^5.4.5"
+    "swiper": "^5.4.5",
+    "yarn": "^1.22.10"
   },
   "devDependencies": {
     "prettier": "2.0.5"

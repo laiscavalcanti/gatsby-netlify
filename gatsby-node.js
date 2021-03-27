@@ -2,6 +2,18 @@ const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const _ = require("lodash")
 
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+
+  createTypes(` type MarkdownRemarkFrontmatter{
+    image: String,
+    imagePost: String
+  }
+  type MarkdownRemark implements Node{
+    frontmatter: MarkdownRemarkFrontmatter
+  }`)
+}
+
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
 
@@ -37,6 +49,8 @@ exports.createPages = ({ graphql, actions }) => {
               description
               author
               title
+              image
+              imagePost
             }
             timeToRead
           }
