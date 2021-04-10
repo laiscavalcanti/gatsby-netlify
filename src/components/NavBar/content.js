@@ -3,8 +3,13 @@ import Icon from "./Icon"
 
 const links = [
   {
-    label: "Darlene, Meu Amor",
+    label: "Romances",
     url: "/tags/livro/",
+    icon: "",
+  },
+  {
+    label: "Contos",
+    url: "/tags/contos/",
     icon: "",
   },
   {

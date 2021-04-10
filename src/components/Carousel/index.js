@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { graphql, StaticQuery } from "gatsby"
 import Swiper from "react-id-swiper"
-import "swiper/swiper-bundle.css"
+import "swiper/css/swiper.css"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
@@ -41,7 +41,7 @@ class Slideshow extends React.Component {
                 posts.map(({ node: post }) => (
                   <div className="carousel-items" key={post.fields.slug}>
                     <S.CarouselLink to={post.fields.slug} cover direction="right" duration={0.5} bg={getThemeColor()}>
-                    <S.CarouselImage image={post.frontmatter.image} alt="pictures-slide" />
+                      <S.CarouselImage  fluid={post.frontmatter.image.childImageSharp.fluid} alt="pictures-slide" />
                       <S.CarouselInfo>
                         <S.CarouselDate>
                           {post.frontmatter.date} - {post.frontmatter.tags}
@@ -50,7 +50,6 @@ class Slideshow extends React.Component {
                         <S.CarouselAuthor>{post.frontmatter.author}</S.CarouselAuthor>
                         <S.CarouselDescription>{post.frontmatter.description}</S.CarouselDescription>
                       </S.CarouselInfo>
-                      
                     </S.CarouselLink>
                   </div>
                 ))}
@@ -88,7 +87,13 @@ export default () => (
                 date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
                 description
                 title
-                image
+                image {
+                  childImageSharp {
+                    fluid(maxWidth: 800, quality: 60) {
+                      ...GatsbyImageSharpFluid_tracedSVG
+                    }
+                  }
+                }
               }
               timeToRead
             }

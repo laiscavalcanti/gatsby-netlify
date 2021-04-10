@@ -4,8 +4,8 @@ title: Julho a Setembro de 2020
 description: Se a gente não se forçar a escrever nenhuma linha sai, e a vida vai assim, passando à toa, à toa...
 tags: ["subsidiario"]
 author: por Cícero Marra
-image: ../static/assets/images-09-10/2.webp
-imagePost: ../static/assets/images-09-10/2.webp
+image: ../static/assets/img/images-09-10/2.jpg
+imagePost: ../static/assets/img/images-09-10/2.jpg
 templateKey: slideshow
 ---
 
@@ -21,7 +21,7 @@ Digo isso sem medo: 90% dos alunos que estudam outro idioma não sabem porque o 
 
 É legal ser amado e sentir que o aluno está com você não só pela obrigação imposta por si ou por terceiros de aprender outro idioma, mas também por uma espécie de confiança e reconhecimento na sua liderança, pelo menos nesse aspecto pequeno da formação deles. Não quero ser ingrato, mesmo porque é dessa escola de onde sai o salário mínimo e meio (bruto) que ajuda a justificar minha presença em Maceió junto às pessoas e que paga o fardo de Budweiser que me abastece no final de semana. Sei também que ser professor de inglês não é a profissão mais degradante do mundo, existem ocupações muito mais enlouquecedoramente repetitivas a que as pessoas se submetem para se sustentarem a si mesmas e as suas famílias, sem que elas possam ter o direito de maldizer o próprio trabalho a que me concedo. Mas, por Deus! eu não aguento mais nenhuma aula de Inglês! Que nenhum aluno leia isso. Não é por causa de nenhum deles, mas de todos eles ao mesmo tempo. São todas essas aulas, uma atrás da outra. É  a necessidade de fazer o máximo de matrículas e aulas para não quebrar o negócio dos outros. Deus, resgatai o sentimento perdido de amor ao próximo! se é que um dia eu já tive. 
 
-![link](https://i.imgur.com/5B23F3o.jpg)
+![link](https://i.imgur.com/wI3wrbK.jpg)
 
 ## 05 DE JULHO
 
@@ -49,7 +49,7 @@ Quando vejo o que a minha geração está fazendo, gente mais talentosa que eu c
 Hoje eu sei que uma cidade grande só é diferente da pequena pelo tamanho de sua ilusão. Não que todo interiorano seja melhor, muito pelo contrário, o que mais vejo pelos interiores do Brasil é gente triste, aterrada naquele tédio da vida sem sentido. Mas é que a vida simples, quanto mais calma e próxima da terra ela for, menos distrações inúteis ela o trará da vida real. E a vida real é, e sempre será, a batalha pela sobrevivência daquele que lavra a terra que o alimenta ou daquele que troca o seu ofício pelo o pão de cada dia. Herberto Sales sabia disso e em “Rio dos Morcegos” realizou, pelo menos literariamente, a possibilidade de retorno a Pasárgada, o regresso à terra natal que nunca esperamos acontecer e que mesmo assim cultivamos secretamente, como um último recurso. Tem momentos em que o que eu queria mesmo é retornar para Coromandel e começar tudo de novo, montar casinha, cuidar dela, lavrar de novo a terra em que meus pais nasceram, e, quem sabe? escrever um livro sobre a história dos feitos sertanejos e da cultura que foi praticada lá. Em outros momentos eu me acordo do devaneio, e vejo que se a viagem à cidade dos bacharéis foi mesmo sem regresso, o que me resta é reconstruir novamente Coromandel no meu coração e lavrar com suor o pouco de dignidade sertaneja que me resta. Vá trabalhar então, vagabundo!
 
 
-![link](https://i.imgur.com/5mYW7ro.jpg)
+![link](https://i.imgur.com/0M4bmaP.jpg)
 
 ## 31 DE JULHO
 
@@ -69,7 +69,7 @@ Escola é um negócio feito p’ra manter alunos na escola. Se a escola for púb
 
 Começou essa semana o segundo semestre do curso de Letras à Distância, e que por ser na sua essência à distância, não sofreu qualquer alteração de calendário em 2020. Dentre as matérias desse semestre, duas me chamaram atenção: Linguística I e Linguística aplicada ao Ensino. Finalmente vou descobrir o que é esse negócio de Linguística. Assim que eu descobrir prometo que volto aqui pra contar...
 
-![link](https://i.imgur.com/nm0gbM1.jpg)
+![link](https://i.imgur.com/jd7pcVg.jpg)
  
 ## 19 DE AGOSTO
 
@@ -109,7 +109,7 @@ Por mais que me esforce em parecer como o Rei no tabuleiro de xadrez que está a
 <br /> (…)
 <br />-- Pode deixar que quando vocês passarem o dinheiro pra mim eu repasso pra ele de noite -- Sugeriu espertamente o motorista de Laís, sob o olhar de desconfiança do pobre coitado do meu motorista. Mas a decisão favoreceu a maioria, o que nos liberava para seguirmos nosso destino. Ainda vimos de longe os dois motoristas conversando e partindo um após o outro. Nem acreditamos quando sentamos nas poltronas do avião. Estávamos suados e eu, particularmente sujo e fedido, mesmo assim aceitei um sachezinho de lenço umedecido que salvava minha mãos do coronavírus. Fechamos os olhos e voamos...
 
-![link](https://i.imgur.com/DbbaaU5.jpg)
+![link](https://i.imgur.com/8BP6TCM.jpg)
 
 ## 16 DE SETEMBRO
 
@@ -148,7 +148,7 @@ Prepara que agora é a hora do show da diacronia / Que desce e rebola a sincroni
 <p>Espero que tenha sanado sua dúvida. 
 <br />Abraços virtuais!
 
-![link](https://i.imgur.com/7VjsxSB.jpg)
+![link](https://i.imgur.com/gw6h18l.jpg)
 
 
 

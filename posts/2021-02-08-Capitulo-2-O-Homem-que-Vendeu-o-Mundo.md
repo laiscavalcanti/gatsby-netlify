@@ -4,8 +4,8 @@ title: Capítulo 2 - "O Homem que Vendeu o Mundo"
 description: Segundo capítulo de "Darlene, meu Amor" (nome provisório) a ser lançado em alguma data do ano de 2021, espero.
 tags: ["livro"]
 author: por Cícero Marra
-image: ../images/images-livro/tabajaras.webp
-imagePost: ../images/images-livro/tabajaras.webp
+image: ../static/assets/img/images-livro/tabajaras.PNG
+imagePost: ../static/assets/img/images-livro/tabajaras.PNG
 templateKey: slideshow
 ---
 

@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
-import { GatsbyImage as Img } from "gatsby-plugin-image"
+import Img from "gatsby-image"
 
 export const PostImage = styled(Img)`
   display: block;

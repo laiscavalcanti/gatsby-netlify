@@ -19,11 +19,7 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-       <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description}
-        image={post.frontmatter.image }
-      />
+      <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image} />
       <PostImage imagePost={post.frontmatter.imagePost} />
       <S.PostHeader>
         <S.PostDate>
@@ -69,8 +65,22 @@ export const query = graphql`
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         tags
-        imagePost
-        image
+        imagePost {
+          id
+          publicURL
+          childImageSharp {
+            fluid(maxWidth: 1280, quality: 60) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        image {
+          childImageSharp {
+            fluid(maxWidth: 1200) {
+              ...GatsbyImageSharpFluid_tracedSVG
+            }
+          }
+        }
       }
       html
       timeToRead

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"
-import img from "../images/pontos.webp"
+import img from "../images/pontos.png"
 
 const GlobalStyles = createGlobalStyle`
 

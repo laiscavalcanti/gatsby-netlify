@@ -13,14 +13,9 @@ const Tags = ({ data }) => {
         {edges.map(
           ({
             node: {
-              frontmatter: {
-                author,
-                tags,
-                date,
-                description,
-                title,
-                image
-              },
+              frontmatter: { author, tags, date, description, title, image: {
+                childImageSharp: { fluid },
+              },},
               timeToRead,
               fields: { slug },
             },
@@ -33,7 +28,7 @@ const Tags = ({ data }) => {
               timeToRead={timeToRead}
               title={title}
               description={description}
-              image={image}
+              image={fluid}
             />
           )
         )}
@@ -62,7 +57,13 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             description
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
             tags
           }
         }

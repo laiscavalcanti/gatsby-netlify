@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import media from "styled-media-query"
-import { GatsbyImage as Img } from "gatsby-plugin-image"
+import Img from "gatsby-image"
 
 export const PostItemLink = styled(AniLink)`
   display: flex;

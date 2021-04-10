@@ -4,9 +4,9 @@ title: Abril a Junho de 2020
 description: Uma noite sem dormir é pior que a morte, é a vontade de morrer.
 tags: ["subsidiario"]
 author: por Cícero Marra
-image: ../static/assets/img/images-27-06/lais.webp
-imagePost: ../static/assets/img/images-27-06/lais.webp
-templateKey: slideshow
+image: ../static/assets/img/images-27-06/lais.jpg
+imagePost: ../static/assets/img/images-27-06/lais.jpg
+templateKey: " "
 ---
 
 ## 03 DE ABRIL
@@ -25,7 +25,7 @@ Por que não dizer apenas: conhecer os fundamentos filosóficos da educação é
 
 <p> Depois de ler a apostila que fizeram para a mesma disciplina, impossível também não lembrar da lição que o <i>Mortimer Adler</i> nos ensina no “A Arte de Ler”. Diz ele que uma forma de identificar o quão picareta é um professor é medir o quão distante ele está da fonte primária dos autores da sua área. Isso significa que, se seu professor te dá apostilas e não as fontes primárias ele está, na verdade, te blindando de uma fonte de conhecimento que nem ele domina. E é exatamente o que temos aqui: uma apostilinha à toa com <i>design</i> lúdico e que mais parece livro do MEC. No texto, muito <i>name-dropping</i>, muita referência a professores locais e termos mal explicados por alguém ouviu de alguém, que ouviu de alguém...
 
-![mesas2](../static/assets/img/images-27-06/mesas2.webp)
+![mesas2](https://i.imgur.com/6hwYpOQ.jpg)
 
 ## 15 DE ABRIL
 
@@ -48,7 +48,7 @@ Tenho uma coisa a confessar, querido Subsidiário: furei a quarentena hoje, no d
 
 <p> A resposta de Deus veio na forma de uma chuva horrível que me fez ficar ilhado por horas. Graças a Ele, todavia, consegui voltar pra casa são e salvo. Pra terminar a madrugada, Laís e eu assistimos travados ao novo filme do <i>Tarantino, "Once Upon a Time...in Hollywood"</i> enquanto despontava o primeiro sol de maio. Filme leve e divertido, nada a reclamar.
 
-![botimbaladaate](../static/assets/img/images-27-06/timbalada.webp)
+![botimbaladaate](https://i.imgur.com/V7wv3MA.jpg)
 
 ## 04 DE MAIO
 
@@ -88,7 +88,7 @@ Ou algo parecido com isso.
 
 Não quero desanimar ninguém porque eu, confesso, padeço às vezes do mal do pessimismo preguiçoso. Se você estiver afim de ser o professor oficial de seus filhos, parabéns! você provavelmente vai entrar numa das viagens mais recompensadoras da sua vida e, certamente, vai se surpreender várias vezes enquanto seu próprio potencial como pai e ser-humano. Já seus filhos, estes serão os seres mais amados e emocionalmente bem resolvidos que emergirão desse brejo de almas que é o Brasil.
 
-![cruz](../static/assets/img/images-27-06/cruz.webp)
+![cruz](https://i.imgur.com/3oYwQD6.jpg)
 
 ## 10 DE MAIO
 
@@ -120,4 +120,4 @@ Meu Deus, como eu fiz minha mãe gastar dinheiro à toa em aulinhas de inglês! 
 
 Acabo de terminar a última bateria de provas do primeiro semestre do curso de Letras da UPE à distância. Das seis disciplinas, apenas duas foram conduzidas com seriedade pelos professores e tutores: a de Língua Latina e a de Metodologia Científica. As demais ou foram disciplinas interessantes mas impossíveis de serem compreendidas porque o material didático é ruim e os tutores não são grande coisa, ou foram disciplinas apenas banais; aí não faz diferença mesmo. O problema é que tudo toma o nosso tempo, nosso precioso tempo que melhor seria melhor investido na pesquisa desinteressada daquilo que realmente nos interessa. É a tal da coisa, a melhor forma de fazer um curso superior é não deixar que ele tome tempo do nosso estudo.
 
-![mesas](../static/assets/img/images-27-06/mesas.webp)
+![mesas](https://i.imgur.com/Tsbct2N.jpg)

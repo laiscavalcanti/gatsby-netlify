@@ -4,8 +4,8 @@ title: Herberto Sales em 5 romances definitivos
 description: O melhor de um dos mais ecléticos escritores do Brasil.
 tags: ["ensaios"]
 author: por Cícero Marra
-image: ../static/assets/img/images-30-07/unnamed.webp
-imagePost: ../static/assets/img/images-30-07/unnamed.webp
+image: ../static/assets/img/images-30-07/unnamed.jpg
+imagePost: ../static/assets/img/images-30-07/unnamed.jpg
 templateKey: slideshow
 ---
 

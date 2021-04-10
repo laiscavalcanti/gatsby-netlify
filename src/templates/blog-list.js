@@ -24,20 +24,25 @@ const BlogList = props => {
       <Line />
       <GridWrapper>
         {postList.map(
-          ({
-            node: {
-              frontmatter: {
-                tags,
-                author,
-                date,
-                description,
-                title,
-                image
+          (
+            {
+              node: {
+                frontmatter: {
+                  tags,
+                  author,
+                  date,
+                  description,
+                  title,
+                  image: {
+                    childImageSharp: { fluid },
+                  },
+                },
+                timeToRead,
+                fields: { slug },
               },
-              timeToRead,
-              fields: { slug },
             },
-          }, i) => (
+            i
+          ) => (
             <PostItem
               key={i}
               slug={slug}
@@ -46,7 +51,7 @@ const BlogList = props => {
               timeToRead={timeToRead}
               title={title}
               description={description}
-              image={image}
+              image={fluid}
               author={author}
             />
           )
@@ -77,7 +82,13 @@ export const query = graphql`
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             description
             title
-            image
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
           }
           timeToRead
         }

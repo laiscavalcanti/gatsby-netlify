@@ -4,9 +4,9 @@ title: Destrancando as Portas - Os Anos da Pré-escola
 description: em "The Well-trained Mind, A Guide to Classical Education at Home"
 tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
-image: ../static/assets/img/images-19-06/books.webp
-imagePost: ../static/assets/img/images-19-06/books.webp
-templateKey: slideshow
+image: ../static/assets/img/images-19-06/books.jpg
+imagePost: ../static/assets/img/images-19-06/books.jpg
+templateKey: " "
 ---
 
 > <small><i>"Pouco tempo depois de ter ido morar com o Sr. e a Sra. Auld, ela gentilmente começou a ensinar-me o A,B,C. Após tê-lo aprendido, ela me ajudou a soletrar palavras de três ou quatro letras...Eu não tinha uma professora fixa (mas)…o primeiro passo fora dado. A senhora, ao me ensinar o alfabeto, tinha me dado a vara e nada podia me impedir de pescar. O plano que eu adotei, aquele pelo qual fui mais bem sucedido, foi o de ficar amigo de todos os meninos que eu encontrava pela rua. O máximo que eu pude, eu os converti em professores. Com a gentil ajuda deles, obtida em momentos e lugares diferentes, eu finalmente consegui aprender a ler."</i> (Frederick Douglass, Narrative of the Life of Frederick Douglass, an American Slave; Auto-biografia)
@@ -30,7 +30,7 @@ Desligue a televisão -- meia hora por dia é mais que suficiente para qualquer 
 <p> Leia, leia, leia. Comece a ler para o seu bebê no berço. Dê a ele livros para que possa manusear sozinho. (Um ou outro livro rasgado é um preço baixo pela alfabetização). Leia livros ilustrados, apontando para as palavras com o dedo. Leia os mesmos livros várias e várias vezes; a repetição alfabetiza (mesmo que possa deixá-los lentamente loucos). Leia livros mais longos sem imagens enquanto ele senta no seu colo ou corta, cola e colore. Grave sua leitura em áudio, junto com o comentário da criança, para que ela possa ouvi-lo ler várias vezes. Consiga um gravador para que possa ouvi-lo ler, cantar, falar, contar histórias, e recitar poemas enquanto ela brinca no berço.
 <p>Após a leitura, pergunte-o a respeito da história. O que o menino de biscoito fez quando a velhinha tentou comê-lo? Ou quando os cachorros chegaram ao topo da árvore ao final de “Vá, cachorrinho, vai”, o que eles encontraram? O que aconteceu após o gorila roubar todas as bananas?¹
 
-![books](../static/assets/img/images-19-06/books.webp)
+![books](https://i.imgur.com/cstLzzr.jpg)
 <br /><small>¹Referências, respectivamente, aos livros “Gingerbread Boy” (St. Nicholas Magazine, 1873); “Go. Dog, Go” (P. D. Eastman, 1961) e Richard Scarry’s Bananas Gorilla (Richard Scarry, 1999)
 .
 

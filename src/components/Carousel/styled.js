@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import { GatsbyImage as Img } from "gatsby-plugin-image"
+import Img from "gatsby-image"
 
 export const CarouselWrapper = styled.section`
   display: flex;

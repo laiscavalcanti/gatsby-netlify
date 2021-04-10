@@ -4,8 +4,8 @@ title: Mário de Andrade e "A Língua Viva"
 description: Impor a simplicidade como garantia de profundeza é simplesmente um academismo.
 tags: ["ensaios"]
 author: por Mário de Andrade
-image: ../static/assets/img/images-11-06/mariograndepost.webp
-imagePost: ../static/assets/img/images-11-06/mariograndepost.webp
+image: ../static/assets/img/images-11-06/mariograndepost.png
+imagePost: ../static/assets/img/images-11-06/mariograndepost.png
 templateKey: " "
 ---
 
@@ -24,5 +24,5 @@ Deixo aqui registrado a transcrição integral do texto como uma homenagem modes
 
 Post-scriptum – Está claro que nenhuma destas minhas ousadias justifica a ignorância. O escritor é o indivíduo que se expressa pela linguagem alfabética, isto é, a linguagem culta. É preciso, pois, que ele conheça preliminarmente essa linguagem que lhe vai servir de instrumento de expressão. É quasi lapalissada afirmar que só tem direito de errar quem conhece o certo. Só então o erro deixa de o ser, pra se tornar um ir além das convenções, tornadas inúteis pelas exigências novas de uma nova expressão. O resto é academismo, e é interesse pessoal, não da obra de arte.
 
-![mariofoto](../static/assets/img/images-11-06/mariofoto.webp)
+![mariofoto](https://i.imgur.com/TlDK1fp.jpg)
 _Imagem: IEB/USP_

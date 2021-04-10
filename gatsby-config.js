@@ -95,9 +95,7 @@ module.exports = {
         icon: `static/assets/img/icon.webp`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sitemap`,
+
     `gatsby-plugin-offline`,
-    `gatsby-plugin-netlify-cms`,
-    `gatsby-plugin-image`,
   ],
 }

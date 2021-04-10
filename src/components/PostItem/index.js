@@ -6,7 +6,7 @@ import * as S from "./styled"
 const PostItem = ({ slug, description, title, image, date, tags, author }) => (
   <S.PostItemLink to={slug} cover direction="left" duration={0.5} bg={getThemeColor()}>
     <S.PostItemWrapper>
-      <S.PostItemImg image={image} className=".img" />
+      <S.PostItemImg fluid={image} className=".img" />
       <S.PostItemInfo>
         <S.PostItemDate>
           {date} - {tags}

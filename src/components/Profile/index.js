@@ -13,7 +13,6 @@ const Profile = () => {
     query MySiteMetaData {
       site {
         siteMetadata {
-          description
           author
         }
       }
