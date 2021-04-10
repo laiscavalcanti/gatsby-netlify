@@ -5,7 +5,7 @@ description: para que ter inimigos se você tem você mesmo?
 tags: ["subsidiario"]
 author: por Cícero Marra
 image: ../static/assets/img/images-03-24/barco.jpg
-imagePost: ../static/assets/img/images-30-24/barco.jpg
+imagePost: ../static/assets/img/images-03-24/barco.jpg
 templateKey: slideshow
 ---
 

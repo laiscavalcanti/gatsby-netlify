@@ -5,7 +5,7 @@ description: em "The Well-trained Mind, A Guide to Classical Education at Home"
 tags: ["ensaios"]
 author: por Susan Wise Bauer e Jessie Wise
 image: ../static/assets/img/images-12-06/papagaiotransp.png
-imagePost: .../static/assets/img/images-12-06/papagaiotransp.png
+imagePost: ../static/assets/img/images-12-06/papagaiotransp.png
 templateKey: " "
 ---
 

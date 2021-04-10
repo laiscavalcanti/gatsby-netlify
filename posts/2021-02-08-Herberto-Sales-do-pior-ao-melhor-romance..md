@@ -5,7 +5,7 @@ description: Para os poucos que ouviram falar de Herberto Sales, basta apenas a 
 tags: ["ensaio"]
 author: por Cícero Marra
 image: ../static/assets/img/images-03-24/Herberto.png
-imagePost: ../static/assets/img/images-30-24/Herberto.png
+imagePost: ../static/assets/img/images-03-24/Herberto.png
 templateKey: slideshow
 ---
 

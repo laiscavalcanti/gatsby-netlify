@@ -65,7 +65,7 @@ export const query = graphql`
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         tags
-        imagePost {
+        imagePost{
           id
           publicURL
           childImageSharp {

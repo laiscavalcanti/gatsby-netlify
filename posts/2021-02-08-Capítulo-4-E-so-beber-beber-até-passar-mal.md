@@ -5,7 +5,7 @@ description: Quarto capítulo de "Darlene, meu Amor" (nome provisório) a ser la
 tags: ["livro"]
 author: por Cícero Marra
 image: ../static/assets/img/images-03-24/colina.jpg
-imagePost: ../static/assets/img/images-30-24/colina.jpg
+imagePost: ../static/assets/img/images-03-24/colina.jpg
 templateKey: slideshow
 ---
 
