@@ -159,9 +159,9 @@ export const MainContent = styled.article`
   .button-post {
     font-family: 'Merriweather', serif;
     color: var(--texts);
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    line-height: 1.8;
+    line-height: 1.9;
     letter-spacing: 0.005rem;
     padding: 0 1.4rem;
     &::selection {
